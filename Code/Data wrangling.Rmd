@@ -3,28 +3,39 @@ title: "Data wrangling"
 author: "Xueying Feng"
 date: "4/11/2020"
 output: pdf_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Read data
 
 ```{r cars}
-summary(cars)
+getwd()
+setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng/Data/Raw")
+
+Covid19_China <- read.csv("Covid19_China.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_Global <- read.csv("Covid19_Global.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_Hubei <- read.csv("Covid19_Hubei.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_Italy <- read.csv("Covid19_Italy.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_US <- read.csv("Covid19_US.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+historical_China <- read.csv("historical_China.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+historical_Global <- read.csv("historical_Global.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
 ```
 
-## Including Plots
+## Wrangling Data
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r}
 plot(pressure)
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
