@@ -3,28 +3,111 @@ title: "Data processing"
 author: "Xueying Feng"
 date: "4/11/2020"
 output: pdf_document
+editor_options: 
+  chunk_output_type: console
 ---
+## Get Novel Coronavirus Data
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+library('remotes')
+remotes::install_github("GuangchuangYu/nCov2019")
 ```
 
-## R Markdown
+## Access China's COVID-19 data 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r}
+library(nCov2019)
+nCov2019 = get_nCov2019(lang='en')
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+nCov2019 
+#China (total confirmed cases): 83482
+#last update: 2020-04-12 09:44:19 
 
-```{r cars}
-summary(cars)
+# create table
+Covid19_China <- nCov2019[] 
+
+# Save to csv.
+write.csv(Covid19_China, row.names = FALSE, file = "./Data/Raw/Covid19_China.csv")
 ```
 
-## Including Plots
+## Access Hubei Province COVID-19 data 
 
-You can also embed plots, for example:
+```{r}
+Covid19_Hubei <- nCov2019['Hubei']
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+# Save to csv.
+write.csv(Covid19_Hubei, row.names = FALSE, file = "./Data/Raw/Covid19_Hubei.csv")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Access Global COVID-19 data 
+
+```{r}
+Covid19_Global <- nCov2019['global']
+write.csv(Covid19_Global, row.names = FALSE, file = "./Data/Raw/Covid19_Global.csv")
+
+```
+
+## Access China's Historical data
+
+```{r}
+library('nCov2019')
+nCov2019_history <- load_nCov2019(lang = 'en')
+
+nCov2019_history
+#nCov2019 historical data 
+#last update: 2020-04-11 
+
+# create table
+historical_China <- nCov2019_history[] 
+
+# Save to csv.
+write.csv(historical_China, row.names = FALSE, file = "./Data/Raw/historical_China.csv")
+```
+
+## Access Global's Historical data
+
+```{r}
+nCov2019_history <- load_nCov2019(lang = 'en', source='github')
+historical_Global <- nCov2019_history['global']
+
+# Check data
+tail(historical_Global)
+
+# Save to csv.
+write.csv(historical_Global, row.names = FALSE, file = "./Data/Raw/historical_Global.csv")
+```
+
+## Access Italy cumulative confirm data
+
+```{r}
+nCov2019_set_country('Italy') 
+Italy <- load_nCov2019(lang = 'en', source = 'github')
+
+# Check data
+# This will return province data of Italy
+head(Italy['province']) 
+
+Covid19_Italy <- Italy['province']
+
+# Save to csv.
+write.csv(Covid19_Italy, row.names = FALSE, file = "./Data/Raw/Covid19_Italy.csv")
+
+```
+
+## Access United States cumulative confirm data
+
+```{r}
+nCov2019_set_country('United States') 
+theUS <- load_nCov2019(lang = 'en', source = 'github')
+
+# Check data
+# This will return province data of United States
+head(theUS['province']) 
+
+Covid19_US <- theUS['province']
+
+# Save to csv.
+write.csv(Covid19_US, row.names = FALSE, file = "./Data/Raw/Covid19_US.csv")
+
+```
