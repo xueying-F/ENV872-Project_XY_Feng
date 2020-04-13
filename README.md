@@ -4,13 +4,17 @@
 
 <describe the purpose of this repository, the information it contains, and any relevant analysis goals. What, why, where, when, how?>
 
+This repository was prepared for the final project of Env 872L course, Environmental Data Analytics at Duke Univeristy, Spring 2020.
+
+I will use covid-19 data about China, global country, especailly Italy and the United States to do time series anlysis and mapping covid-19 data on global, country and city levels. 
+
 ## Investigators
 
-Xueying Feng, Duke University, xueying.feng@duke.edu
+Xueying Feng, Duke University, xueying.feng@duke.edu.
 
 ## Keywords
 
-COVID-19
+COVID-19, time series, Geospatial analysis
 
 ## Database Information
 
@@ -113,6 +117,7 @@ historical_Global
 
 ## Scripts and code
 
+In code folder:
 * Data Processing
 * Data wrangling
 * Data exploration (time series, mapping of global data, ect.)
