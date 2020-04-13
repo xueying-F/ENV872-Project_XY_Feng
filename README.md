@@ -16,7 +16,7 @@ COVID-19
 
 I access all Novel Coronavirus data from the R package, nCov2019, which includes detailed real-time statistics, historical data in all countries, and down to the city-level.
 
-* Tianzhi Wu, Erqiang Hu, Xijin Ge*, Guangchuang Yu*. Open-source analytics tools for studying the COVID-19 coronavirus outbreak. medRxiv, 2020.02.25.20027433. doi: https://doi.org/10.1101/2020.02.25.20027433
+*Tianzhi Wu, Erqiang Hu, Xijin Ge*, Guangchuang Yu*. Open-source analytics tools for studying the COVID-19 coronavirus outbreak. medRxiv, 2020.02.25.20027433. doi: https://doi.org/10.1101/2020.02.25.20027433*
 
 ## Folder structure, file formats, and naming conventions 
 
@@ -27,9 +27,9 @@ I access all Novel Coronavirus data from the R package, nCov2019, which includes
 <describe your file naming conventions>
 
 Folders contained in the repository:
--Code (RMD file)
--Data (csv file)
--Output (pdf file)
+* Code (RMD file)
+* Data (csv file)
+* Output (pdf file)
 
 ## Metadata
 
@@ -113,10 +113,10 @@ historical_Global
 
 ## Scripts and code
 
--Data Processing
--Data wrangling
--Data exploration (time series, mapping of global data, ect.)
--Data analysis
+* Data Processing
+* Data wrangling
+* Data exploration (time series, mapping of global data, ect.)
+* Data analysis
 
 ## Quality assurance/quality control
 
