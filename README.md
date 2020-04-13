@@ -6,7 +6,8 @@
 
 This repository was prepared for the final project of Env 872L course, Environmental Data Analytics at Duke Univeristy, Spring 2020.
 
-I will use covid-19 data about China, global country, especailly Italy and the United States to do time series anlysis and mapping covid-19 data on global, country and city levels. 
+* I will use covid-19 data to do analysis on China and other global countries, especailly Italy and the United States. 
+* I will also  do time series anlysis and mapping covid-19 data on country and city levels. 
 
 ## Investigators
 
