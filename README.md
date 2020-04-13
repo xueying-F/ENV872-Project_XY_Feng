@@ -1,9 +1,4 @@
 # Analysis of Pattern and Trends on COVID-19 (Novel Coronavirus)
-<Instructions: copy and paste this template into your project README file (found in the parent folder of the repository). Fill in relevant information as requested.>
-
-<General notes: add as much information as is relevant for your repository. Some overarching guidelines are provided, but feel free to expand on these guidelines.>
-<More resources found here: https://www.dataone.org/all-best-practices>
-<Delete the text inside the brackets when formatting your file.>
 
 ## Summary
 
@@ -31,13 +26,97 @@ I access all Novel Coronavirus data from the R package, nCov2019, which includes
 
 <describe your file naming conventions>
 
+Folders contained in the repository:
+-Code (RMD file)
+-Data (csv file)
+-Output (pdf file)
+
 ## Metadata
 
-<For each data file in the repository, describe the data contained in each column. Include the column name, a description of the information, the class of data, and any units associated with the data. Create a list or table for each data file.> 
+Covid19_China.csv
+| Column name | Description |
+| --- | --- |
+| name | Provivence name in China |
+| nowConfirm | Increased number of COVID-19 cases in each province in China by date reported |
+| confirm | Cumulative total number of COVID-19 cases in each province |
+| dead | Total deaths number of COVID-19 cases in each province in China |
+| deadRate | Total deaths number/ Cumulative total number of COVID-19 cases |
+| heal | Total heal number of COVID-19 cases in each province |
+| healRate | Total heal number/ Cumulative total number of COVID-19 cases |
+
+
+Covid19_Hubei.csv
+| Column name | Description |
+| --- | --- |
+| name | City name in Wuhan |
+| nowConfirm | Increased number of COVID-19 cases in each city in Wuhan by date reported |
+| confirm | Cumulative total number of COVID-19 cases in each city |
+| dead | Total deaths number of COVID-19 cases in each city in Wuhan |
+| deadRate | Total deaths number/ Cumulative total number of COVID-19 cases |
+| heal | Total heal number of COVID-19 cases in each province |
+| healRate | Total heal number/ Cumulative total number of COVID-19 cases |
+
+
+Covid19_Global
+| Column name | Description |
+| --- | --- |
+| name | Country name |
+| confirm | Cumulative total number of COVID-19 cases in each country |
+| dead | Total deaths number of COVID-19 cases in each country |
+| deadRate | Total deaths number/ Cumulative total number of COVID-19 cases |
+| heal | Total heal number of COVID-19 cases in each country |
+| healRate | Total heal number/ Cumulative total number of COVID-19 cases |
+
+
+Covid19_Italy
+| Column name | Description |
+| --- | --- |
+| time | Recorded date for COVID-19 cases |
+| country | Country name |
+| province | Province name |
+| cum_confirm | Cumulative total number of COVID-19 daily cases in each province |
+| cum_heal | Total heal number of COVID-19 cases in daily each province |
+| cum_dead | Total deaths number of COVID-19 cases in daily each province |
+
+
+Covid19_US
+| Column name | Description |
+| --- | --- |
+| time | Recorded date for COVID-19 cases |
+| country | Country name |
+| province | State name |
+| cum_confirm | Cumulative total number of COVID-19 daily cases in each State |
+| cum_heal | Total heal number of COVID-19 daily cases in each State |
+| cum_dead | Total deaths number of COVID-19 daily cases in each State |
+
+
+historical_China
+| Column name | Description |
+| --- | --- |
+| time | Recorded date for COVID-19 cases |
+| country | Country name |
+| province | State name |
+| city | City name in each province |
+| cum_confirm | Cumulative total number of COVID-19 daily cases in each city |
+| cum_heal | Total heal number of COVID-19 daily cases in each city |
+| cum_dead | Total deaths number of COVID-19 daily cases in each city |
+
+
+historical_Global
+| Column name | Description |
+| --- | --- |
+| time | Recorded date for COVID-19 cases |
+| country | Country name |
+| cum_confirm | Cumulative total number of COVID-19 daily cases in each country |
+| cum_heal | Total heal number of COVID-19 daily cases in each country |
+| cum_dead | Total deaths number of COVID-19 daily cases in each country |
 
 ## Scripts and code
 
-<list any software scripts/code contained in the repository and a description of their purpose.>
+-Data Processing
+-Data wrangling
+-Data exploration (time series, mapping of global data, ect.)
+-Data analysis
 
 ## Quality assurance/quality control
 
