@@ -7,10 +7,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Read data and Wrangle Data
 
 ```{r cars}
@@ -94,6 +90,10 @@ Historical_Global_processed <- historical_Global_raw
 ```{r}
 getwd()
 setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng/Data/Processed")
+
 write.csv(Covid19_China_processed,
-          file = "./ENV872 Project_XY_Feng/Data/Processed/Covid19_China_processed.csv")
+          file = "./Data/Processed/Covid19_China_processed.csv")
+
+
+
 ```
