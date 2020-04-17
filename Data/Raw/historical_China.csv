@@ -36234,3 +36234,2518 @@
 2020-04-11,"China","Taiwan","Taiwan",385,99,6,0
 2020-04-11,"China","Hong Kong","Hong Kong",1000,336,4,0
 2020-04-11,"China","Macau","Macau",45,10,0,0
+2020-04-12,"China","Beijing","Location TBD",0,383,8,0
+2020-04-12,"China","Beijing","Foreign to Beijing",25,2,0,0
+2020-04-12,"China","Beijing",NA,173,76,0,0
+2020-04-12,"China","Beijing","Dongcheng",14,0,0,0
+2020-04-12,"China","Beijing","Xicheng",53,0,0,0
+2020-04-12,"China","Beijing","Chaoyang",72,0,0,0
+2020-04-12,"China","Beijing","Fengtai",43,0,0,0
+2020-04-12,"China","Beijing","Shijingshan",14,1,0,0
+2020-04-12,"China","Beijing","Haidian",64,0,0,0
+2020-04-12,"China","Beijing","Mentougou",3,0,0,0
+2020-04-12,"China","Beijing","Fangshan",16,0,0,0
+2020-04-12,"China","Beijing","Tongzhou",19,0,0,0
+2020-04-12,"China","Beijing","Shunyi",10,0,0,0
+2020-04-12,"China","Beijing","Changping",29,1,0,0
+2020-04-12,"China","Beijing","Daxing",39,16,0,0
+2020-04-12,"China","Beijing","Huairou",7,0,0,0
+2020-04-12,"China","Beijing",NA,0,0,0,0
+2020-04-12,"China","Beijing","Miyun",7,0,0,0
+2020-04-12,"China","Beijing","Yanqing",1,0,0,0
+2020-04-12,"China","Tianjin","Foreign to Tianjin",6,6,0,0
+2020-04-12,"China","Tianjin",NA,48,28,0,0
+2020-04-12,"China","Tianjin","Changjiang County",6,6,0,0
+2020-04-12,"China","Tianjin","Ding'an County",15,14,1,0
+2020-04-12,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-12,"China","Tianjin","Qiongzhong County",6,6,0,0
+2020-04-12,"China","Tianjin","Lingao County",12,12,0,0
+2020-04-12,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-12,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-12,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-12,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-12,"China","Tianjin","Beichen District",6,6,0,0
+2020-04-12,"China","Tianjin","Wuqing District",2,2,0,0
+2020-04-12,"China","Tianjin","Lingshui County",60,58,2,0
+2020-04-12,"China","Tianjin","Ledong County",3,3,0,0
+2020-04-12,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-12,"China","Tianjin",NA,0,0,0,0
+2020-04-12,"China","Tianjin",NA,0,0,0,0
+2020-04-12,"China","Hebei",NA,9,1,0,0
+2020-04-12,"China","Hebei","Shijiazhuang",29,29,0,0
+2020-04-12,"China","Hebei","Tangshan",58,57,1,0
+2020-04-12,"China","Hebei","Qinhuangdao",10,9,1,0
+2020-04-12,"China","Hebei","Handan",32,32,0,0
+2020-04-12,"China","Hebei","Xingtai",23,22,1,0
+2020-04-12,"China","Hebei","Baoding",32,32,0,0
+2020-04-12,"China","Hebei","Zhangjiakou",41,41,0,0
+2020-04-12,"China","Hebei","Chengde",7,7,0,0
+2020-04-12,"China","Hebei","Cangzhou",48,45,3,0
+2020-04-12,"China","Hebei","Langfang",30,30,0,0
+2020-04-12,"China","Hebei","Hengshui",8,8,0,0
+2020-04-12,"China","Shanxi",NA,39,2,0,0
+2020-04-12,"China","Shanxi","Taiyuan",20,20,0,0
+2020-04-12,"China","Shanxi","Datong",12,12,0,0
+2020-04-12,"China","Shanxi","Yangquan",4,4,0,0
+2020-04-12,"China","Shanxi","Changzhi",8,8,0,0
+2020-04-12,"China","Shanxi","Jincheng",10,10,0,0
+2020-04-12,"China","Shanxi","Shuozhou",8,8,0,0
+2020-04-12,"China","Shanxi","Jinzhong",37,37,0,0
+2020-04-12,"China","Shanxi","Yuncheng",19,19,0,0
+2020-04-12,"China","Shanxi","Xinzhou",7,7,0,0
+2020-04-12,"China","Shanxi","Linfen",2,2,0,0
+2020-04-12,"China","Shanxi","Lüliang",6,6,0,0
+2020-04-12,"China","Inner Mongolia",NA,114,9,0,0
+2020-04-12,"China","Inner Mongolia","Hohhot",7,7,0,0
+2020-04-12,"China","Inner Mongolia","Baotou",11,11,0,0
+2020-04-12,"China","Inner Mongolia","Wuhai",2,2,0,0
+2020-04-12,"China","Inner Mongolia","Chifeng",9,9,0,0
+2020-04-12,"China","Inner Mongolia","Tongliao",7,7,0,0
+2020-04-12,"China","Inner Mongolia","Ordos",11,11,0,0
+2020-04-12,"China","Inner Mongolia","Hulunbuir",7,7,0,0
+2020-04-12,"China","Inner Mongolia","Bayannur",8,7,1,0
+2020-04-12,"China","Inner Mongolia","Ulanqab",3,3,0,0
+2020-04-12,"China","Inner Mongolia",NA,1,1,0,0
+2020-04-12,"China","Inner Mongolia","Xilingol League",9,9,0,0
+2020-04-12,"China","Inner Mongolia",NA,0,0,0,0
+2020-04-12,"China","Liaoning",NA,21,15,0,0
+2020-04-12,"China","Liaoning","Shenyang",28,28,0,0
+2020-04-12,"China","Liaoning","Dalian",18,17,0,0
+2020-04-12,"China","Liaoning","Anshan",4,4,0,0
+2020-04-12,"China","Liaoning","Benxi",3,3,0,0
+2020-04-12,"China","Liaoning","Dandong",11,11,0,0
+2020-04-12,"China","Liaoning","Jinzhou",12,12,0,0
+2020-04-12,"China","Liaoning","Yingkou",1,1,0,0
+2020-04-12,"China","Liaoning","Fuxin",8,8,0,0
+2020-04-12,"China","Liaoning","Liaoyang",3,3,0,0
+2020-04-12,"China","Liaoning","Panjin",11,11,0,0
+2020-04-12,"China","Liaoning","Tieling",7,7,0,0
+2020-04-12,"China","Liaoning","Chaoyang",6,5,1,0
+2020-04-12,"China","Liaoning","Huludao",12,11,1,0
+2020-04-12,"China","Jilin","Gongzhuling",6,6,0,0
+2020-04-12,"China","Jilin",NA,6,4,0,0
+2020-04-12,"China","Jilin","Changchun",45,45,0,0
+2020-04-12,"China","Jilin","Jilin",5,5,0,0
+2020-04-12,"China","Jilin","Siping",15,14,1,0
+2020-04-12,"China","Jilin","Liaoyuan",7,7,0,0
+2020-04-12,"China","Jilin","Tonghua",6,6,0,0
+2020-04-12,"China","Jilin","Baishan",0,0,0,0
+2020-04-12,"China","Jilin","Songyuan",2,2,0,0
+2020-04-12,"China","Jilin","Baicheng",1,1,0,0
+2020-04-12,"China","Jilin","Meihekou",1,1,0,0
+2020-04-12,"China","Jilin",NA,5,5,0,0
+2020-04-12,"China","Heilongjiang",NA,198,1,0,0
+2020-04-12,"China","Heilongjiang","Harbin",202,194,4,0
+2020-04-12,"China","Heilongjiang","Qiqihar",43,42,1,0
+2020-04-12,"China","Heilongjiang","Jixi",46,46,0,0
+2020-04-12,"China","Heilongjiang","Hegang",5,5,0,0
+2020-04-12,"China","Heilongjiang","Shuangyashan",52,49,3,0
+2020-04-12,"China","Heilongjiang","Daqing",26,25,1,0
+2020-04-12,"China","Heilongjiang","Yichun",1,1,0,0
+2020-04-12,"China","Heilongjiang","Jiamusi",15,15,0,0
+2020-04-12,"China","Heilongjiang","Qitaihe",17,17,0,0
+2020-04-12,"China","Heilongjiang","Mudanjiang",15,15,0,0
+2020-04-12,"China","Heilongjiang","Heihe",14,14,0,0
+2020-04-12,"China","Heilongjiang","Suihua",47,43,4,0
+2020-04-12,"China","Heilongjiang","Daxing'anling",3,3,0,0
+2020-04-12,"China","Shanghai","Location TBD",0,1,1,0
+2020-04-12,"China","Shanghai","Foreign to Shanghai",111,107,1,0
+2020-04-12,"China","Shanghai",NA,268,118,0,0
+2020-04-12,"China","Shanghai","Huangpu",6,5,1,0
+2020-04-12,"China","Shanghai","Xuhui",18,17,1,0
+2020-04-12,"China","Shanghai","Changning",13,13,0,0
+2020-04-12,"China","Shanghai","Jing'an",16,15,1,0
+2020-04-12,"China","Shanghai","Putuo",11,11,0,0
+2020-04-12,"China","Shanghai","Hongkou",7,7,0,0
+2020-04-12,"China","Shanghai","Yangpu",9,9,0,0
+2020-04-12,"China","Shanghai","Minhang",19,19,0,0
+2020-04-12,"China","Shanghai","Baoshan",22,19,1,0
+2020-04-12,"China","Shanghai","Jiading",9,7,1,0
+2020-04-12,"China","Shanghai",NA,61,61,0,0
+2020-04-12,"China","Shanghai","Jinshan",4,4,0,0
+2020-04-12,"China","Shanghai","Songjiang",14,14,0,0
+2020-04-12,"China","Shanghai","Qingpu",6,6,0,0
+2020-04-12,"China","Shanghai","Fengxian",9,9,0,0
+2020-04-12,"China","Shanghai","Chongming",4,4,0,0
+2020-04-12,"China","Jiangsu",NA,22,7,0,0
+2020-04-12,"China","Jiangsu","Nanjing",93,93,0,0
+2020-04-12,"China","Jiangsu","Wuxi",55,55,0,0
+2020-04-12,"China","Jiangsu","Xuzhou",79,79,0,0
+2020-04-12,"China","Jiangsu","Changzhou",51,51,0,0
+2020-04-12,"China","Jiangsu","Suzhou",87,87,0,0
+2020-04-12,"China","Jiangsu","Nantong",40,40,0,0
+2020-04-12,"China","Jiangsu","Lianyungang",48,48,0,0
+2020-04-12,"China","Jiangsu","Huai'an",66,66,0,0
+2020-04-12,"China","Jiangsu","Yancheng",27,27,0,0
+2020-04-12,"China","Jiangsu","Yangzhou",23,23,0,0
+2020-04-12,"China","Jiangsu","Zhenjiang",12,12,0,0
+2020-04-12,"China","Jiangsu","Taizhou",37,37,0,0
+2020-04-12,"China","Jiangsu","Suqian",13,13,0,0
+2020-04-12,"China","Zhejiang",NA,36,36,0,0
+2020-04-12,"China","Zhejiang",NA,49,22,0,0
+2020-04-12,"China","Zhejiang",NA,0,0,0,0
+2020-04-12,"China","Zhejiang","Hangzhou",181,181,0,0
+2020-04-12,"China","Zhejiang","Ningbo",157,157,0,0
+2020-04-12,"China","Zhejiang","Wenzhou",504,503,1,0
+2020-04-12,"China","Zhejiang","Jiaxing",46,45,0,0
+2020-04-12,"China","Zhejiang","Huzhou",10,10,0,0
+2020-04-12,"China","Zhejiang","Shaoxing",42,42,0,0
+2020-04-12,"China","Zhejiang","Jinhua",55,55,0,0
+2020-04-12,"China","Zhejiang","Quzhou",14,14,0,0
+2020-04-12,"China","Zhejiang","Zhoushan",10,10,0,0
+2020-04-12,"China","Zhejiang","Taizhou",146,146,0,0
+2020-04-12,"China","Zhejiang","Lishui",17,17,0,0
+2020-04-12,"China","Anhui",NA,1,0,0,0
+2020-04-12,"China","Anhui","Hefei",174,173,1,0
+2020-04-12,"China","Anhui","Wuhu",34,34,0,0
+2020-04-12,"China","Anhui","Bengbu",160,155,5,0
+2020-04-12,"China","Anhui","Huainan",27,27,0,0
+2020-04-12,"China","Anhui","Ma'anshan",38,38,0,0
+2020-04-12,"China","Anhui","Huaibei",27,27,0,0
+2020-04-12,"China","Anhui","Tongling",29,29,0,0
+2020-04-12,"China","Anhui","Anqing",83,83,0,0
+2020-04-12,"China","Anhui","Huangshan",9,9,0,0
+2020-04-12,"China","Anhui","Chuzhou",13,13,0,0
+2020-04-12,"China","Anhui","Fuyang",155,155,0,0
+2020-04-12,"China","Anhui","Suzhou",41,41,0,0
+2020-04-12,"China","Anhui","Lu'an",69,69,0,0
+2020-04-12,"China","Anhui","Bozhou",108,108,0,0
+2020-04-12,"China","Anhui","Chizhou",17,17,0,0
+2020-04-12,"China","Anhui","Xuancheng",6,6,0,0
+2020-04-12,"China","Fujian",NA,56,26,0,0
+2020-04-12,"China","Fujian","Fuzhou",72,71,1,0
+2020-04-12,"China","Fujian","Xiamen",35,35,0,0
+2020-04-12,"China","Fujian","Putian",56,56,0,0
+2020-04-12,"China","Fujian","Sanming",14,14,0,0
+2020-04-12,"China","Fujian","Quanzhou",47,47,0,0
+2020-04-12,"China","Fujian","Zhangzhou",20,20,0,0
+2020-04-12,"China","Fujian","Nanping",20,20,0,0
+2020-04-12,"China","Fujian","Longyan",6,6,0,0
+2020-04-12,"China","Fujian","Ningde",26,26,0,0
+2020-04-12,"China","Jiangxi",NA,1,1,0,0
+2020-04-12,"China","Jiangxi",NA,2,2,0,0
+2020-04-12,"China","Jiangxi","Nanchang",230,230,0,0
+2020-04-12,"China","Jiangxi","Jingdezhen",6,6,0,0
+2020-04-12,"China","Jiangxi","Pingxiang",33,33,0,0
+2020-04-12,"China","Jiangxi","Jiujiang",118,118,0,0
+2020-04-12,"China","Jiangxi","Xinyu",130,130,0,0
+2020-04-12,"China","Jiangxi","Yingtan",18,18,0,0
+2020-04-12,"China","Jiangxi","Ganzhou",76,75,1,0
+2020-04-12,"China","Jiangxi","Ji'an",22,22,0,0
+2020-04-12,"China","Jiangxi","Yichun",106,106,0,0
+2020-04-12,"China","Jiangxi","Fuzhou",72,72,0,0
+2020-04-12,"China","Jiangxi","Shangrao",123,123,0,0
+2020-04-12,"China","Shandong",NA,23,5,0,0
+2020-04-12,"China","Shandong","Jinan",47,47,0,0
+2020-04-12,"China","Shandong","Qingdao",63,60,1,0
+2020-04-12,"China","Shandong","Zibo",30,29,1,0
+2020-04-12,"China","Shandong","Zaozhuang",24,24,0,0
+2020-04-12,"China","Shandong","Dongying",0,0,0,0
+2020-04-12,"China","Shandong","Yantai",47,47,0,0
+2020-04-12,"China","Shandong","Weifang",44,44,0,0
+2020-04-12,"China","Shandong","Jining",260,260,0,0
+2020-04-12,"China","Shandong","Tai'an",35,33,2,0
+2020-04-12,"China","Shandong","Weihai",38,37,1,0
+2020-04-12,"China","Shandong","Rizhao",16,16,0,0
+2020-04-12,"China","Shandong","Linyi",49,49,0,0
+2020-04-12,"China","Shandong","Dezhou",37,35,2,0
+2020-04-12,"China","Shandong","Liaocheng",38,38,0,0
+2020-04-12,"China","Shandong","Binzhou",15,15,0,0
+2020-04-12,"China","Shandong","Heze",18,18,0,0
+2020-04-12,"China","Henan",NA,3,3,0,0
+2020-04-12,"China","Henan","Zhengzhou",157,152,5,0
+2020-04-12,"China","Henan","Kaifeng",26,26,0,0
+2020-04-12,"China","Henan","Luoyang",31,30,1,0
+2020-04-12,"China","Henan","Pingdingshan",58,57,1,0
+2020-04-12,"China","Henan","Anyang",53,53,0,0
+2020-04-12,"China","Henan","Hebi",19,19,0,0
+2020-04-12,"China","Henan","Xinxiang",57,54,3,0
+2020-04-12,"China","Henan","Jiaozuo",32,31,1,0
+2020-04-12,"China","Henan","Puyang",17,17,0,0
+2020-04-12,"China","Henan","Xuchang",39,38,1,0
+2020-04-12,"China","Henan","Luohe",36,35,0,0
+2020-04-12,"China","Henan","Sanmenxia",7,6,1,0
+2020-04-12,"China","Henan","Nanyang",156,153,3,0
+2020-04-12,"China","Henan","Shangqiu",91,88,3,0
+2020-04-12,"China","Henan","Xinyang",274,272,2,0
+2020-04-12,"China","Henan","Zhoukou",76,75,1,0
+2020-04-12,"China","Henan","Zhumadian",139,139,0,0
+2020-04-12,"China","Henan","Jiyuan",5,5,0,0
+2020-04-12,"China","Hubei",NA,0,0,0,0
+2020-04-12,"China","Hubei",NA,1,0,0,0
+2020-04-12,"China","Hubei","Wuhan",50007,47129,2577,0
+2020-04-12,"China","Hubei","Huangshi",1015,976,39,0
+2020-04-12,"China","Hubei","Shiyan",672,664,8,0
+2020-04-12,"China","Hubei","Yichang",931,894,36,0
+2020-04-12,"China","Hubei","Xiangyang",1175,1135,40,0
+2020-04-12,"China","Hubei","Ezhou",1394,1335,59,0
+2020-04-12,"China","Hubei","Jingmen",928,887,41,0
+2020-04-12,"China","Hubei","Xiaogan",3518,3389,129,0
+2020-04-12,"China","Hubei","Jingzhou",1580,1528,52,0
+2020-04-12,"China","Hubei","Huanggang",2907,2782,125,0
+2020-04-12,"China","Hubei","Xianning",836,821,15,0
+2020-04-12,"China","Hubei","Suizhou",1307,1262,45,0
+2020-04-12,"China","Hubei","Enshi",252,245,7,0
+2020-04-12,"China","Hubei","Xiantao",575,553,22,0
+2020-04-12,"China","Hubei","Qianjiang",198,189,9,0
+2020-04-12,"China","Hubei","Tianmen",496,481,15,0
+2020-04-12,"China","Hubei","Shennongjia",11,11,0,0
+2020-04-12,"China","Hunan",NA,1,0,0,0
+2020-04-12,"China","Hunan","Changsha",242,240,2,0
+2020-04-12,"China","Hunan","Zhuzhou",80,80,0,0
+2020-04-12,"China","Hunan","Xiangtan",36,36,0,0
+2020-04-12,"China","Hunan","Hengyang",48,48,0,0
+2020-04-12,"China","Hunan","Shaoyang",102,101,1,0
+2020-04-12,"China","Hunan","Yueyang",156,155,1,0
+2020-04-12,"China","Hunan","Changde",82,82,0,0
+2020-04-12,"China","Hunan","Zhangjiajie",5,5,0,0
+2020-04-12,"China","Hunan","Yiyang",60,60,0,0
+2020-04-12,"China","Hunan","Chenzhou",39,39,0,0
+2020-04-12,"China","Hunan","Yongzhou",44,44,0,0
+2020-04-12,"China","Hunan","Huaihua",40,40,0,0
+2020-04-12,"China","Hunan","Loudi",76,76,0,0
+2020-04-12,"China","Hunan",NA,8,8,0,0
+2020-04-12,"China","Guangdong","Location TBD",0,1,0,0
+2020-04-12,"China","Guangdong",NA,0,0,0,0
+2020-04-12,"China","Guangdong","Guangzhou",479,430,1,0
+2020-04-12,"China","Guangdong","Shaoguan",10,9,1,0
+2020-04-12,"China","Guangdong","Shenzhen",456,423,3,0
+2020-04-12,"China","Guangdong","Zhuhai",103,99,1,0
+2020-04-12,"China","Guangdong","Shantou",26,25,0,0
+2020-04-12,"China","Guangdong","Foshan",96,85,0,0
+2020-04-12,"China","Guangdong","Jiangmen",24,23,0,0
+2020-04-12,"China","Guangdong","Zhanjiang",24,23,0,0
+2020-04-12,"China","Guangdong","Maoming",14,14,0,0
+2020-04-12,"China","Guangdong","Zhaoqing",20,18,1,0
+2020-04-12,"China","Guangdong","Huizhou",62,62,0,0
+2020-04-12,"China","Guangdong","Meizhou",17,16,0,0
+2020-04-12,"China","Guangdong","Shanwei",5,5,0,0
+2020-04-12,"China","Guangdong","Heyuan",5,4,0,0
+2020-04-12,"China","Guangdong","Yangjiang",14,14,0,0
+2020-04-12,"China","Guangdong","Qingyuan",12,12,0,0
+2020-04-12,"China","Guangdong","Dongguan",100,99,1,0
+2020-04-12,"China","Guangdong","Zhongshan",68,68,0,0
+2020-04-12,"China","Guangdong","Chaozhou",6,5,0,0
+2020-04-12,"China","Guangdong","Jieyang",11,8,0,0
+2020-04-12,"China","Guangdong","Yunfu",0,0,0,0
+2020-04-12,"China","Guangxi",NA,2,2,0,0
+2020-04-12,"China","Guangxi","Nanning",55,55,0,0
+2020-04-12,"China","Guangxi","Liuzhou",24,24,0,0
+2020-04-12,"China","Guangxi","Guilin",32,32,0,0
+2020-04-12,"China","Guangxi","Wuzhou",5,5,0,0
+2020-04-12,"China","Guangxi","Beihai",44,43,1,0
+2020-04-12,"China","Guangxi","Fangchenggang",19,19,0,0
+2020-04-12,"China","Guangxi","Qinzhou",8,8,0,0
+2020-04-12,"China","Guangxi","Guigang",8,8,0,0
+2020-04-12,"China","Guangxi","Yulin",11,11,0,0
+2020-04-12,"China","Guangxi","Baise",3,3,0,0
+2020-04-12,"China","Guangxi","Hezhou",4,4,0,0
+2020-04-12,"China","Guangxi","Hechi",28,27,1,0
+2020-04-12,"China","Guangxi","Laibin",11,11,0,0
+2020-04-12,"China","Guangxi","Chongzuo",0,0,0,0
+2020-04-12,"China","Hainan",NA,0,0,0,0
+2020-04-12,"China","Hainan","Haikou",39,39,0,0
+2020-04-12,"China","Hainan","Sanya",54,53,1,0
+2020-04-12,"China","Hainan","Sansha",0,0,0,0
+2020-04-12,"China","Hainan","Danzhou",15,14,1,0
+2020-04-12,"China","Hainan","Wuzhishan",0,0,0,0
+2020-04-12,"China","Hainan","Qionghai",6,5,1,0
+2020-04-12,"China","Hainan","Wenchang",3,3,0,0
+2020-04-12,"China","Hainan","Wanning",13,13,0,0
+2020-04-12,"China","Hainan","Dongfang",3,2,1,0
+2020-04-12,"China","Hainan","Ding'an County",3,2,1,0
+2020-04-12,"China","Hainan",NA,0,0,0,0
+2020-04-12,"China","Hainan","Chengmai County",9,8,1,0
+2020-04-12,"China","Hainan","Lingao County",6,6,0,0
+2020-04-12,"China","Hainan",NA,0,0,0,0
+2020-04-12,"China","Hainan","Changjiang County",7,7,0,0
+2020-04-12,"China","Hainan",NA,2,2,0,0
+2020-04-12,"China","Hainan","Lingshui County",4,4,0,0
+2020-04-12,"China","Hainan","Baoting County",3,3,0,0
+2020-04-12,"China","Hainan","Qiongzhong County",1,1,0,0
+2020-04-12,"China","Chongqing","Gaoxin District",4,4,0,0
+2020-04-12,"China","Chongqing","Liangjiang New Area",17,17,0,0
+2020-04-12,"China","Chongqing",NA,3,0,0,0
+2020-04-12,"China","Chongqing","Wanzhou District",118,114,4,0
+2020-04-12,"China","Chongqing","Fuling District",5,5,0,0
+2020-04-12,"China","Chongqing","Yuzhong District",20,20,0,0
+2020-04-12,"China","Chongqing","Dadukou District",7,7,0,0
+2020-04-12,"China","Chongqing","Jiangbei District",28,28,0,0
+2020-04-12,"China","Chongqing","Shapingba District",9,9,0,0
+2020-04-12,"China","Chongqing","Jiulongpo District",21,20,1,0
+2020-04-12,"China","Chongqing","Nan'an District",15,15,0,0
+2020-04-12,"China","Chongqing",NA,0,0,0,0
+2020-04-12,"China","Chongqing","Qijiang District",23,23,0,0
+2020-04-12,"China","Chongqing","Dazu District",14,14,0,0
+2020-04-12,"China","Chongqing","Yubei District",17,17,0,0
+2020-04-12,"China","Chongqing","Banan District",6,6,0,0
+2020-04-12,"China","Chongqing","Qianjiang District",2,2,0,0
+2020-04-12,"China","Chongqing","Changshou District",22,22,0,0
+2020-04-12,"China","Chongqing","Jiangjin District",4,4,0,0
+2020-04-12,"China","Chongqing","Hechuan District",23,23,0,0
+2020-04-12,"China","Chongqing","Yongchuan District",5,5,0,0
+2020-04-12,"China","Chongqing",NA,0,0,0,0
+2020-04-12,"China","Chongqing","Bishan District",9,9,0,0
+2020-04-12,"China","Chongqing","Tongliang District",10,10,0,0
+2020-04-12,"China","Chongqing","Tongnan District",18,18,0,0
+2020-04-12,"China","Chongqing","Rongchang District",9,9,0,0
+2020-04-12,"China","Chongqing","Kaizhou District",21,20,1,0
+2020-04-12,"China","Chongqing","Liangping District",4,4,0,0
+2020-04-12,"China","Chongqing","Wulong District",1,1,0,0
+2020-04-12,"China","Chongqing","Chengkou District",2,2,0,0
+2020-04-12,"China","Chongqing","Fengdu County",10,10,0,0
+2020-04-12,"China","Chongqing","Dianjiang County",20,20,0,0
+2020-04-12,"China","Chongqing","Zhong County",21,21,0,0
+2020-04-12,"China","Chongqing","Yunyang County",25,25,0,0
+2020-04-12,"China","Chongqing","Fengjie County",22,22,0,0
+2020-04-12,"China","Chongqing","Wushan County",10,10,0,0
+2020-04-12,"China","Chongqing","Wuxi County",14,14,0,0
+2020-04-12,"China","Chongqing","Shizhu County",15,15,0,0
+2020-04-12,"China","Chongqing","Xiushan County",1,1,0,0
+2020-04-12,"China","Chongqing","Youyang County",1,1,0,0
+2020-04-12,"China","Chongqing","Pengshui County",2,2,0,0
+2020-04-12,"China","Chongqing","Wansheng Economic Development Zone",1,1,0,0
+2020-04-12,"China","Sichuan",NA,0,0,0,0
+2020-04-12,"China","Sichuan","Chengdu",165,152,3,0
+2020-04-12,"China","Sichuan","Zigong",9,9,0,0
+2020-04-12,"China","Sichuan","Panzhihua",16,16,0,0
+2020-04-12,"China","Sichuan","Luzhou",24,24,0,0
+2020-04-12,"China","Sichuan","Deyang",18,18,0,0
+2020-04-12,"China","Sichuan","Mianyang",22,22,0,0
+2020-04-12,"China","Sichuan","Guangyuan",6,6,0,0
+2020-04-12,"China","Sichuan","Suining",17,17,0,0
+2020-04-12,"China","Sichuan","Neijiang",22,22,0,0
+2020-04-12,"China","Sichuan","Leshan",3,3,0,0
+2020-04-12,"China","Sichuan","Nanchong",39,39,0,0
+2020-04-12,"China","Sichuan","Meishan",8,8,0,0
+2020-04-12,"China","Sichuan","Yibin",12,12,0,0
+2020-04-12,"China","Sichuan","Guang'an",30,30,0,0
+2020-04-12,"China","Sichuan","Dazhou",42,42,0,0
+2020-04-12,"China","Sichuan","Ya'an",7,7,0,0
+2020-04-12,"China","Sichuan","Bazhong",24,24,0,0
+2020-04-12,"China","Sichuan","Ziyang",4,4,0,0
+2020-04-12,"China","Sichuan","Ngawa County",1,1,0,0
+2020-04-12,"China","Sichuan","Garzê",78,78,0,0
+2020-04-12,"China","Sichuan","Liangshan",13,13,0,0
+2020-04-12,"China","Guizhou",NA,1,0,0,0
+2020-04-12,"China","Guizhou","Guiyang",36,35,1,0
+2020-04-12,"China","Guizhou","Liupanshui",10,9,1,0
+2020-04-12,"China","Guizhou","Zunyi",32,32,0,0
+2020-04-12,"China","Guizhou","Anshun",4,4,0,0
+2020-04-12,"China","Guizhou","Bijie",23,23,0,0
+2020-04-12,"China","Guizhou","Tongren",10,10,0,0
+2020-04-12,"China","Guizhou","Qianxinan Prefecture",4,4,0,0
+2020-04-12,"China","Guizhou","Qiandongnan Prefecture",10,10,0,0
+2020-04-12,"China","Guizhou","Qiannan Prefecture",17,17,0,0
+2020-04-12,"China","Yunnan",NA,10,2,0,0
+2020-04-12,"China","Yunnan","Kunming",53,53,0,0
+2020-04-12,"China","Yunnan","Qujing",13,13,0,0
+2020-04-12,"China","Yunnan","Yuxi",14,13,1,0
+2020-04-12,"China","Yunnan","Baoshan",9,9,0,0
+2020-04-12,"China","Yunnan","Zhaotong",25,25,0,0
+2020-04-12,"China","Yunnan","Lijiang",7,7,0,0
+2020-04-12,"China","Yunnan","Pu'er",4,4,0,0
+2020-04-12,"China","Yunnan","Lincang",1,1,0,0
+2020-04-12,"China","Yunnan","Chuxiong Prefecture",4,4,0,0
+2020-04-12,"China","Yunnan",NA,9,9,0,0
+2020-04-12,"China","Yunnan","Wenshan Prefecture",2,2,0,0
+2020-04-12,"China","Yunnan","Xishuangbanna",15,14,1,0
+2020-04-12,"China","Yunnan",NA,13,13,0,0
+2020-04-12,"China","Yunnan",NA,5,5,0,0
+2020-04-12,"China","Yunnan",NA,0,0,0,0
+2020-04-12,"China","Yunnan",NA,0,0,0,0
+2020-04-12,"China","Tibet",NA,0,0,0,0
+2020-04-12,"China","Tibet","Lhasa",1,1,0,0
+2020-04-12,"China","Tibet","Xigazê",0,0,0,0
+2020-04-12,"China","Tibet","Qamdo",0,0,0,0
+2020-04-12,"China","Tibet","Nyingchi",0,0,0,0
+2020-04-12,"China","Tibet","Shannan",0,0,0,0
+2020-04-12,"China","Tibet","Nagqu",0,0,0,0
+2020-04-12,"China","Tibet",NA,0,0,0,0
+2020-04-12,"China","Shaanxi",NA,11,6,0,0
+2020-04-12,"China","Shaanxi","Xi'an",120,117,3,0
+2020-04-12,"China","Shaanxi","Tongchuan",8,8,0,0
+2020-04-12,"China","Shaanxi","Baoji",13,13,0,0
+2020-04-12,"China","Shaanxi","Xianyang",17,17,0,0
+2020-04-12,"China","Shaanxi","Weinan",15,15,0,0
+2020-04-12,"China","Shaanxi","Yan'an",8,8,0,0
+2020-04-12,"China","Shaanxi","Hanzhong",26,26,0,0
+2020-04-12,"China","Shaanxi","Yulin",3,3,0,0
+2020-04-12,"China","Shaanxi","Ankang",26,26,0,0
+2020-04-12,"China","Shaanxi","Yangling Demonstration Zone",1,1,0,0
+2020-04-12,"China","Shaanxi","Shangluo",7,7,0,0
+2020-04-12,"China","Shaanxi","Hancheng",1,1,0,0
+2020-04-12,"China","Gansu",NA,47,45,0,0
+2020-04-12,"China","Gansu","Lanzhou",37,35,2,0
+2020-04-12,"China","Gansu","Jiayuguan",0,0,0,0
+2020-04-12,"China","Gansu","Jinchang",1,1,0,0
+2020-04-12,"China","Gansu","Baiyin",4,4,0,0
+2020-04-12,"China","Gansu","Tianshui",12,12,0,0
+2020-04-12,"China","Gansu","Wuwei",0,0,0,0
+2020-04-12,"China","Gansu","Zhangye",2,2,0,0
+2020-04-12,"China","Gansu","Pingliang",9,9,0,0
+2020-04-12,"China","Gansu","Jiuquan",0,0,0,0
+2020-04-12,"China","Gansu","Qingyang",3,3,0,0
+2020-04-12,"China","Gansu","Dingxi",9,9,0,0
+2020-04-12,"China","Gansu","Longnan",4,4,0,0
+2020-04-12,"China","Gansu",NA,3,3,0,0
+2020-04-12,"China","Gansu","Gannan Prefecture",8,8,0,0
+2020-04-12,"China","Qinghai",NA,0,0,0,0
+2020-04-12,"China","Qinghai","Xining",15,15,0,0
+2020-04-12,"China","Qinghai","Haidong",0,0,0,0
+2020-04-12,"China","Qinghai","Haibei Prefecture",3,3,0,0
+2020-04-12,"China","Qinghai",NA,0,0,0,0
+2020-04-12,"China","Qinghai",NA,0,0,0,0
+2020-04-12,"China","Qinghai",NA,0,0,0,0
+2020-04-12,"China","Qinghai",NA,0,0,0,0
+2020-04-12,"China","Qinghai",NA,0,0,0,0
+2020-04-12,"China","Ningxia","Ningdong",1,1,0,0
+2020-04-12,"China","Ningxia",NA,0,0,0,0
+2020-04-12,"China","Ningxia","Yinchuan",36,36,0,0
+2020-04-12,"China","Ningxia","Shizuishan",1,1,0,0
+2020-04-12,"China","Ningxia","Wuzhong",28,28,0,0
+2020-04-12,"China","Ningxia","Guyuan",5,5,0,0
+2020-04-12,"China","Ningxia","Zhongwei",4,4,0,0
+2020-04-12,"China","Xinjiang","9th Division of Xinjiang Production and Construction Corps",4,3,1,0
+2020-04-12,"China","Xinjiang","7th Division of Xinjiang Production and Construction Corps",1,1,0,0
+2020-04-12,"China","Xinjiang",NA,0,0,0,0
+2020-04-12,"China","Xinjiang","ÜrümqiÜrümqi",23,23,0,0
+2020-04-12,"China","Xinjiang","Karamay",0,0,0,0
+2020-04-12,"China","Xinjiang","Turpan",3,3,0,0
+2020-04-12,"China","Xinjiang","Hami",0,0,0,0
+2020-04-12,"China","Xinjiang","12th Division of Xinjiang Production and Construction Corps",3,3,0,0
+2020-04-12,"China","Xinjiang",NA,10,9,1,0
+2020-04-12,"China","Xinjiang","Changji Prefecture",4,4,0,0
+2020-04-12,"China","Xinjiang",NA,0,0,0,0
+2020-04-12,"China","Xinjiang",NA,3,3,0,0
+2020-04-12,"China","Xinjiang","Aksu",1,1,0,0
+2020-04-12,"China","Xinjiang",NA,0,0,0,0
+2020-04-12,"China","Xinjiang","Kashgar",0,0,0,0
+2020-04-12,"China","Xinjiang","Hotan",0,0,0,0
+2020-04-12,"China","Xinjiang",NA,18,18,0,0
+2020-04-12,"China","Xinjiang","Tacheng",0,0,0,0
+2020-04-12,"China","Xinjiang","Altay",0,0,0,0
+2020-04-12,"China","Xinjiang","Shihezi",4,3,1,0
+2020-04-12,"China","Xinjiang","Aral",0,0,0,0
+2020-04-12,"China","Xinjiang","Tumxuk",0,0,0,0
+2020-04-12,"China","Xinjiang","Wujiaqu",2,2,0,0
+2020-04-12,"China","Xinjiang","Beitun",0,0,0,0
+2020-04-12,"China","Xinjiang","Tiemenguan",0,0,0,0
+2020-04-12,"China","Xinjiang","Shuanghe",0,0,0,0
+2020-04-12,"China","Xinjiang","Kokdala",0,0,0,0
+2020-04-12,"China","Xinjiang","Kunyu",0,0,0,0
+2020-04-12,"China","Taiwan","Taiwan",388,109,6,0
+2020-04-12,"China","Hong Kong","Hong Kong",1004,360,4,0
+2020-04-12,"China","Macau","Macau",45,13,0,0
+2020-04-13,"China","Beijing","Location TBD",0,384,8,0
+2020-04-13,"China","Beijing","Foreign to Beijing",25,2,0,0
+2020-04-13,"China","Beijing",NA,173,80,0,0
+2020-04-13,"China","Beijing","Dongcheng",14,0,0,0
+2020-04-13,"China","Beijing","Xicheng",53,0,0,0
+2020-04-13,"China","Beijing","Chaoyang",72,0,0,0
+2020-04-13,"China","Beijing","Fengtai",43,0,0,0
+2020-04-13,"China","Beijing","Shijingshan",14,1,0,0
+2020-04-13,"China","Beijing","Haidian",64,0,0,0
+2020-04-13,"China","Beijing","Mentougou",3,0,0,0
+2020-04-13,"China","Beijing","Fangshan",16,0,0,0
+2020-04-13,"China","Beijing","Tongzhou",19,0,0,0
+2020-04-13,"China","Beijing","Shunyi",10,0,0,0
+2020-04-13,"China","Beijing","Changping",29,1,0,0
+2020-04-13,"China","Beijing","Daxing",39,16,0,0
+2020-04-13,"China","Beijing","Huairou",7,0,0,0
+2020-04-13,"China","Beijing",NA,0,0,0,0
+2020-04-13,"China","Beijing","Miyun",7,0,0,0
+2020-04-13,"China","Beijing","Yanqing",1,0,0,0
+2020-04-13,"China","Tianjin","Foreign to Tianjin",6,6,0,0
+2020-04-13,"China","Tianjin",NA,48,31,0,0
+2020-04-13,"China","Tianjin","Changjiang County",6,6,0,0
+2020-04-13,"China","Tianjin","Ding'an County",15,14,1,0
+2020-04-13,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-13,"China","Tianjin","Qiongzhong County",6,6,0,0
+2020-04-13,"China","Tianjin","Lingao County",12,12,0,0
+2020-04-13,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-13,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-13,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-13,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-13,"China","Tianjin","Beichen District",6,6,0,0
+2020-04-13,"China","Tianjin","Wuqing District",2,2,0,0
+2020-04-13,"China","Tianjin","Lingshui County",60,58,2,0
+2020-04-13,"China","Tianjin","Ledong County",3,3,0,0
+2020-04-13,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-13,"China","Tianjin",NA,0,0,0,0
+2020-04-13,"China","Tianjin",NA,0,0,0,0
+2020-04-13,"China","Hebei",NA,9,1,0,0
+2020-04-13,"China","Hebei","Shijiazhuang",29,29,0,0
+2020-04-13,"China","Hebei","Tangshan",58,57,1,0
+2020-04-13,"China","Hebei","Qinhuangdao",10,9,1,0
+2020-04-13,"China","Hebei","Handan",32,32,0,0
+2020-04-13,"China","Hebei","Xingtai",23,22,1,0
+2020-04-13,"China","Hebei","Baoding",32,32,0,0
+2020-04-13,"China","Hebei","Zhangjiakou",41,41,0,0
+2020-04-13,"China","Hebei","Chengde",7,7,0,0
+2020-04-13,"China","Hebei","Cangzhou",48,45,3,0
+2020-04-13,"China","Hebei","Langfang",30,30,0,0
+2020-04-13,"China","Hebei","Hengshui",8,8,0,0
+2020-04-13,"China","Shanxi",NA,40,2,0,0
+2020-04-13,"China","Shanxi","Taiyuan",20,20,0,0
+2020-04-13,"China","Shanxi","Datong",12,12,0,0
+2020-04-13,"China","Shanxi","Yangquan",4,4,0,0
+2020-04-13,"China","Shanxi","Changzhi",8,8,0,0
+2020-04-13,"China","Shanxi","Jincheng",10,10,0,0
+2020-04-13,"China","Shanxi","Shuozhou",8,8,0,0
+2020-04-13,"China","Shanxi","Jinzhong",37,37,0,0
+2020-04-13,"China","Shanxi","Yuncheng",19,19,0,0
+2020-04-13,"China","Shanxi","Xinzhou",7,7,0,0
+2020-04-13,"China","Shanxi","Linfen",2,2,0,0
+2020-04-13,"China","Shanxi","Lüliang",6,6,0,0
+2020-04-13,"China","Inner Mongolia",NA,115,9,0,0
+2020-04-13,"China","Inner Mongolia","Hohhot",7,7,0,0
+2020-04-13,"China","Inner Mongolia","Baotou",11,11,0,0
+2020-04-13,"China","Inner Mongolia","Wuhai",2,2,0,0
+2020-04-13,"China","Inner Mongolia","Chifeng",9,9,0,0
+2020-04-13,"China","Inner Mongolia","Tongliao",7,7,0,0
+2020-04-13,"China","Inner Mongolia","Ordos",11,11,0,0
+2020-04-13,"China","Inner Mongolia","Hulunbuir",7,7,0,0
+2020-04-13,"China","Inner Mongolia","Bayannur",8,7,1,0
+2020-04-13,"China","Inner Mongolia","Ulanqab",3,3,0,0
+2020-04-13,"China","Inner Mongolia",NA,1,1,0,0
+2020-04-13,"China","Inner Mongolia","Xilingol League",9,9,0,0
+2020-04-13,"China","Inner Mongolia",NA,0,0,0,0
+2020-04-13,"China","Liaoning",NA,21,17,0,0
+2020-04-13,"China","Liaoning","Shenyang",28,28,0,0
+2020-04-13,"China","Liaoning","Dalian",18,17,0,0
+2020-04-13,"China","Liaoning","Anshan",4,4,0,0
+2020-04-13,"China","Liaoning","Benxi",3,3,0,0
+2020-04-13,"China","Liaoning","Dandong",11,11,0,0
+2020-04-13,"China","Liaoning","Jinzhou",12,12,0,0
+2020-04-13,"China","Liaoning","Yingkou",1,1,0,0
+2020-04-13,"China","Liaoning","Fuxin",8,8,0,0
+2020-04-13,"China","Liaoning","Liaoyang",3,3,0,0
+2020-04-13,"China","Liaoning","Panjin",11,11,0,0
+2020-04-13,"China","Liaoning","Tieling",7,7,0,0
+2020-04-13,"China","Liaoning","Chaoyang",6,5,1,0
+2020-04-13,"China","Liaoning","Huludao",12,11,1,0
+2020-04-13,"China","Jilin","Gongzhuling",6,6,0,0
+2020-04-13,"China","Jilin",NA,7,4,0,0
+2020-04-13,"China","Jilin","Changchun",45,45,0,0
+2020-04-13,"China","Jilin","Jilin",5,5,0,0
+2020-04-13,"China","Jilin","Siping",15,14,1,0
+2020-04-13,"China","Jilin","Liaoyuan",7,7,0,0
+2020-04-13,"China","Jilin","Tonghua",6,6,0,0
+2020-04-13,"China","Jilin","Baishan",0,0,0,0
+2020-04-13,"China","Jilin","Songyuan",2,2,0,0
+2020-04-13,"China","Jilin","Baicheng",1,1,0,0
+2020-04-13,"China","Jilin","Meihekou",1,1,0,0
+2020-04-13,"China","Jilin",NA,5,5,0,0
+2020-04-13,"China","Heilongjiang",NA,247,1,0,0
+2020-04-13,"China","Heilongjiang","Harbin",209,194,4,0
+2020-04-13,"China","Heilongjiang","Qiqihar",43,42,1,0
+2020-04-13,"China","Heilongjiang","Jixi",46,46,0,0
+2020-04-13,"China","Heilongjiang","Hegang",5,5,0,0
+2020-04-13,"China","Heilongjiang","Shuangyashan",52,49,3,0
+2020-04-13,"China","Heilongjiang","Daqing",26,25,1,0
+2020-04-13,"China","Heilongjiang","Yichun",1,1,0,0
+2020-04-13,"China","Heilongjiang","Jiamusi",15,15,0,0
+2020-04-13,"China","Heilongjiang","Qitaihe",17,17,0,0
+2020-04-13,"China","Heilongjiang","Mudanjiang",15,15,0,0
+2020-04-13,"China","Heilongjiang","Heihe",14,14,0,0
+2020-04-13,"China","Heilongjiang","Suihua",47,43,4,0
+2020-04-13,"China","Heilongjiang","Daxing'anling",3,3,0,0
+2020-04-13,"China","Shanghai","Location TBD",0,1,1,0
+2020-04-13,"China","Shanghai","Foreign to Shanghai",111,107,1,0
+2020-04-13,"China","Shanghai",NA,279,130,0,0
+2020-04-13,"China","Shanghai","Huangpu",6,5,1,0
+2020-04-13,"China","Shanghai","Xuhui",18,17,1,0
+2020-04-13,"China","Shanghai","Changning",13,13,0,0
+2020-04-13,"China","Shanghai","Jing'an",16,15,1,0
+2020-04-13,"China","Shanghai","Putuo",11,11,0,0
+2020-04-13,"China","Shanghai","Hongkou",7,7,0,0
+2020-04-13,"China","Shanghai","Yangpu",9,9,0,0
+2020-04-13,"China","Shanghai","Minhang",19,19,0,0
+2020-04-13,"China","Shanghai","Baoshan",22,19,1,0
+2020-04-13,"China","Shanghai","Jiading",9,7,1,0
+2020-04-13,"China","Shanghai",NA,61,61,0,0
+2020-04-13,"China","Shanghai","Jinshan",4,4,0,0
+2020-04-13,"China","Shanghai","Songjiang",14,14,0,0
+2020-04-13,"China","Shanghai","Qingpu",6,6,0,0
+2020-04-13,"China","Shanghai","Fengxian",9,9,0,0
+2020-04-13,"China","Shanghai","Chongming",4,4,0,0
+2020-04-13,"China","Jiangsu",NA,22,7,0,0
+2020-04-13,"China","Jiangsu","Nanjing",93,93,0,0
+2020-04-13,"China","Jiangsu","Wuxi",55,55,0,0
+2020-04-13,"China","Jiangsu","Xuzhou",79,79,0,0
+2020-04-13,"China","Jiangsu","Changzhou",51,51,0,0
+2020-04-13,"China","Jiangsu","Suzhou",87,87,0,0
+2020-04-13,"China","Jiangsu","Nantong",40,40,0,0
+2020-04-13,"China","Jiangsu","Lianyungang",48,48,0,0
+2020-04-13,"China","Jiangsu","Huai'an",66,66,0,0
+2020-04-13,"China","Jiangsu","Yancheng",27,27,0,0
+2020-04-13,"China","Jiangsu","Yangzhou",23,23,0,0
+2020-04-13,"China","Jiangsu","Zhenjiang",12,12,0,0
+2020-04-13,"China","Jiangsu","Taizhou",37,37,0,0
+2020-04-13,"China","Jiangsu","Suqian",13,13,0,0
+2020-04-13,"China","Zhejiang",NA,36,36,0,0
+2020-04-13,"China","Zhejiang",NA,49,23,0,0
+2020-04-13,"China","Zhejiang",NA,0,0,0,0
+2020-04-13,"China","Zhejiang","Hangzhou",181,181,0,0
+2020-04-13,"China","Zhejiang","Ningbo",157,157,0,0
+2020-04-13,"China","Zhejiang","Wenzhou",504,503,1,0
+2020-04-13,"China","Zhejiang","Jiaxing",46,45,0,0
+2020-04-13,"China","Zhejiang","Huzhou",10,10,0,0
+2020-04-13,"China","Zhejiang","Shaoxing",42,42,0,0
+2020-04-13,"China","Zhejiang","Jinhua",55,55,0,0
+2020-04-13,"China","Zhejiang","Quzhou",14,14,0,0
+2020-04-13,"China","Zhejiang","Zhoushan",10,10,0,0
+2020-04-13,"China","Zhejiang","Taizhou",146,146,0,0
+2020-04-13,"China","Zhejiang","Lishui",17,17,0,0
+2020-04-13,"China","Anhui",NA,1,0,0,0
+2020-04-13,"China","Anhui","Hefei",174,173,1,0
+2020-04-13,"China","Anhui","Wuhu",34,34,0,0
+2020-04-13,"China","Anhui","Bengbu",160,155,5,0
+2020-04-13,"China","Anhui","Huainan",27,27,0,0
+2020-04-13,"China","Anhui","Ma'anshan",38,38,0,0
+2020-04-13,"China","Anhui","Huaibei",27,27,0,0
+2020-04-13,"China","Anhui","Tongling",29,29,0,0
+2020-04-13,"China","Anhui","Anqing",83,83,0,0
+2020-04-13,"China","Anhui","Huangshan",9,9,0,0
+2020-04-13,"China","Anhui","Chuzhou",13,13,0,0
+2020-04-13,"China","Anhui","Fuyang",155,155,0,0
+2020-04-13,"China","Anhui","Suzhou",41,41,0,0
+2020-04-13,"China","Anhui","Lu'an",69,69,0,0
+2020-04-13,"China","Anhui","Bozhou",108,108,0,0
+2020-04-13,"China","Anhui","Chizhou",17,17,0,0
+2020-04-13,"China","Anhui","Xuancheng",6,6,0,0
+2020-04-13,"China","Fujian",NA,56,32,0,0
+2020-04-13,"China","Fujian","Fuzhou",72,71,1,0
+2020-04-13,"China","Fujian","Xiamen",35,35,0,0
+2020-04-13,"China","Fujian","Putian",56,56,0,0
+2020-04-13,"China","Fujian","Sanming",14,14,0,0
+2020-04-13,"China","Fujian","Quanzhou",47,47,0,0
+2020-04-13,"China","Fujian","Zhangzhou",20,20,0,0
+2020-04-13,"China","Fujian","Nanping",20,20,0,0
+2020-04-13,"China","Fujian","Longyan",6,6,0,0
+2020-04-13,"China","Fujian","Ningde",26,26,0,0
+2020-04-13,"China","Jiangxi",NA,1,1,0,0
+2020-04-13,"China","Jiangxi",NA,2,2,0,0
+2020-04-13,"China","Jiangxi","Nanchang",230,230,0,0
+2020-04-13,"China","Jiangxi","Jingdezhen",6,6,0,0
+2020-04-13,"China","Jiangxi","Pingxiang",33,33,0,0
+2020-04-13,"China","Jiangxi","Jiujiang",118,118,0,0
+2020-04-13,"China","Jiangxi","Xinyu",130,130,0,0
+2020-04-13,"China","Jiangxi","Yingtan",18,18,0,0
+2020-04-13,"China","Jiangxi","Ganzhou",76,75,1,0
+2020-04-13,"China","Jiangxi","Ji'an",22,22,0,0
+2020-04-13,"China","Jiangxi","Yichun",106,106,0,0
+2020-04-13,"China","Jiangxi","Fuzhou",72,72,0,0
+2020-04-13,"China","Jiangxi","Shangrao",123,123,0,0
+2020-04-13,"China","Shandong",NA,23,6,0,0
+2020-04-13,"China","Shandong","Jinan",47,47,0,0
+2020-04-13,"China","Shandong","Qingdao",63,60,1,0
+2020-04-13,"China","Shandong","Zibo",30,29,1,0
+2020-04-13,"China","Shandong","Zaozhuang",24,24,0,0
+2020-04-13,"China","Shandong","Dongying",0,0,0,0
+2020-04-13,"China","Shandong","Yantai",47,47,0,0
+2020-04-13,"China","Shandong","Weifang",44,44,0,0
+2020-04-13,"China","Shandong","Jining",260,260,0,0
+2020-04-13,"China","Shandong","Tai'an",35,33,2,0
+2020-04-13,"China","Shandong","Weihai",38,37,1,0
+2020-04-13,"China","Shandong","Rizhao",16,16,0,0
+2020-04-13,"China","Shandong","Linyi",49,49,0,0
+2020-04-13,"China","Shandong","Dezhou",37,35,2,0
+2020-04-13,"China","Shandong","Liaocheng",38,38,0,0
+2020-04-13,"China","Shandong","Binzhou",15,15,0,0
+2020-04-13,"China","Shandong","Heze",18,18,0,0
+2020-04-13,"China","Henan",NA,3,3,0,0
+2020-04-13,"China","Henan","Zhengzhou",157,152,5,0
+2020-04-13,"China","Henan","Kaifeng",26,26,0,0
+2020-04-13,"China","Henan","Luoyang",31,30,1,0
+2020-04-13,"China","Henan","Pingdingshan",58,57,1,0
+2020-04-13,"China","Henan","Anyang",53,53,0,0
+2020-04-13,"China","Henan","Hebi",19,19,0,0
+2020-04-13,"China","Henan","Xinxiang",57,54,3,0
+2020-04-13,"China","Henan","Jiaozuo",32,31,1,0
+2020-04-13,"China","Henan","Puyang",17,17,0,0
+2020-04-13,"China","Henan","Xuchang",39,38,1,0
+2020-04-13,"China","Henan","Luohe",36,35,0,0
+2020-04-13,"China","Henan","Sanmenxia",7,6,1,0
+2020-04-13,"China","Henan","Nanyang",156,153,3,0
+2020-04-13,"China","Henan","Shangqiu",91,88,3,0
+2020-04-13,"China","Henan","Xinyang",274,272,2,0
+2020-04-13,"China","Henan","Zhoukou",76,75,1,0
+2020-04-13,"China","Henan","Zhumadian",139,139,0,0
+2020-04-13,"China","Henan","Jiyuan",5,5,0,0
+2020-04-13,"China","Hubei",NA,0,0,0,0
+2020-04-13,"China","Hubei",NA,1,0,0,0
+2020-04-13,"China","Hubei","Wuhan",50007,47186,2579,0
+2020-04-13,"China","Hubei","Huangshi",1015,976,39,0
+2020-04-13,"China","Hubei","Shiyan",672,664,8,0
+2020-04-13,"China","Hubei","Yichang",931,894,36,0
+2020-04-13,"China","Hubei","Xiangyang",1175,1135,40,0
+2020-04-13,"China","Hubei","Ezhou",1394,1335,59,0
+2020-04-13,"China","Hubei","Jingmen",928,887,41,0
+2020-04-13,"China","Hubei","Xiaogan",3518,3389,129,0
+2020-04-13,"China","Hubei","Jingzhou",1580,1528,52,0
+2020-04-13,"China","Hubei","Huanggang",2907,2782,125,0
+2020-04-13,"China","Hubei","Xianning",836,821,15,0
+2020-04-13,"China","Hubei","Suizhou",1307,1262,45,0
+2020-04-13,"China","Hubei","Enshi",252,245,7,0
+2020-04-13,"China","Hubei","Xiantao",575,553,22,0
+2020-04-13,"China","Hubei","Qianjiang",198,189,9,0
+2020-04-13,"China","Hubei","Tianmen",496,481,15,0
+2020-04-13,"China","Hubei","Shennongjia",11,11,0,0
+2020-04-13,"China","Hunan",NA,1,0,0,0
+2020-04-13,"China","Hunan","Changsha",242,240,2,0
+2020-04-13,"China","Hunan","Zhuzhou",80,80,0,0
+2020-04-13,"China","Hunan","Xiangtan",36,36,0,0
+2020-04-13,"China","Hunan","Hengyang",48,48,0,0
+2020-04-13,"China","Hunan","Shaoyang",102,101,1,0
+2020-04-13,"China","Hunan","Yueyang",156,155,1,0
+2020-04-13,"China","Hunan","Changde",82,82,0,0
+2020-04-13,"China","Hunan","Zhangjiajie",5,5,0,0
+2020-04-13,"China","Hunan","Yiyang",60,60,0,0
+2020-04-13,"China","Hunan","Chenzhou",39,39,0,0
+2020-04-13,"China","Hunan","Yongzhou",44,44,0,0
+2020-04-13,"China","Hunan","Huaihua",40,40,0,0
+2020-04-13,"China","Hunan","Loudi",76,76,0,0
+2020-04-13,"China","Hunan",NA,8,8,0,0
+2020-04-13,"China","Guangdong","Location TBD",0,12,0,0
+2020-04-13,"China","Guangdong",NA,0,0,0,0
+2020-04-13,"China","Guangdong","Guangzhou",482,441,1,0
+2020-04-13,"China","Guangdong","Shaoguan",10,9,1,0
+2020-04-13,"China","Guangdong","Shenzhen",456,423,3,0
+2020-04-13,"China","Guangdong","Zhuhai",103,99,1,0
+2020-04-13,"China","Guangdong","Shantou",26,26,0,0
+2020-04-13,"China","Guangdong","Foshan",96,85,0,0
+2020-04-13,"China","Guangdong","Jiangmen",24,23,0,0
+2020-04-13,"China","Guangdong","Zhanjiang",24,23,0,0
+2020-04-13,"China","Guangdong","Maoming",14,14,0,0
+2020-04-13,"China","Guangdong","Zhaoqing",20,19,1,0
+2020-04-13,"China","Guangdong","Huizhou",62,62,0,0
+2020-04-13,"China","Guangdong","Meizhou",17,16,0,0
+2020-04-13,"China","Guangdong","Shanwei",5,5,0,0
+2020-04-13,"China","Guangdong","Heyuan",5,4,0,0
+2020-04-13,"China","Guangdong","Yangjiang",14,14,0,0
+2020-04-13,"China","Guangdong","Qingyuan",12,12,0,0
+2020-04-13,"China","Guangdong","Dongguan",100,99,1,0
+2020-04-13,"China","Guangdong","Zhongshan",68,68,0,0
+2020-04-13,"China","Guangdong","Chaozhou",6,5,0,0
+2020-04-13,"China","Guangdong","Jieyang",11,8,0,0
+2020-04-13,"China","Guangdong","Yunfu",0,0,0,0
+2020-04-13,"China","Guangxi",NA,2,2,0,0
+2020-04-13,"China","Guangxi","Nanning",55,55,0,0
+2020-04-13,"China","Guangxi","Liuzhou",24,24,0,0
+2020-04-13,"China","Guangxi","Guilin",32,32,0,0
+2020-04-13,"China","Guangxi","Wuzhou",5,5,0,0
+2020-04-13,"China","Guangxi","Beihai",44,43,1,0
+2020-04-13,"China","Guangxi","Fangchenggang",19,19,0,0
+2020-04-13,"China","Guangxi","Qinzhou",8,8,0,0
+2020-04-13,"China","Guangxi","Guigang",8,8,0,0
+2020-04-13,"China","Guangxi","Yulin",11,11,0,0
+2020-04-13,"China","Guangxi","Baise",3,3,0,0
+2020-04-13,"China","Guangxi","Hezhou",4,4,0,0
+2020-04-13,"China","Guangxi","Hechi",28,27,1,0
+2020-04-13,"China","Guangxi","Laibin",11,11,0,0
+2020-04-13,"China","Guangxi","Chongzuo",0,0,0,0
+2020-04-13,"China","Hainan",NA,0,0,0,0
+2020-04-13,"China","Hainan","Haikou",39,39,0,0
+2020-04-13,"China","Hainan","Sanya",54,53,1,0
+2020-04-13,"China","Hainan","Sansha",0,0,0,0
+2020-04-13,"China","Hainan","Danzhou",15,14,1,0
+2020-04-13,"China","Hainan","Wuzhishan",0,0,0,0
+2020-04-13,"China","Hainan","Qionghai",6,5,1,0
+2020-04-13,"China","Hainan","Wenchang",3,3,0,0
+2020-04-13,"China","Hainan","Wanning",13,13,0,0
+2020-04-13,"China","Hainan","Dongfang",3,2,1,0
+2020-04-13,"China","Hainan","Ding'an County",3,2,1,0
+2020-04-13,"China","Hainan",NA,0,0,0,0
+2020-04-13,"China","Hainan","Chengmai County",9,8,1,0
+2020-04-13,"China","Hainan","Lingao County",6,6,0,0
+2020-04-13,"China","Hainan",NA,0,0,0,0
+2020-04-13,"China","Hainan","Changjiang County",7,7,0,0
+2020-04-13,"China","Hainan",NA,2,2,0,0
+2020-04-13,"China","Hainan","Lingshui County",4,4,0,0
+2020-04-13,"China","Hainan","Baoting County",3,3,0,0
+2020-04-13,"China","Hainan","Qiongzhong County",1,1,0,0
+2020-04-13,"China","Chongqing","Gaoxin District",4,4,0,0
+2020-04-13,"China","Chongqing","Liangjiang New Area",17,17,0,0
+2020-04-13,"China","Chongqing",NA,3,0,0,0
+2020-04-13,"China","Chongqing","Wanzhou District",118,114,4,0
+2020-04-13,"China","Chongqing","Fuling District",5,5,0,0
+2020-04-13,"China","Chongqing","Yuzhong District",20,20,0,0
+2020-04-13,"China","Chongqing","Dadukou District",7,7,0,0
+2020-04-13,"China","Chongqing","Jiangbei District",28,28,0,0
+2020-04-13,"China","Chongqing","Shapingba District",9,9,0,0
+2020-04-13,"China","Chongqing","Jiulongpo District",21,20,1,0
+2020-04-13,"China","Chongqing","Nan'an District",15,15,0,0
+2020-04-13,"China","Chongqing",NA,0,0,0,0
+2020-04-13,"China","Chongqing","Qijiang District",23,23,0,0
+2020-04-13,"China","Chongqing","Dazu District",14,14,0,0
+2020-04-13,"China","Chongqing","Yubei District",17,17,0,0
+2020-04-13,"China","Chongqing","Banan District",6,6,0,0
+2020-04-13,"China","Chongqing","Qianjiang District",2,2,0,0
+2020-04-13,"China","Chongqing","Changshou District",22,22,0,0
+2020-04-13,"China","Chongqing","Jiangjin District",4,4,0,0
+2020-04-13,"China","Chongqing","Hechuan District",23,23,0,0
+2020-04-13,"China","Chongqing","Yongchuan District",5,5,0,0
+2020-04-13,"China","Chongqing",NA,0,0,0,0
+2020-04-13,"China","Chongqing","Bishan District",9,9,0,0
+2020-04-13,"China","Chongqing","Tongliang District",10,10,0,0
+2020-04-13,"China","Chongqing","Tongnan District",18,18,0,0
+2020-04-13,"China","Chongqing","Rongchang District",9,9,0,0
+2020-04-13,"China","Chongqing","Kaizhou District",21,20,1,0
+2020-04-13,"China","Chongqing","Liangping District",4,4,0,0
+2020-04-13,"China","Chongqing","Wulong District",1,1,0,0
+2020-04-13,"China","Chongqing","Chengkou District",2,2,0,0
+2020-04-13,"China","Chongqing","Fengdu County",10,10,0,0
+2020-04-13,"China","Chongqing","Dianjiang County",20,20,0,0
+2020-04-13,"China","Chongqing","Zhong County",21,21,0,0
+2020-04-13,"China","Chongqing","Yunyang County",25,25,0,0
+2020-04-13,"China","Chongqing","Fengjie County",22,22,0,0
+2020-04-13,"China","Chongqing","Wushan County",10,10,0,0
+2020-04-13,"China","Chongqing","Wuxi County",14,14,0,0
+2020-04-13,"China","Chongqing","Shizhu County",15,15,0,0
+2020-04-13,"China","Chongqing","Xiushan County",1,1,0,0
+2020-04-13,"China","Chongqing","Youyang County",1,1,0,0
+2020-04-13,"China","Chongqing","Pengshui County",2,2,0,0
+2020-04-13,"China","Chongqing","Wansheng Economic Development Zone",1,1,0,0
+2020-04-13,"China","Sichuan",NA,0,0,0,0
+2020-04-13,"China","Sichuan","Chengdu",165,153,3,0
+2020-04-13,"China","Sichuan","Zigong",9,9,0,0
+2020-04-13,"China","Sichuan","Panzhihua",16,16,0,0
+2020-04-13,"China","Sichuan","Luzhou",24,24,0,0
+2020-04-13,"China","Sichuan","Deyang",18,18,0,0
+2020-04-13,"China","Sichuan","Mianyang",22,22,0,0
+2020-04-13,"China","Sichuan","Guangyuan",6,6,0,0
+2020-04-13,"China","Sichuan","Suining",17,17,0,0
+2020-04-13,"China","Sichuan","Neijiang",22,22,0,0
+2020-04-13,"China","Sichuan","Leshan",3,3,0,0
+2020-04-13,"China","Sichuan","Nanchong",39,39,0,0
+2020-04-13,"China","Sichuan","Meishan",8,8,0,0
+2020-04-13,"China","Sichuan","Yibin",12,12,0,0
+2020-04-13,"China","Sichuan","Guang'an",30,30,0,0
+2020-04-13,"China","Sichuan","Dazhou",42,42,0,0
+2020-04-13,"China","Sichuan","Ya'an",7,7,0,0
+2020-04-13,"China","Sichuan","Bazhong",24,24,0,0
+2020-04-13,"China","Sichuan","Ziyang",4,4,0,0
+2020-04-13,"China","Sichuan","Ngawa County",1,1,0,0
+2020-04-13,"China","Sichuan","Garzê",78,78,0,0
+2020-04-13,"China","Sichuan","Liangshan",13,13,0,0
+2020-04-13,"China","Guizhou",NA,1,0,0,0
+2020-04-13,"China","Guizhou","Guiyang",36,35,1,0
+2020-04-13,"China","Guizhou","Liupanshui",10,9,1,0
+2020-04-13,"China","Guizhou","Zunyi",32,32,0,0
+2020-04-13,"China","Guizhou","Anshun",4,4,0,0
+2020-04-13,"China","Guizhou","Bijie",23,23,0,0
+2020-04-13,"China","Guizhou","Tongren",10,10,0,0
+2020-04-13,"China","Guizhou","Qianxinan Prefecture",4,4,0,0
+2020-04-13,"China","Guizhou","Qiandongnan Prefecture",10,10,0,0
+2020-04-13,"China","Guizhou","Qiannan Prefecture",17,17,0,0
+2020-04-13,"China","Yunnan",NA,10,2,0,0
+2020-04-13,"China","Yunnan","Kunming",53,53,0,0
+2020-04-13,"China","Yunnan","Qujing",13,13,0,0
+2020-04-13,"China","Yunnan","Yuxi",14,13,1,0
+2020-04-13,"China","Yunnan","Baoshan",9,9,0,0
+2020-04-13,"China","Yunnan","Zhaotong",25,25,0,0
+2020-04-13,"China","Yunnan","Lijiang",7,7,0,0
+2020-04-13,"China","Yunnan","Pu'er",4,4,0,0
+2020-04-13,"China","Yunnan","Lincang",1,1,0,0
+2020-04-13,"China","Yunnan","Chuxiong Prefecture",4,4,0,0
+2020-04-13,"China","Yunnan",NA,9,9,0,0
+2020-04-13,"China","Yunnan","Wenshan Prefecture",2,2,0,0
+2020-04-13,"China","Yunnan","Xishuangbanna",15,14,1,0
+2020-04-13,"China","Yunnan",NA,13,13,0,0
+2020-04-13,"China","Yunnan",NA,5,5,0,0
+2020-04-13,"China","Yunnan",NA,0,0,0,0
+2020-04-13,"China","Yunnan",NA,0,0,0,0
+2020-04-13,"China","Tibet",NA,0,0,0,0
+2020-04-13,"China","Tibet","Lhasa",1,1,0,0
+2020-04-13,"China","Tibet","Xigazê",0,0,0,0
+2020-04-13,"China","Tibet","Qamdo",0,0,0,0
+2020-04-13,"China","Tibet","Nyingchi",0,0,0,0
+2020-04-13,"China","Tibet","Shannan",0,0,0,0
+2020-04-13,"China","Tibet","Nagqu",0,0,0,0
+2020-04-13,"China","Tibet",NA,0,0,0,0
+2020-04-13,"China","Shaanxi",NA,11,6,0,0
+2020-04-13,"China","Shaanxi","Xi'an",120,117,3,0
+2020-04-13,"China","Shaanxi","Tongchuan",8,8,0,0
+2020-04-13,"China","Shaanxi","Baoji",13,13,0,0
+2020-04-13,"China","Shaanxi","Xianyang",17,17,0,0
+2020-04-13,"China","Shaanxi","Weinan",15,15,0,0
+2020-04-13,"China","Shaanxi","Yan'an",8,8,0,0
+2020-04-13,"China","Shaanxi","Hanzhong",26,26,0,0
+2020-04-13,"China","Shaanxi","Yulin",3,3,0,0
+2020-04-13,"China","Shaanxi","Ankang",26,26,0,0
+2020-04-13,"China","Shaanxi","Yangling Demonstration Zone",1,1,0,0
+2020-04-13,"China","Shaanxi","Shangluo",7,7,0,0
+2020-04-13,"China","Shaanxi","Hancheng",1,1,0,0
+2020-04-13,"China","Gansu",NA,47,45,0,0
+2020-04-13,"China","Gansu","Lanzhou",37,35,2,0
+2020-04-13,"China","Gansu","Jiayuguan",0,0,0,0
+2020-04-13,"China","Gansu","Jinchang",1,1,0,0
+2020-04-13,"China","Gansu","Baiyin",4,4,0,0
+2020-04-13,"China","Gansu","Tianshui",12,12,0,0
+2020-04-13,"China","Gansu","Wuwei",0,0,0,0
+2020-04-13,"China","Gansu","Zhangye",2,2,0,0
+2020-04-13,"China","Gansu","Pingliang",9,9,0,0
+2020-04-13,"China","Gansu","Jiuquan",0,0,0,0
+2020-04-13,"China","Gansu","Qingyang",3,3,0,0
+2020-04-13,"China","Gansu","Dingxi",9,9,0,0
+2020-04-13,"China","Gansu","Longnan",4,4,0,0
+2020-04-13,"China","Gansu",NA,3,3,0,0
+2020-04-13,"China","Gansu","Gannan Prefecture",8,8,0,0
+2020-04-13,"China","Qinghai",NA,0,0,0,0
+2020-04-13,"China","Qinghai","Xining",15,15,0,0
+2020-04-13,"China","Qinghai","Haidong",0,0,0,0
+2020-04-13,"China","Qinghai","Haibei Prefecture",3,3,0,0
+2020-04-13,"China","Qinghai",NA,0,0,0,0
+2020-04-13,"China","Qinghai",NA,0,0,0,0
+2020-04-13,"China","Qinghai",NA,0,0,0,0
+2020-04-13,"China","Qinghai",NA,0,0,0,0
+2020-04-13,"China","Qinghai",NA,0,0,0,0
+2020-04-13,"China","Ningxia","Ningdong",1,1,0,0
+2020-04-13,"China","Ningxia",NA,0,0,0,0
+2020-04-13,"China","Ningxia","Yinchuan",36,36,0,0
+2020-04-13,"China","Ningxia","Shizuishan",1,1,0,0
+2020-04-13,"China","Ningxia","Wuzhong",28,28,0,0
+2020-04-13,"China","Ningxia","Guyuan",5,5,0,0
+2020-04-13,"China","Ningxia","Zhongwei",4,4,0,0
+2020-04-13,"China","Xinjiang","9th Division of Xinjiang Production and Construction Corps",4,3,1,0
+2020-04-13,"China","Xinjiang","7th Division of Xinjiang Production and Construction Corps",1,1,0,0
+2020-04-13,"China","Xinjiang",NA,0,0,0,0
+2020-04-13,"China","Xinjiang","ÜrümqiÜrümqi",23,23,0,0
+2020-04-13,"China","Xinjiang","Karamay",0,0,0,0
+2020-04-13,"China","Xinjiang","Turpan",3,3,0,0
+2020-04-13,"China","Xinjiang","Hami",0,0,0,0
+2020-04-13,"China","Xinjiang","12th Division of Xinjiang Production and Construction Corps",3,3,0,0
+2020-04-13,"China","Xinjiang",NA,10,9,1,0
+2020-04-13,"China","Xinjiang","Changji Prefecture",4,4,0,0
+2020-04-13,"China","Xinjiang",NA,0,0,0,0
+2020-04-13,"China","Xinjiang",NA,3,3,0,0
+2020-04-13,"China","Xinjiang","Aksu",1,1,0,0
+2020-04-13,"China","Xinjiang",NA,0,0,0,0
+2020-04-13,"China","Xinjiang","Kashgar",0,0,0,0
+2020-04-13,"China","Xinjiang","Hotan",0,0,0,0
+2020-04-13,"China","Xinjiang",NA,18,18,0,0
+2020-04-13,"China","Xinjiang","Tacheng",0,0,0,0
+2020-04-13,"China","Xinjiang","Altay",0,0,0,0
+2020-04-13,"China","Xinjiang","Shihezi",4,3,1,0
+2020-04-13,"China","Xinjiang","Aral",0,0,0,0
+2020-04-13,"China","Xinjiang","Tumxuk",0,0,0,0
+2020-04-13,"China","Xinjiang","Wujiaqu",2,2,0,0
+2020-04-13,"China","Xinjiang","Beitun",0,0,0,0
+2020-04-13,"China","Xinjiang","Tiemenguan",0,0,0,0
+2020-04-13,"China","Xinjiang","Shuanghe",0,0,0,0
+2020-04-13,"China","Xinjiang","Kokdala",0,0,0,0
+2020-04-13,"China","Xinjiang","Kunyu",0,0,0,0
+2020-04-13,"China","Taiwan","Taiwan",393,114,6,0
+2020-04-13,"China","Hong Kong","Hong Kong",1009,397,4,0
+2020-04-13,"China","Macau","Macau",45,13,0,0
+2020-04-14,"China","Beijing","Location TBD",0,384,8,0
+2020-04-14,"China","Beijing","Foreign to Beijing",25,2,0,0
+2020-04-14,"China","Beijing",NA,173,87,0,0
+2020-04-14,"China","Beijing","Dongcheng",14,0,0,0
+2020-04-14,"China","Beijing","Xicheng",53,0,0,0
+2020-04-14,"China","Beijing","Chaoyang",72,0,0,0
+2020-04-14,"China","Beijing","Fengtai",43,0,0,0
+2020-04-14,"China","Beijing","Shijingshan",14,1,0,0
+2020-04-14,"China","Beijing","Haidian",64,0,0,0
+2020-04-14,"China","Beijing","Mentougou",3,0,0,0
+2020-04-14,"China","Beijing","Fangshan",16,0,0,0
+2020-04-14,"China","Beijing","Tongzhou",19,0,0,0
+2020-04-14,"China","Beijing","Shunyi",10,0,0,0
+2020-04-14,"China","Beijing","Changping",29,1,0,0
+2020-04-14,"China","Beijing","Daxing",39,16,0,0
+2020-04-14,"China","Beijing","Huairou",7,0,0,0
+2020-04-14,"China","Beijing",NA,0,0,0,0
+2020-04-14,"China","Beijing","Miyun",7,0,0,0
+2020-04-14,"China","Beijing","Yanqing",1,0,0,0
+2020-04-14,"China","Tianjin","Foreign to Tianjin",6,6,0,0
+2020-04-14,"China","Tianjin",NA,49,35,0,0
+2020-04-14,"China","Tianjin","Changjiang County",6,6,0,0
+2020-04-14,"China","Tianjin","Ding'an County",15,14,1,0
+2020-04-14,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-14,"China","Tianjin","Qiongzhong County",6,6,0,0
+2020-04-14,"China","Tianjin","Lingao County",12,12,0,0
+2020-04-14,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-14,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-14,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-14,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-14,"China","Tianjin","Beichen District",6,6,0,0
+2020-04-14,"China","Tianjin","Wuqing District",2,2,0,0
+2020-04-14,"China","Tianjin","Lingshui County",60,58,2,0
+2020-04-14,"China","Tianjin","Ledong County",3,3,0,0
+2020-04-14,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-14,"China","Tianjin",NA,0,0,0,0
+2020-04-14,"China","Tianjin",NA,0,0,0,0
+2020-04-14,"China","Hebei",NA,9,2,0,0
+2020-04-14,"China","Hebei","Shijiazhuang",29,29,0,0
+2020-04-14,"China","Hebei","Tangshan",58,57,1,0
+2020-04-14,"China","Hebei","Qinhuangdao",10,9,1,0
+2020-04-14,"China","Hebei","Handan",32,32,0,0
+2020-04-14,"China","Hebei","Xingtai",23,22,1,0
+2020-04-14,"China","Hebei","Baoding",32,32,0,0
+2020-04-14,"China","Hebei","Zhangjiakou",41,41,0,0
+2020-04-14,"China","Hebei","Chengde",7,7,0,0
+2020-04-14,"China","Hebei","Cangzhou",48,45,3,0
+2020-04-14,"China","Hebei","Langfang",30,30,0,0
+2020-04-14,"China","Hebei","Hengshui",8,8,0,0
+2020-04-14,"China","Shanxi",NA,40,2,0,0
+2020-04-14,"China","Shanxi","Taiyuan",20,20,0,0
+2020-04-14,"China","Shanxi","Datong",12,12,0,0
+2020-04-14,"China","Shanxi","Yangquan",4,4,0,0
+2020-04-14,"China","Shanxi","Changzhi",8,8,0,0
+2020-04-14,"China","Shanxi","Jincheng",10,10,0,0
+2020-04-14,"China","Shanxi","Shuozhou",8,8,0,0
+2020-04-14,"China","Shanxi","Jinzhong",37,37,0,0
+2020-04-14,"China","Shanxi","Yuncheng",19,19,0,0
+2020-04-14,"China","Shanxi","Xinzhou",7,7,0,0
+2020-04-14,"China","Shanxi","Linfen",2,2,0,0
+2020-04-14,"China","Shanxi","Lüliang",6,6,0,0
+2020-04-14,"China","Inner Mongolia",NA,115,17,0,0
+2020-04-14,"China","Inner Mongolia","Hohhot",7,7,0,0
+2020-04-14,"China","Inner Mongolia","Baotou",11,11,0,0
+2020-04-14,"China","Inner Mongolia","Wuhai",2,2,0,0
+2020-04-14,"China","Inner Mongolia","Chifeng",9,9,0,0
+2020-04-14,"China","Inner Mongolia","Tongliao",7,7,0,0
+2020-04-14,"China","Inner Mongolia","Ordos",11,11,0,0
+2020-04-14,"China","Inner Mongolia","Hulunbuir",7,7,0,0
+2020-04-14,"China","Inner Mongolia","Bayannur",8,7,1,0
+2020-04-14,"China","Inner Mongolia","Ulanqab",3,3,0,0
+2020-04-14,"China","Inner Mongolia",NA,1,1,0,0
+2020-04-14,"China","Inner Mongolia","Xilingol League",9,9,0,0
+2020-04-14,"China","Inner Mongolia",NA,0,0,0,0
+2020-04-14,"China","Liaoning",NA,21,17,0,0
+2020-04-14,"China","Liaoning","Shenyang",28,28,0,0
+2020-04-14,"China","Liaoning","Dalian",18,17,0,0
+2020-04-14,"China","Liaoning","Anshan",4,4,0,0
+2020-04-14,"China","Liaoning","Benxi",3,3,0,0
+2020-04-14,"China","Liaoning","Dandong",11,11,0,0
+2020-04-14,"China","Liaoning","Jinzhou",12,12,0,0
+2020-04-14,"China","Liaoning","Yingkou",1,1,0,0
+2020-04-14,"China","Liaoning","Fuxin",8,8,0,0
+2020-04-14,"China","Liaoning","Liaoyang",3,3,0,0
+2020-04-14,"China","Liaoning","Panjin",11,11,0,0
+2020-04-14,"China","Liaoning","Tieling",7,7,0,0
+2020-04-14,"China","Liaoning","Chaoyang",6,5,1,0
+2020-04-14,"China","Liaoning","Huludao",12,11,1,0
+2020-04-14,"China","Jilin","Gongzhuling",6,6,0,0
+2020-04-14,"China","Jilin",NA,7,4,0,0
+2020-04-14,"China","Jilin","Changchun",45,45,0,0
+2020-04-14,"China","Jilin","Jilin",5,5,0,0
+2020-04-14,"China","Jilin","Siping",15,14,1,0
+2020-04-14,"China","Jilin","Liaoyuan",7,7,0,0
+2020-04-14,"China","Jilin","Tonghua",6,6,0,0
+2020-04-14,"China","Jilin","Baishan",0,0,0,0
+2020-04-14,"China","Jilin","Songyuan",2,2,0,0
+2020-04-14,"China","Jilin","Baicheng",1,1,0,0
+2020-04-14,"China","Jilin","Meihekou",1,1,0,0
+2020-04-14,"China","Jilin",NA,5,5,0,0
+2020-04-14,"China","Heilongjiang",NA,326,1,0,0
+2020-04-14,"China","Heilongjiang","Harbin",209,194,4,0
+2020-04-14,"China","Heilongjiang","Qiqihar",43,42,1,0
+2020-04-14,"China","Heilongjiang","Jixi",46,46,0,0
+2020-04-14,"China","Heilongjiang","Hegang",5,5,0,0
+2020-04-14,"China","Heilongjiang","Shuangyashan",52,49,3,0
+2020-04-14,"China","Heilongjiang","Daqing",26,25,1,0
+2020-04-14,"China","Heilongjiang","Yichun",1,1,0,0
+2020-04-14,"China","Heilongjiang","Jiamusi",15,15,0,0
+2020-04-14,"China","Heilongjiang","Qitaihe",17,17,0,0
+2020-04-14,"China","Heilongjiang","Mudanjiang",15,15,0,0
+2020-04-14,"China","Heilongjiang","Heihe",14,14,0,0
+2020-04-14,"China","Heilongjiang","Suihua",47,43,4,0
+2020-04-14,"China","Heilongjiang","Daxing'anling",3,3,0,0
+2020-04-14,"China","Shanghai","Location TBD",0,1,1,0
+2020-04-14,"China","Shanghai","Foreign to Shanghai",111,107,1,0
+2020-04-14,"China","Shanghai",NA,279,140,0,0
+2020-04-14,"China","Shanghai","Huangpu",6,5,1,0
+2020-04-14,"China","Shanghai","Xuhui",18,17,1,0
+2020-04-14,"China","Shanghai","Changning",13,13,0,0
+2020-04-14,"China","Shanghai","Jing'an",16,15,1,0
+2020-04-14,"China","Shanghai","Putuo",11,11,0,0
+2020-04-14,"China","Shanghai","Hongkou",7,7,0,0
+2020-04-14,"China","Shanghai","Yangpu",9,9,0,0
+2020-04-14,"China","Shanghai","Minhang",19,19,0,0
+2020-04-14,"China","Shanghai","Baoshan",22,19,1,0
+2020-04-14,"China","Shanghai","Jiading",9,7,1,0
+2020-04-14,"China","Shanghai",NA,61,61,0,0
+2020-04-14,"China","Shanghai","Jinshan",4,4,0,0
+2020-04-14,"China","Shanghai","Songjiang",14,14,0,0
+2020-04-14,"China","Shanghai","Qingpu",6,6,0,0
+2020-04-14,"China","Shanghai","Fengxian",9,9,0,0
+2020-04-14,"China","Shanghai","Chongming",4,4,0,0
+2020-04-14,"China","Jiangsu",NA,22,10,0,0
+2020-04-14,"China","Jiangsu","Nanjing",93,93,0,0
+2020-04-14,"China","Jiangsu","Wuxi",55,55,0,0
+2020-04-14,"China","Jiangsu","Xuzhou",79,79,0,0
+2020-04-14,"China","Jiangsu","Changzhou",51,51,0,0
+2020-04-14,"China","Jiangsu","Suzhou",87,87,0,0
+2020-04-14,"China","Jiangsu","Nantong",40,40,0,0
+2020-04-14,"China","Jiangsu","Lianyungang",48,48,0,0
+2020-04-14,"China","Jiangsu","Huai'an",66,66,0,0
+2020-04-14,"China","Jiangsu","Yancheng",27,27,0,0
+2020-04-14,"China","Jiangsu","Yangzhou",23,23,0,0
+2020-04-14,"China","Jiangsu","Zhenjiang",12,12,0,0
+2020-04-14,"China","Jiangsu","Taizhou",37,37,0,0
+2020-04-14,"China","Jiangsu","Suqian",13,13,0,0
+2020-04-14,"China","Zhejiang",NA,36,36,0,0
+2020-04-14,"China","Zhejiang",NA,49,25,0,0
+2020-04-14,"China","Zhejiang",NA,0,0,0,0
+2020-04-14,"China","Zhejiang","Hangzhou",181,181,0,0
+2020-04-14,"China","Zhejiang","Ningbo",157,157,0,0
+2020-04-14,"China","Zhejiang","Wenzhou",504,503,1,0
+2020-04-14,"China","Zhejiang","Jiaxing",46,46,0,0
+2020-04-14,"China","Zhejiang","Huzhou",10,10,0,0
+2020-04-14,"China","Zhejiang","Shaoxing",42,42,0,0
+2020-04-14,"China","Zhejiang","Jinhua",55,55,0,0
+2020-04-14,"China","Zhejiang","Quzhou",14,14,0,0
+2020-04-14,"China","Zhejiang","Zhoushan",10,10,0,0
+2020-04-14,"China","Zhejiang","Taizhou",146,146,0,0
+2020-04-14,"China","Zhejiang","Lishui",17,17,0,0
+2020-04-14,"China","Anhui",NA,1,0,0,0
+2020-04-14,"China","Anhui","Hefei",174,173,1,0
+2020-04-14,"China","Anhui","Wuhu",34,34,0,0
+2020-04-14,"China","Anhui","Bengbu",160,155,5,0
+2020-04-14,"China","Anhui","Huainan",27,27,0,0
+2020-04-14,"China","Anhui","Ma'anshan",38,38,0,0
+2020-04-14,"China","Anhui","Huaibei",27,27,0,0
+2020-04-14,"China","Anhui","Tongling",29,29,0,0
+2020-04-14,"China","Anhui","Anqing",83,83,0,0
+2020-04-14,"China","Anhui","Huangshan",9,9,0,0
+2020-04-14,"China","Anhui","Chuzhou",13,13,0,0
+2020-04-14,"China","Anhui","Fuyang",155,155,0,0
+2020-04-14,"China","Anhui","Suzhou",41,41,0,0
+2020-04-14,"China","Anhui","Lu'an",69,69,0,0
+2020-04-14,"China","Anhui","Bozhou",108,108,0,0
+2020-04-14,"China","Anhui","Chizhou",17,17,0,0
+2020-04-14,"China","Anhui","Xuancheng",6,6,0,0
+2020-04-14,"China","Fujian",NA,57,35,0,0
+2020-04-14,"China","Fujian","Fuzhou",72,71,1,0
+2020-04-14,"China","Fujian","Xiamen",35,35,0,0
+2020-04-14,"China","Fujian","Putian",56,56,0,0
+2020-04-14,"China","Fujian","Sanming",14,14,0,0
+2020-04-14,"China","Fujian","Quanzhou",47,47,0,0
+2020-04-14,"China","Fujian","Zhangzhou",20,20,0,0
+2020-04-14,"China","Fujian","Nanping",20,20,0,0
+2020-04-14,"China","Fujian","Longyan",6,6,0,0
+2020-04-14,"China","Fujian","Ningde",26,26,0,0
+2020-04-14,"China","Jiangxi",NA,1,1,0,0
+2020-04-14,"China","Jiangxi",NA,2,2,0,0
+2020-04-14,"China","Jiangxi","Nanchang",230,230,0,0
+2020-04-14,"China","Jiangxi","Jingdezhen",6,6,0,0
+2020-04-14,"China","Jiangxi","Pingxiang",33,33,0,0
+2020-04-14,"China","Jiangxi","Jiujiang",118,118,0,0
+2020-04-14,"China","Jiangxi","Xinyu",130,130,0,0
+2020-04-14,"China","Jiangxi","Yingtan",18,18,0,0
+2020-04-14,"China","Jiangxi","Ganzhou",76,75,1,0
+2020-04-14,"China","Jiangxi","Ji'an",22,22,0,0
+2020-04-14,"China","Jiangxi","Yichun",106,106,0,0
+2020-04-14,"China","Jiangxi","Fuzhou",72,72,0,0
+2020-04-14,"China","Jiangxi","Shangrao",123,123,0,0
+2020-04-14,"China","Shandong",NA,23,7,0,0
+2020-04-14,"China","Shandong","Jinan",47,47,0,0
+2020-04-14,"China","Shandong","Qingdao",63,60,1,0
+2020-04-14,"China","Shandong","Zibo",30,29,1,0
+2020-04-14,"China","Shandong","Zaozhuang",24,24,0,0
+2020-04-14,"China","Shandong","Dongying",0,0,0,0
+2020-04-14,"China","Shandong","Yantai",47,47,0,0
+2020-04-14,"China","Shandong","Weifang",44,44,0,0
+2020-04-14,"China","Shandong","Jining",260,260,0,0
+2020-04-14,"China","Shandong","Tai'an",35,33,2,0
+2020-04-14,"China","Shandong","Weihai",38,37,1,0
+2020-04-14,"China","Shandong","Rizhao",16,16,0,0
+2020-04-14,"China","Shandong","Linyi",49,49,0,0
+2020-04-14,"China","Shandong","Dezhou",37,35,2,0
+2020-04-14,"China","Shandong","Liaocheng",38,38,0,0
+2020-04-14,"China","Shandong","Binzhou",15,15,0,0
+2020-04-14,"China","Shandong","Heze",18,18,0,0
+2020-04-14,"China","Henan",NA,3,3,0,0
+2020-04-14,"China","Henan","Zhengzhou",157,152,5,0
+2020-04-14,"China","Henan","Kaifeng",26,26,0,0
+2020-04-14,"China","Henan","Luoyang",31,30,1,0
+2020-04-14,"China","Henan","Pingdingshan",58,57,1,0
+2020-04-14,"China","Henan","Anyang",53,53,0,0
+2020-04-14,"China","Henan","Hebi",19,19,0,0
+2020-04-14,"China","Henan","Xinxiang",57,54,3,0
+2020-04-14,"China","Henan","Jiaozuo",32,31,1,0
+2020-04-14,"China","Henan","Puyang",17,17,0,0
+2020-04-14,"China","Henan","Xuchang",39,38,1,0
+2020-04-14,"China","Henan","Luohe",36,36,0,0
+2020-04-14,"China","Henan","Sanmenxia",7,6,1,0
+2020-04-14,"China","Henan","Nanyang",156,153,3,0
+2020-04-14,"China","Henan","Shangqiu",91,88,3,0
+2020-04-14,"China","Henan","Xinyang",274,272,2,0
+2020-04-14,"China","Henan","Zhoukou",76,75,1,0
+2020-04-14,"China","Henan","Zhumadian",139,139,0,0
+2020-04-14,"China","Henan","Jiyuan",5,5,0,0
+2020-04-14,"China","Hubei",NA,0,0,0,0
+2020-04-14,"China","Hubei",NA,1,0,0,0
+2020-04-14,"China","Hubei","Wuhan",50007,47211,2579,0
+2020-04-14,"China","Hubei","Huangshi",1015,976,39,0
+2020-04-14,"China","Hubei","Shiyan",672,664,8,0
+2020-04-14,"China","Hubei","Yichang",931,894,36,0
+2020-04-14,"China","Hubei","Xiangyang",1175,1135,40,0
+2020-04-14,"China","Hubei","Ezhou",1394,1335,59,0
+2020-04-14,"China","Hubei","Jingmen",928,887,41,0
+2020-04-14,"China","Hubei","Xiaogan",3518,3389,129,0
+2020-04-14,"China","Hubei","Jingzhou",1580,1528,52,0
+2020-04-14,"China","Hubei","Huanggang",2907,2782,125,0
+2020-04-14,"China","Hubei","Xianning",836,821,15,0
+2020-04-14,"China","Hubei","Suizhou",1307,1262,45,0
+2020-04-14,"China","Hubei","Enshi",252,245,7,0
+2020-04-14,"China","Hubei","Xiantao",575,553,22,0
+2020-04-14,"China","Hubei","Qianjiang",198,189,9,0
+2020-04-14,"China","Hubei","Tianmen",496,481,15,0
+2020-04-14,"China","Hubei","Shennongjia",11,11,0,0
+2020-04-14,"China","Hunan",NA,1,0,0,0
+2020-04-14,"China","Hunan","Changsha",242,240,2,0
+2020-04-14,"China","Hunan","Zhuzhou",80,80,0,0
+2020-04-14,"China","Hunan","Xiangtan",36,36,0,0
+2020-04-14,"China","Hunan","Hengyang",48,48,0,0
+2020-04-14,"China","Hunan","Shaoyang",102,101,1,0
+2020-04-14,"China","Hunan","Yueyang",156,155,1,0
+2020-04-14,"China","Hunan","Changde",82,82,0,0
+2020-04-14,"China","Hunan","Zhangjiajie",5,5,0,0
+2020-04-14,"China","Hunan","Yiyang",60,60,0,0
+2020-04-14,"China","Hunan","Chenzhou",39,39,0,0
+2020-04-14,"China","Hunan","Yongzhou",44,44,0,0
+2020-04-14,"China","Hunan","Huaihua",40,40,0,0
+2020-04-14,"China","Hunan","Loudi",76,76,0,0
+2020-04-14,"China","Hunan",NA,8,8,0,0
+2020-04-14,"China","Guangdong","Location TBD",0,1,0,0
+2020-04-14,"China","Guangdong",NA,0,0,0,0
+2020-04-14,"China","Guangdong","Guangzhou",488,442,1,0
+2020-04-14,"China","Guangdong","Shaoguan",10,9,1,0
+2020-04-14,"China","Guangdong","Shenzhen",458,424,3,0
+2020-04-14,"China","Guangdong","Zhuhai",103,99,1,0
+2020-04-14,"China","Guangdong","Shantou",26,26,0,0
+2020-04-14,"China","Guangdong","Foshan",97,85,0,0
+2020-04-14,"China","Guangdong","Jiangmen",24,23,0,0
+2020-04-14,"China","Guangdong","Zhanjiang",24,23,0,0
+2020-04-14,"China","Guangdong","Maoming",14,14,0,0
+2020-04-14,"China","Guangdong","Zhaoqing",20,19,1,0
+2020-04-14,"China","Guangdong","Huizhou",62,62,0,0
+2020-04-14,"China","Guangdong","Meizhou",17,16,0,0
+2020-04-14,"China","Guangdong","Shanwei",5,5,0,0
+2020-04-14,"China","Guangdong","Heyuan",5,4,0,0
+2020-04-14,"China","Guangdong","Yangjiang",14,14,0,0
+2020-04-14,"China","Guangdong","Qingyuan",12,12,0,0
+2020-04-14,"China","Guangdong","Dongguan",100,99,1,0
+2020-04-14,"China","Guangdong","Zhongshan",68,68,0,0
+2020-04-14,"China","Guangdong","Chaozhou",6,5,0,0
+2020-04-14,"China","Guangdong","Jieyang",11,8,0,0
+2020-04-14,"China","Guangdong","Yunfu",0,0,0,0
+2020-04-14,"China","Guangxi",NA,2,2,0,0
+2020-04-14,"China","Guangxi","Nanning",55,55,0,0
+2020-04-14,"China","Guangxi","Liuzhou",24,24,0,0
+2020-04-14,"China","Guangxi","Guilin",32,32,0,0
+2020-04-14,"China","Guangxi","Wuzhou",5,5,0,0
+2020-04-14,"China","Guangxi","Beihai",44,43,1,0
+2020-04-14,"China","Guangxi","Fangchenggang",19,19,0,0
+2020-04-14,"China","Guangxi","Qinzhou",8,8,0,0
+2020-04-14,"China","Guangxi","Guigang",8,8,0,0
+2020-04-14,"China","Guangxi","Yulin",11,11,0,0
+2020-04-14,"China","Guangxi","Baise",3,3,0,0
+2020-04-14,"China","Guangxi","Hezhou",4,4,0,0
+2020-04-14,"China","Guangxi","Hechi",28,27,1,0
+2020-04-14,"China","Guangxi","Laibin",11,11,0,0
+2020-04-14,"China","Guangxi","Chongzuo",0,0,0,0
+2020-04-14,"China","Hainan",NA,0,0,0,0
+2020-04-14,"China","Hainan","Haikou",39,39,0,0
+2020-04-14,"China","Hainan","Sanya",54,53,1,0
+2020-04-14,"China","Hainan","Sansha",0,0,0,0
+2020-04-14,"China","Hainan","Danzhou",15,14,1,0
+2020-04-14,"China","Hainan","Wuzhishan",0,0,0,0
+2020-04-14,"China","Hainan","Qionghai",6,5,1,0
+2020-04-14,"China","Hainan","Wenchang",3,3,0,0
+2020-04-14,"China","Hainan","Wanning",13,13,0,0
+2020-04-14,"China","Hainan","Dongfang",3,2,1,0
+2020-04-14,"China","Hainan","Ding'an County",3,2,1,0
+2020-04-14,"China","Hainan",NA,0,0,0,0
+2020-04-14,"China","Hainan","Chengmai County",9,8,1,0
+2020-04-14,"China","Hainan","Lingao County",6,6,0,0
+2020-04-14,"China","Hainan",NA,0,0,0,0
+2020-04-14,"China","Hainan","Changjiang County",7,7,0,0
+2020-04-14,"China","Hainan",NA,2,2,0,0
+2020-04-14,"China","Hainan","Lingshui County",4,4,0,0
+2020-04-14,"China","Hainan","Baoting County",3,3,0,0
+2020-04-14,"China","Hainan","Qiongzhong County",1,1,0,0
+2020-04-14,"China","Chongqing","Gaoxin District",4,4,0,0
+2020-04-14,"China","Chongqing","Liangjiang New Area",17,17,0,0
+2020-04-14,"China","Chongqing",NA,3,0,0,0
+2020-04-14,"China","Chongqing","Wanzhou District",118,114,4,0
+2020-04-14,"China","Chongqing","Fuling District",5,5,0,0
+2020-04-14,"China","Chongqing","Yuzhong District",20,20,0,0
+2020-04-14,"China","Chongqing","Dadukou District",7,7,0,0
+2020-04-14,"China","Chongqing","Jiangbei District",28,28,0,0
+2020-04-14,"China","Chongqing","Shapingba District",9,9,0,0
+2020-04-14,"China","Chongqing","Jiulongpo District",21,20,1,0
+2020-04-14,"China","Chongqing","Nan'an District",15,15,0,0
+2020-04-14,"China","Chongqing",NA,0,0,0,0
+2020-04-14,"China","Chongqing","Qijiang District",23,23,0,0
+2020-04-14,"China","Chongqing","Dazu District",14,14,0,0
+2020-04-14,"China","Chongqing","Yubei District",17,17,0,0
+2020-04-14,"China","Chongqing","Banan District",6,6,0,0
+2020-04-14,"China","Chongqing","Qianjiang District",2,2,0,0
+2020-04-14,"China","Chongqing","Changshou District",22,22,0,0
+2020-04-14,"China","Chongqing","Jiangjin District",4,4,0,0
+2020-04-14,"China","Chongqing","Hechuan District",23,23,0,0
+2020-04-14,"China","Chongqing","Yongchuan District",5,5,0,0
+2020-04-14,"China","Chongqing",NA,0,0,0,0
+2020-04-14,"China","Chongqing","Bishan District",9,9,0,0
+2020-04-14,"China","Chongqing","Tongliang District",10,10,0,0
+2020-04-14,"China","Chongqing","Tongnan District",18,18,0,0
+2020-04-14,"China","Chongqing","Rongchang District",9,9,0,0
+2020-04-14,"China","Chongqing","Kaizhou District",21,20,1,0
+2020-04-14,"China","Chongqing","Liangping District",4,4,0,0
+2020-04-14,"China","Chongqing","Wulong District",1,1,0,0
+2020-04-14,"China","Chongqing","Chengkou District",2,2,0,0
+2020-04-14,"China","Chongqing","Fengdu County",10,10,0,0
+2020-04-14,"China","Chongqing","Dianjiang County",20,20,0,0
+2020-04-14,"China","Chongqing","Zhong County",21,21,0,0
+2020-04-14,"China","Chongqing","Yunyang County",25,25,0,0
+2020-04-14,"China","Chongqing","Fengjie County",22,22,0,0
+2020-04-14,"China","Chongqing","Wushan County",10,10,0,0
+2020-04-14,"China","Chongqing","Wuxi County",14,14,0,0
+2020-04-14,"China","Chongqing","Shizhu County",15,15,0,0
+2020-04-14,"China","Chongqing","Xiushan County",1,1,0,0
+2020-04-14,"China","Chongqing","Youyang County",1,1,0,0
+2020-04-14,"China","Chongqing","Pengshui County",2,2,0,0
+2020-04-14,"China","Chongqing","Wansheng Economic Development Zone",1,1,0,0
+2020-04-14,"China","Sichuan",NA,0,0,0,0
+2020-04-14,"China","Sichuan","Chengdu",165,153,3,0
+2020-04-14,"China","Sichuan","Zigong",9,9,0,0
+2020-04-14,"China","Sichuan","Panzhihua",16,16,0,0
+2020-04-14,"China","Sichuan","Luzhou",24,24,0,0
+2020-04-14,"China","Sichuan","Deyang",18,18,0,0
+2020-04-14,"China","Sichuan","Mianyang",22,22,0,0
+2020-04-14,"China","Sichuan","Guangyuan",6,6,0,0
+2020-04-14,"China","Sichuan","Suining",17,17,0,0
+2020-04-14,"China","Sichuan","Neijiang",22,22,0,0
+2020-04-14,"China","Sichuan","Leshan",3,3,0,0
+2020-04-14,"China","Sichuan","Nanchong",39,39,0,0
+2020-04-14,"China","Sichuan","Meishan",8,8,0,0
+2020-04-14,"China","Sichuan","Yibin",12,12,0,0
+2020-04-14,"China","Sichuan","Guang'an",30,30,0,0
+2020-04-14,"China","Sichuan","Dazhou",42,42,0,0
+2020-04-14,"China","Sichuan","Ya'an",7,7,0,0
+2020-04-14,"China","Sichuan","Bazhong",24,24,0,0
+2020-04-14,"China","Sichuan","Ziyang",4,4,0,0
+2020-04-14,"China","Sichuan","Ngawa County",1,1,0,0
+2020-04-14,"China","Sichuan","Garzê",78,78,0,0
+2020-04-14,"China","Sichuan","Liangshan",13,13,0,0
+2020-04-14,"China","Guizhou",NA,1,0,0,0
+2020-04-14,"China","Guizhou","Guiyang",36,35,1,0
+2020-04-14,"China","Guizhou","Liupanshui",10,9,1,0
+2020-04-14,"China","Guizhou","Zunyi",32,32,0,0
+2020-04-14,"China","Guizhou","Anshun",4,4,0,0
+2020-04-14,"China","Guizhou","Bijie",23,23,0,0
+2020-04-14,"China","Guizhou","Tongren",10,10,0,0
+2020-04-14,"China","Guizhou","Qianxinan Prefecture",4,4,0,0
+2020-04-14,"China","Guizhou","Qiandongnan Prefecture",10,10,0,0
+2020-04-14,"China","Guizhou","Qiannan Prefecture",17,17,0,0
+2020-04-14,"China","Yunnan",NA,10,3,0,0
+2020-04-14,"China","Yunnan","Kunming",53,53,0,0
+2020-04-14,"China","Yunnan","Qujing",13,13,0,0
+2020-04-14,"China","Yunnan","Yuxi",14,13,1,0
+2020-04-14,"China","Yunnan","Baoshan",9,9,0,0
+2020-04-14,"China","Yunnan","Zhaotong",25,25,0,0
+2020-04-14,"China","Yunnan","Lijiang",7,7,0,0
+2020-04-14,"China","Yunnan","Pu'er",4,4,0,0
+2020-04-14,"China","Yunnan","Lincang",1,1,0,0
+2020-04-14,"China","Yunnan","Chuxiong Prefecture",4,4,0,0
+2020-04-14,"China","Yunnan",NA,9,9,0,0
+2020-04-14,"China","Yunnan","Wenshan Prefecture",2,2,0,0
+2020-04-14,"China","Yunnan","Xishuangbanna",15,14,1,0
+2020-04-14,"China","Yunnan",NA,13,13,0,0
+2020-04-14,"China","Yunnan",NA,5,5,0,0
+2020-04-14,"China","Yunnan",NA,0,0,0,0
+2020-04-14,"China","Yunnan",NA,0,0,0,0
+2020-04-14,"China","Tibet",NA,0,0,0,0
+2020-04-14,"China","Tibet","Lhasa",1,1,0,0
+2020-04-14,"China","Tibet","Xigazê",0,0,0,0
+2020-04-14,"China","Tibet","Qamdo",0,0,0,0
+2020-04-14,"China","Tibet","Nyingchi",0,0,0,0
+2020-04-14,"China","Tibet","Shannan",0,0,0,0
+2020-04-14,"China","Tibet","Nagqu",0,0,0,0
+2020-04-14,"China","Tibet",NA,0,0,0,0
+2020-04-14,"China","Shaanxi",NA,11,6,0,0
+2020-04-14,"China","Shaanxi","Xi'an",120,117,3,0
+2020-04-14,"China","Shaanxi","Tongchuan",8,8,0,0
+2020-04-14,"China","Shaanxi","Baoji",13,13,0,0
+2020-04-14,"China","Shaanxi","Xianyang",17,17,0,0
+2020-04-14,"China","Shaanxi","Weinan",15,15,0,0
+2020-04-14,"China","Shaanxi","Yan'an",8,8,0,0
+2020-04-14,"China","Shaanxi","Hanzhong",26,26,0,0
+2020-04-14,"China","Shaanxi","Yulin",3,3,0,0
+2020-04-14,"China","Shaanxi","Ankang",26,26,0,0
+2020-04-14,"China","Shaanxi","Yangling Demonstration Zone",1,1,0,0
+2020-04-14,"China","Shaanxi","Shangluo",7,7,0,0
+2020-04-14,"China","Shaanxi","Hancheng",1,1,0,0
+2020-04-14,"China","Gansu",NA,47,46,0,0
+2020-04-14,"China","Gansu","Lanzhou",37,35,2,0
+2020-04-14,"China","Gansu","Jiayuguan",0,0,0,0
+2020-04-14,"China","Gansu","Jinchang",1,1,0,0
+2020-04-14,"China","Gansu","Baiyin",4,4,0,0
+2020-04-14,"China","Gansu","Tianshui",12,12,0,0
+2020-04-14,"China","Gansu","Wuwei",0,0,0,0
+2020-04-14,"China","Gansu","Zhangye",2,2,0,0
+2020-04-14,"China","Gansu","Pingliang",9,9,0,0
+2020-04-14,"China","Gansu","Jiuquan",0,0,0,0
+2020-04-14,"China","Gansu","Qingyang",3,3,0,0
+2020-04-14,"China","Gansu","Dingxi",9,9,0,0
+2020-04-14,"China","Gansu","Longnan",4,4,0,0
+2020-04-14,"China","Gansu",NA,3,3,0,0
+2020-04-14,"China","Gansu","Gannan Prefecture",8,8,0,0
+2020-04-14,"China","Qinghai",NA,0,0,0,0
+2020-04-14,"China","Qinghai","Xining",15,15,0,0
+2020-04-14,"China","Qinghai","Haidong",0,0,0,0
+2020-04-14,"China","Qinghai","Haibei Prefecture",3,3,0,0
+2020-04-14,"China","Qinghai",NA,0,0,0,0
+2020-04-14,"China","Qinghai",NA,0,0,0,0
+2020-04-14,"China","Qinghai",NA,0,0,0,0
+2020-04-14,"China","Qinghai",NA,0,0,0,0
+2020-04-14,"China","Qinghai",NA,0,0,0,0
+2020-04-14,"China","Ningxia","Ningdong",1,1,0,0
+2020-04-14,"China","Ningxia",NA,0,0,0,0
+2020-04-14,"China","Ningxia","Yinchuan",36,36,0,0
+2020-04-14,"China","Ningxia","Shizuishan",1,1,0,0
+2020-04-14,"China","Ningxia","Wuzhong",28,28,0,0
+2020-04-14,"China","Ningxia","Guyuan",5,5,0,0
+2020-04-14,"China","Ningxia","Zhongwei",4,4,0,0
+2020-04-14,"China","Xinjiang","9th Division of Xinjiang Production and Construction Corps",4,3,1,0
+2020-04-14,"China","Xinjiang","7th Division of Xinjiang Production and Construction Corps",1,1,0,0
+2020-04-14,"China","Xinjiang",NA,0,0,0,0
+2020-04-14,"China","Xinjiang","ÜrümqiÜrümqi",23,23,0,0
+2020-04-14,"China","Xinjiang","Karamay",0,0,0,0
+2020-04-14,"China","Xinjiang","Turpan",3,3,0,0
+2020-04-14,"China","Xinjiang","Hami",0,0,0,0
+2020-04-14,"China","Xinjiang","12th Division of Xinjiang Production and Construction Corps",3,3,0,0
+2020-04-14,"China","Xinjiang",NA,10,9,1,0
+2020-04-14,"China","Xinjiang","Changji Prefecture",4,4,0,0
+2020-04-14,"China","Xinjiang",NA,0,0,0,0
+2020-04-14,"China","Xinjiang",NA,3,3,0,0
+2020-04-14,"China","Xinjiang","Aksu",1,1,0,0
+2020-04-14,"China","Xinjiang",NA,0,0,0,0
+2020-04-14,"China","Xinjiang","Kashgar",0,0,0,0
+2020-04-14,"China","Xinjiang","Hotan",0,0,0,0
+2020-04-14,"China","Xinjiang",NA,18,18,0,0
+2020-04-14,"China","Xinjiang","Tacheng",0,0,0,0
+2020-04-14,"China","Xinjiang","Altay",0,0,0,0
+2020-04-14,"China","Xinjiang","Shihezi",4,3,1,0
+2020-04-14,"China","Xinjiang","Aral",0,0,0,0
+2020-04-14,"China","Xinjiang","Tumxuk",0,0,0,0
+2020-04-14,"China","Xinjiang","Wujiaqu",2,2,0,0
+2020-04-14,"China","Xinjiang","Beitun",0,0,0,0
+2020-04-14,"China","Xinjiang","Tiemenguan",0,0,0,0
+2020-04-14,"China","Xinjiang","Shuanghe",0,0,0,0
+2020-04-14,"China","Xinjiang","Kokdala",0,0,0,0
+2020-04-14,"China","Xinjiang","Kunyu",0,0,0,0
+2020-04-14,"China","Taiwan","Taiwan",393,124,6,0
+2020-04-14,"China","Hong Kong","Hong Kong",1012,434,4,0
+2020-04-14,"China","Macau","Macau",45,15,0,0
+2020-04-15,"China","Beijing","Location TBD",0,384,8,0
+2020-04-15,"China","Beijing","Foreign to Beijing",25,2,0,0
+2020-04-15,"China","Beijing",NA,174,91,0,0
+2020-04-15,"China","Beijing","Dongcheng",14,0,0,0
+2020-04-15,"China","Beijing","Xicheng",53,0,0,0
+2020-04-15,"China","Beijing","Chaoyang",72,0,0,0
+2020-04-15,"China","Beijing","Fengtai",43,0,0,0
+2020-04-15,"China","Beijing","Shijingshan",14,1,0,0
+2020-04-15,"China","Beijing","Haidian",64,0,0,0
+2020-04-15,"China","Beijing","Mentougou",3,0,0,0
+2020-04-15,"China","Beijing","Fangshan",16,0,0,0
+2020-04-15,"China","Beijing","Tongzhou",19,0,0,0
+2020-04-15,"China","Beijing","Shunyi",10,0,0,0
+2020-04-15,"China","Beijing","Changping",29,1,0,0
+2020-04-15,"China","Beijing","Daxing",39,16,0,0
+2020-04-15,"China","Beijing","Huairou",7,0,0,0
+2020-04-15,"China","Beijing",NA,0,0,0,0
+2020-04-15,"China","Beijing","Miyun",7,0,0,0
+2020-04-15,"China","Beijing","Yanqing",1,0,0,0
+2020-04-15,"China","Tianjin","Foreign to Tianjin",6,6,0,0
+2020-04-15,"China","Tianjin",NA,49,38,0,0
+2020-04-15,"China","Tianjin","Changjiang County",6,6,0,0
+2020-04-15,"China","Tianjin","Ding'an County",15,14,1,0
+2020-04-15,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-15,"China","Tianjin","Qiongzhong County",6,6,0,0
+2020-04-15,"China","Tianjin","Lingao County",12,12,0,0
+2020-04-15,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-15,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-15,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-15,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-15,"China","Tianjin","Beichen District",6,6,0,0
+2020-04-15,"China","Tianjin","Wuqing District",2,2,0,0
+2020-04-15,"China","Tianjin","Lingshui County",60,58,2,0
+2020-04-15,"China","Tianjin","Ledong County",3,3,0,0
+2020-04-15,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-15,"China","Tianjin",NA,0,0,0,0
+2020-04-15,"China","Tianjin",NA,0,0,0,0
+2020-04-15,"China","Hebei",NA,9,2,0,0
+2020-04-15,"China","Hebei","Shijiazhuang",29,29,0,0
+2020-04-15,"China","Hebei","Tangshan",58,57,1,0
+2020-04-15,"China","Hebei","Qinhuangdao",10,9,1,0
+2020-04-15,"China","Hebei","Handan",32,32,0,0
+2020-04-15,"China","Hebei","Xingtai",23,22,1,0
+2020-04-15,"China","Hebei","Baoding",32,32,0,0
+2020-04-15,"China","Hebei","Zhangjiakou",41,41,0,0
+2020-04-15,"China","Hebei","Chengde",7,7,0,0
+2020-04-15,"China","Hebei","Cangzhou",48,45,3,0
+2020-04-15,"China","Hebei","Langfang",30,30,0,0
+2020-04-15,"China","Hebei","Hengshui",8,8,0,0
+2020-04-15,"China","Shanxi",NA,53,2,0,0
+2020-04-15,"China","Shanxi","Taiyuan",20,20,0,0
+2020-04-15,"China","Shanxi","Datong",12,12,0,0
+2020-04-15,"China","Shanxi","Yangquan",4,4,0,0
+2020-04-15,"China","Shanxi","Changzhi",8,8,0,0
+2020-04-15,"China","Shanxi","Jincheng",10,10,0,0
+2020-04-15,"China","Shanxi","Shuozhou",8,8,0,0
+2020-04-15,"China","Shanxi","Jinzhong",37,37,0,0
+2020-04-15,"China","Shanxi","Yuncheng",19,19,0,0
+2020-04-15,"China","Shanxi","Xinzhou",7,7,0,0
+2020-04-15,"China","Shanxi","Linfen",2,2,0,0
+2020-04-15,"China","Shanxi","Lüliang",6,6,0,0
+2020-04-15,"China","Inner Mongolia",NA,115,20,0,0
+2020-04-15,"China","Inner Mongolia","Hohhot",7,7,0,0
+2020-04-15,"China","Inner Mongolia","Baotou",11,11,0,0
+2020-04-15,"China","Inner Mongolia","Wuhai",2,2,0,0
+2020-04-15,"China","Inner Mongolia","Chifeng",9,9,0,0
+2020-04-15,"China","Inner Mongolia","Tongliao",7,7,0,0
+2020-04-15,"China","Inner Mongolia","Ordos",11,11,0,0
+2020-04-15,"China","Inner Mongolia","Hulunbuir",7,7,0,0
+2020-04-15,"China","Inner Mongolia","Bayannur",8,7,1,0
+2020-04-15,"China","Inner Mongolia","Ulanqab",3,3,0,0
+2020-04-15,"China","Inner Mongolia",NA,1,1,0,0
+2020-04-15,"China","Inner Mongolia","Xilingol League",9,9,0,0
+2020-04-15,"China","Inner Mongolia",NA,0,0,0,0
+2020-04-15,"China","Liaoning",NA,21,17,0,0
+2020-04-15,"China","Liaoning","Shenyang",28,28,0,0
+2020-04-15,"China","Liaoning","Dalian",18,17,0,0
+2020-04-15,"China","Liaoning","Anshan",4,4,0,0
+2020-04-15,"China","Liaoning","Benxi",3,3,0,0
+2020-04-15,"China","Liaoning","Dandong",11,11,0,0
+2020-04-15,"China","Liaoning","Jinzhou",12,12,0,0
+2020-04-15,"China","Liaoning","Yingkou",1,1,0,0
+2020-04-15,"China","Liaoning","Fuxin",8,8,0,0
+2020-04-15,"China","Liaoning","Liaoyang",3,3,0,0
+2020-04-15,"China","Liaoning","Panjin",11,11,0,0
+2020-04-15,"China","Liaoning","Tieling",7,7,0,0
+2020-04-15,"China","Liaoning","Chaoyang",6,5,1,0
+2020-04-15,"China","Liaoning","Huludao",12,11,1,0
+2020-04-15,"China","Jilin","Gongzhuling",6,6,0,0
+2020-04-15,"China","Jilin",NA,9,4,0,0
+2020-04-15,"China","Jilin","Changchun",45,45,0,0
+2020-04-15,"China","Jilin","Jilin",5,5,0,0
+2020-04-15,"China","Jilin","Siping",15,14,1,0
+2020-04-15,"China","Jilin","Liaoyuan",7,7,0,0
+2020-04-15,"China","Jilin","Tonghua",6,6,0,0
+2020-04-15,"China","Jilin","Baishan",0,0,0,0
+2020-04-15,"China","Jilin","Songyuan",2,2,0,0
+2020-04-15,"China","Jilin","Baicheng",1,1,0,0
+2020-04-15,"China","Jilin","Meihekou",1,1,0,0
+2020-04-15,"China","Jilin",NA,5,5,0,0
+2020-04-15,"China","Heilongjiang",NA,340,1,0,0
+2020-04-15,"China","Heilongjiang","Harbin",217,194,4,0
+2020-04-15,"China","Heilongjiang","Qiqihar",43,42,1,0
+2020-04-15,"China","Heilongjiang","Jixi",46,46,0,0
+2020-04-15,"China","Heilongjiang","Hegang",5,5,0,0
+2020-04-15,"China","Heilongjiang","Shuangyashan",52,49,3,0
+2020-04-15,"China","Heilongjiang","Daqing",26,25,1,0
+2020-04-15,"China","Heilongjiang","Yichun",1,1,0,0
+2020-04-15,"China","Heilongjiang","Jiamusi",15,15,0,0
+2020-04-15,"China","Heilongjiang","Qitaihe",17,17,0,0
+2020-04-15,"China","Heilongjiang","Mudanjiang",15,15,0,0
+2020-04-15,"China","Heilongjiang","Heihe",14,14,0,0
+2020-04-15,"China","Heilongjiang","Suihua",47,43,4,0
+2020-04-15,"China","Heilongjiang","Daxing'anling",3,3,0,0
+2020-04-15,"China","Shanghai","Location TBD",0,3,1,0
+2020-04-15,"China","Shanghai","Foreign to Shanghai",111,107,1,0
+2020-04-15,"China","Shanghai",NA,283,155,0,0
+2020-04-15,"China","Shanghai","Huangpu",6,5,1,0
+2020-04-15,"China","Shanghai","Xuhui",18,17,1,0
+2020-04-15,"China","Shanghai","Changning",13,13,0,0
+2020-04-15,"China","Shanghai","Jing'an",16,15,1,0
+2020-04-15,"China","Shanghai","Putuo",11,11,0,0
+2020-04-15,"China","Shanghai","Hongkou",7,7,0,0
+2020-04-15,"China","Shanghai","Yangpu",9,9,0,0
+2020-04-15,"China","Shanghai","Minhang",19,19,0,0
+2020-04-15,"China","Shanghai","Baoshan",22,19,1,0
+2020-04-15,"China","Shanghai","Jiading",9,7,1,0
+2020-04-15,"China","Shanghai",NA,61,61,0,0
+2020-04-15,"China","Shanghai","Jinshan",4,4,0,0
+2020-04-15,"China","Shanghai","Songjiang",14,14,0,0
+2020-04-15,"China","Shanghai","Qingpu",6,6,0,0
+2020-04-15,"China","Shanghai","Fengxian",9,9,0,0
+2020-04-15,"China","Shanghai","Chongming",4,4,0,0
+2020-04-15,"China","Jiangsu",NA,22,11,0,0
+2020-04-15,"China","Jiangsu","Nanjing",93,93,0,0
+2020-04-15,"China","Jiangsu","Wuxi",55,55,0,0
+2020-04-15,"China","Jiangsu","Xuzhou",79,79,0,0
+2020-04-15,"China","Jiangsu","Changzhou",51,51,0,0
+2020-04-15,"China","Jiangsu","Suzhou",87,87,0,0
+2020-04-15,"China","Jiangsu","Nantong",40,40,0,0
+2020-04-15,"China","Jiangsu","Lianyungang",48,48,0,0
+2020-04-15,"China","Jiangsu","Huai'an",66,66,0,0
+2020-04-15,"China","Jiangsu","Yancheng",27,27,0,0
+2020-04-15,"China","Jiangsu","Yangzhou",23,23,0,0
+2020-04-15,"China","Jiangsu","Zhenjiang",12,12,0,0
+2020-04-15,"China","Jiangsu","Taizhou",37,37,0,0
+2020-04-15,"China","Jiangsu","Suqian",13,13,0,0
+2020-04-15,"China","Zhejiang",NA,36,36,0,0
+2020-04-15,"China","Zhejiang",NA,50,27,0,0
+2020-04-15,"China","Zhejiang",NA,0,0,0,0
+2020-04-15,"China","Zhejiang","Hangzhou",181,181,0,0
+2020-04-15,"China","Zhejiang","Ningbo",157,157,0,0
+2020-04-15,"China","Zhejiang","Wenzhou",504,503,1,0
+2020-04-15,"China","Zhejiang","Jiaxing",46,46,0,0
+2020-04-15,"China","Zhejiang","Huzhou",10,10,0,0
+2020-04-15,"China","Zhejiang","Shaoxing",42,42,0,0
+2020-04-15,"China","Zhejiang","Jinhua",55,55,0,0
+2020-04-15,"China","Zhejiang","Quzhou",14,14,0,0
+2020-04-15,"China","Zhejiang","Zhoushan",10,10,0,0
+2020-04-15,"China","Zhejiang","Taizhou",146,146,0,0
+2020-04-15,"China","Zhejiang","Lishui",17,17,0,0
+2020-04-15,"China","Anhui",NA,1,0,0,0
+2020-04-15,"China","Anhui","Hefei",174,173,1,0
+2020-04-15,"China","Anhui","Wuhu",34,34,0,0
+2020-04-15,"China","Anhui","Bengbu",160,155,5,0
+2020-04-15,"China","Anhui","Huainan",27,27,0,0
+2020-04-15,"China","Anhui","Ma'anshan",38,38,0,0
+2020-04-15,"China","Anhui","Huaibei",27,27,0,0
+2020-04-15,"China","Anhui","Tongling",29,29,0,0
+2020-04-15,"China","Anhui","Anqing",83,83,0,0
+2020-04-15,"China","Anhui","Huangshan",9,9,0,0
+2020-04-15,"China","Anhui","Chuzhou",13,13,0,0
+2020-04-15,"China","Anhui","Fuyang",155,155,0,0
+2020-04-15,"China","Anhui","Suzhou",41,41,0,0
+2020-04-15,"China","Anhui","Lu'an",69,69,0,0
+2020-04-15,"China","Anhui","Bozhou",108,108,0,0
+2020-04-15,"China","Anhui","Chizhou",17,17,0,0
+2020-04-15,"China","Anhui","Xuancheng",6,6,0,0
+2020-04-15,"China","Fujian",NA,57,38,0,0
+2020-04-15,"China","Fujian","Fuzhou",72,71,1,0
+2020-04-15,"China","Fujian","Xiamen",35,35,0,0
+2020-04-15,"China","Fujian","Putian",56,56,0,0
+2020-04-15,"China","Fujian","Sanming",14,14,0,0
+2020-04-15,"China","Fujian","Quanzhou",47,47,0,0
+2020-04-15,"China","Fujian","Zhangzhou",20,20,0,0
+2020-04-15,"China","Fujian","Nanping",20,20,0,0
+2020-04-15,"China","Fujian","Longyan",6,6,0,0
+2020-04-15,"China","Fujian","Ningde",26,26,0,0
+2020-04-15,"China","Jiangxi",NA,1,1,0,0
+2020-04-15,"China","Jiangxi",NA,2,2,0,0
+2020-04-15,"China","Jiangxi","Nanchang",230,230,0,0
+2020-04-15,"China","Jiangxi","Jingdezhen",6,6,0,0
+2020-04-15,"China","Jiangxi","Pingxiang",33,33,0,0
+2020-04-15,"China","Jiangxi","Jiujiang",118,118,0,0
+2020-04-15,"China","Jiangxi","Xinyu",130,130,0,0
+2020-04-15,"China","Jiangxi","Yingtan",18,18,0,0
+2020-04-15,"China","Jiangxi","Ganzhou",76,75,1,0
+2020-04-15,"China","Jiangxi","Ji'an",22,22,0,0
+2020-04-15,"China","Jiangxi","Yichun",106,106,0,0
+2020-04-15,"China","Jiangxi","Fuzhou",72,72,0,0
+2020-04-15,"China","Jiangxi","Shangrao",123,123,0,0
+2020-04-15,"China","Shandong",NA,23,9,0,0
+2020-04-15,"China","Shandong","Jinan",47,47,0,0
+2020-04-15,"China","Shandong","Qingdao",63,60,1,0
+2020-04-15,"China","Shandong","Zibo",30,29,1,0
+2020-04-15,"China","Shandong","Zaozhuang",24,24,0,0
+2020-04-15,"China","Shandong","Dongying",0,0,0,0
+2020-04-15,"China","Shandong","Yantai",47,47,0,0
+2020-04-15,"China","Shandong","Weifang",44,44,0,0
+2020-04-15,"China","Shandong","Jining",260,260,0,0
+2020-04-15,"China","Shandong","Tai'an",35,33,2,0
+2020-04-15,"China","Shandong","Weihai",38,37,1,0
+2020-04-15,"China","Shandong","Rizhao",16,16,0,0
+2020-04-15,"China","Shandong","Linyi",49,49,0,0
+2020-04-15,"China","Shandong","Dezhou",37,35,2,0
+2020-04-15,"China","Shandong","Liaocheng",38,38,0,0
+2020-04-15,"China","Shandong","Binzhou",15,15,0,0
+2020-04-15,"China","Shandong","Heze",18,18,0,0
+2020-04-15,"China","Henan",NA,3,3,0,0
+2020-04-15,"China","Henan","Zhengzhou",157,152,5,0
+2020-04-15,"China","Henan","Kaifeng",26,26,0,0
+2020-04-15,"China","Henan","Luoyang",31,30,1,0
+2020-04-15,"China","Henan","Pingdingshan",58,57,1,0
+2020-04-15,"China","Henan","Anyang",53,53,0,0
+2020-04-15,"China","Henan","Hebi",19,19,0,0
+2020-04-15,"China","Henan","Xinxiang",57,54,3,0
+2020-04-15,"China","Henan","Jiaozuo",32,31,1,0
+2020-04-15,"China","Henan","Puyang",17,17,0,0
+2020-04-15,"China","Henan","Xuchang",39,38,1,0
+2020-04-15,"China","Henan","Luohe",36,36,0,0
+2020-04-15,"China","Henan","Sanmenxia",7,6,1,0
+2020-04-15,"China","Henan","Nanyang",156,153,3,0
+2020-04-15,"China","Henan","Shangqiu",91,88,3,0
+2020-04-15,"China","Henan","Xinyang",274,272,2,0
+2020-04-15,"China","Henan","Zhoukou",76,75,1,0
+2020-04-15,"China","Henan","Zhumadian",139,139,0,0
+2020-04-15,"China","Henan","Jiyuan",5,5,0,0
+2020-04-15,"China","Hubei",NA,0,0,0,0
+2020-04-15,"China","Hubei",NA,1,0,0,0
+2020-04-15,"China","Hubei","Wuhan",50007,47250,2579,0
+2020-04-15,"China","Hubei","Huangshi",1015,976,39,0
+2020-04-15,"China","Hubei","Shiyan",672,664,8,0
+2020-04-15,"China","Hubei","Yichang",931,894,37,0
+2020-04-15,"China","Hubei","Xiangyang",1175,1135,40,0
+2020-04-15,"China","Hubei","Ezhou",1394,1335,59,0
+2020-04-15,"China","Hubei","Jingmen",928,887,41,0
+2020-04-15,"China","Hubei","Xiaogan",3518,3389,129,0
+2020-04-15,"China","Hubei","Jingzhou",1580,1528,52,0
+2020-04-15,"China","Hubei","Huanggang",2907,2782,125,0
+2020-04-15,"China","Hubei","Xianning",836,821,15,0
+2020-04-15,"China","Hubei","Suizhou",1307,1262,45,0
+2020-04-15,"China","Hubei","Enshi",252,245,7,0
+2020-04-15,"China","Hubei","Xiantao",575,553,22,0
+2020-04-15,"China","Hubei","Qianjiang",198,189,9,0
+2020-04-15,"China","Hubei","Tianmen",496,481,15,0
+2020-04-15,"China","Hubei","Shennongjia",11,11,0,0
+2020-04-15,"China","Hunan",NA,1,0,0,0
+2020-04-15,"China","Hunan","Changsha",242,240,2,0
+2020-04-15,"China","Hunan","Zhuzhou",80,80,0,0
+2020-04-15,"China","Hunan","Xiangtan",36,36,0,0
+2020-04-15,"China","Hunan","Hengyang",48,48,0,0
+2020-04-15,"China","Hunan","Shaoyang",102,101,1,0
+2020-04-15,"China","Hunan","Yueyang",156,155,1,0
+2020-04-15,"China","Hunan","Changde",82,82,0,0
+2020-04-15,"China","Hunan","Zhangjiajie",5,5,0,0
+2020-04-15,"China","Hunan","Yiyang",60,60,0,0
+2020-04-15,"China","Hunan","Chenzhou",39,39,0,0
+2020-04-15,"China","Hunan","Yongzhou",44,44,0,0
+2020-04-15,"China","Hunan","Huaihua",40,40,0,0
+2020-04-15,"China","Hunan","Loudi",76,76,0,0
+2020-04-15,"China","Hunan",NA,8,8,0,0
+2020-04-15,"China","Guangdong","Location TBD",0,4,0,0
+2020-04-15,"China","Guangdong",NA,0,0,0,0
+2020-04-15,"China","Guangdong","Guangzhou",490,442,1,0
+2020-04-15,"China","Guangdong","Shaoguan",10,9,1,0
+2020-04-15,"China","Guangdong","Shenzhen",458,424,3,0
+2020-04-15,"China","Guangdong","Zhuhai",103,99,1,0
+2020-04-15,"China","Guangdong","Shantou",26,26,0,0
+2020-04-15,"China","Guangdong","Foshan",97,86,0,0
+2020-04-15,"China","Guangdong","Jiangmen",24,23,0,0
+2020-04-15,"China","Guangdong","Zhanjiang",24,23,0,0
+2020-04-15,"China","Guangdong","Maoming",14,14,0,0
+2020-04-15,"China","Guangdong","Zhaoqing",20,19,1,0
+2020-04-15,"China","Guangdong","Huizhou",62,62,0,0
+2020-04-15,"China","Guangdong","Meizhou",17,16,0,0
+2020-04-15,"China","Guangdong","Shanwei",5,5,0,0
+2020-04-15,"China","Guangdong","Heyuan",5,4,0,0
+2020-04-15,"China","Guangdong","Yangjiang",14,14,0,0
+2020-04-15,"China","Guangdong","Qingyuan",12,12,0,0
+2020-04-15,"China","Guangdong","Dongguan",100,99,1,0
+2020-04-15,"China","Guangdong","Zhongshan",68,68,0,0
+2020-04-15,"China","Guangdong","Chaozhou",6,5,0,0
+2020-04-15,"China","Guangdong","Jieyang",11,8,0,0
+2020-04-15,"China","Guangdong","Yunfu",0,0,0,0
+2020-04-15,"China","Guangxi",NA,2,2,0,0
+2020-04-15,"China","Guangxi","Nanning",55,55,0,0
+2020-04-15,"China","Guangxi","Liuzhou",24,24,0,0
+2020-04-15,"China","Guangxi","Guilin",32,32,0,0
+2020-04-15,"China","Guangxi","Wuzhou",5,5,0,0
+2020-04-15,"China","Guangxi","Beihai",44,43,1,0
+2020-04-15,"China","Guangxi","Fangchenggang",19,19,0,0
+2020-04-15,"China","Guangxi","Qinzhou",8,8,0,0
+2020-04-15,"China","Guangxi","Guigang",8,8,0,0
+2020-04-15,"China","Guangxi","Yulin",11,11,0,0
+2020-04-15,"China","Guangxi","Baise",3,3,0,0
+2020-04-15,"China","Guangxi","Hezhou",4,4,0,0
+2020-04-15,"China","Guangxi","Hechi",28,27,1,0
+2020-04-15,"China","Guangxi","Laibin",11,11,0,0
+2020-04-15,"China","Guangxi","Chongzuo",0,0,0,0
+2020-04-15,"China","Hainan",NA,0,0,0,0
+2020-04-15,"China","Hainan","Haikou",39,39,0,0
+2020-04-15,"China","Hainan","Sanya",54,53,1,0
+2020-04-15,"China","Hainan","Sansha",0,0,0,0
+2020-04-15,"China","Hainan","Danzhou",15,14,1,0
+2020-04-15,"China","Hainan","Wuzhishan",0,0,0,0
+2020-04-15,"China","Hainan","Qionghai",6,5,1,0
+2020-04-15,"China","Hainan","Wenchang",3,3,0,0
+2020-04-15,"China","Hainan","Wanning",13,13,0,0
+2020-04-15,"China","Hainan","Dongfang",3,2,1,0
+2020-04-15,"China","Hainan","Ding'an County",3,2,1,0
+2020-04-15,"China","Hainan",NA,0,0,0,0
+2020-04-15,"China","Hainan","Chengmai County",9,8,1,0
+2020-04-15,"China","Hainan","Lingao County",6,6,0,0
+2020-04-15,"China","Hainan",NA,0,0,0,0
+2020-04-15,"China","Hainan","Changjiang County",7,7,0,0
+2020-04-15,"China","Hainan",NA,2,2,0,0
+2020-04-15,"China","Hainan","Lingshui County",4,4,0,0
+2020-04-15,"China","Hainan","Baoting County",3,3,0,0
+2020-04-15,"China","Hainan","Qiongzhong County",1,1,0,0
+2020-04-15,"China","Chongqing","Gaoxin District",4,4,0,0
+2020-04-15,"China","Chongqing","Liangjiang New Area",17,17,0,0
+2020-04-15,"China","Chongqing",NA,3,0,0,0
+2020-04-15,"China","Chongqing","Wanzhou District",118,114,4,0
+2020-04-15,"China","Chongqing","Fuling District",5,5,0,0
+2020-04-15,"China","Chongqing","Yuzhong District",20,20,0,0
+2020-04-15,"China","Chongqing","Dadukou District",7,7,0,0
+2020-04-15,"China","Chongqing","Jiangbei District",28,28,0,0
+2020-04-15,"China","Chongqing","Shapingba District",9,9,0,0
+2020-04-15,"China","Chongqing","Jiulongpo District",21,20,1,0
+2020-04-15,"China","Chongqing","Nan'an District",15,15,0,0
+2020-04-15,"China","Chongqing",NA,0,0,0,0
+2020-04-15,"China","Chongqing","Qijiang District",23,23,0,0
+2020-04-15,"China","Chongqing","Dazu District",14,14,0,0
+2020-04-15,"China","Chongqing","Yubei District",17,17,0,0
+2020-04-15,"China","Chongqing","Banan District",6,6,0,0
+2020-04-15,"China","Chongqing","Qianjiang District",2,2,0,0
+2020-04-15,"China","Chongqing","Changshou District",22,22,0,0
+2020-04-15,"China","Chongqing","Jiangjin District",4,4,0,0
+2020-04-15,"China","Chongqing","Hechuan District",23,23,0,0
+2020-04-15,"China","Chongqing","Yongchuan District",5,5,0,0
+2020-04-15,"China","Chongqing",NA,0,0,0,0
+2020-04-15,"China","Chongqing","Bishan District",9,9,0,0
+2020-04-15,"China","Chongqing","Tongliang District",10,10,0,0
+2020-04-15,"China","Chongqing","Tongnan District",18,18,0,0
+2020-04-15,"China","Chongqing","Rongchang District",9,9,0,0
+2020-04-15,"China","Chongqing","Kaizhou District",21,20,1,0
+2020-04-15,"China","Chongqing","Liangping District",4,4,0,0
+2020-04-15,"China","Chongqing","Wulong District",1,1,0,0
+2020-04-15,"China","Chongqing","Chengkou District",2,2,0,0
+2020-04-15,"China","Chongqing","Fengdu County",10,10,0,0
+2020-04-15,"China","Chongqing","Dianjiang County",20,20,0,0
+2020-04-15,"China","Chongqing","Zhong County",21,21,0,0
+2020-04-15,"China","Chongqing","Yunyang County",25,25,0,0
+2020-04-15,"China","Chongqing","Fengjie County",22,22,0,0
+2020-04-15,"China","Chongqing","Wushan County",10,10,0,0
+2020-04-15,"China","Chongqing","Wuxi County",14,14,0,0
+2020-04-15,"China","Chongqing","Shizhu County",15,15,0,0
+2020-04-15,"China","Chongqing","Xiushan County",1,1,0,0
+2020-04-15,"China","Chongqing","Youyang County",1,1,0,0
+2020-04-15,"China","Chongqing","Pengshui County",2,2,0,0
+2020-04-15,"China","Chongqing","Wansheng Economic Development Zone",1,1,0,0
+2020-04-15,"China","Sichuan",NA,0,0,0,0
+2020-04-15,"China","Sichuan","Chengdu",165,155,3,0
+2020-04-15,"China","Sichuan","Zigong",9,9,0,0
+2020-04-15,"China","Sichuan","Panzhihua",16,16,0,0
+2020-04-15,"China","Sichuan","Luzhou",24,24,0,0
+2020-04-15,"China","Sichuan","Deyang",18,18,0,0
+2020-04-15,"China","Sichuan","Mianyang",22,22,0,0
+2020-04-15,"China","Sichuan","Guangyuan",6,6,0,0
+2020-04-15,"China","Sichuan","Suining",17,17,0,0
+2020-04-15,"China","Sichuan","Neijiang",22,22,0,0
+2020-04-15,"China","Sichuan","Leshan",3,3,0,0
+2020-04-15,"China","Sichuan","Nanchong",39,39,0,0
+2020-04-15,"China","Sichuan","Meishan",8,8,0,0
+2020-04-15,"China","Sichuan","Yibin",12,12,0,0
+2020-04-15,"China","Sichuan","Guang'an",30,30,0,0
+2020-04-15,"China","Sichuan","Dazhou",42,42,0,0
+2020-04-15,"China","Sichuan","Ya'an",7,7,0,0
+2020-04-15,"China","Sichuan","Bazhong",24,24,0,0
+2020-04-15,"China","Sichuan","Ziyang",4,4,0,0
+2020-04-15,"China","Sichuan","Ngawa County",1,1,0,0
+2020-04-15,"China","Sichuan","Garzê",78,78,0,0
+2020-04-15,"China","Sichuan","Liangshan",13,13,0,0
+2020-04-15,"China","Guizhou",NA,1,0,0,0
+2020-04-15,"China","Guizhou","Guiyang",36,35,1,0
+2020-04-15,"China","Guizhou","Liupanshui",10,9,1,0
+2020-04-15,"China","Guizhou","Zunyi",32,32,0,0
+2020-04-15,"China","Guizhou","Anshun",4,4,0,0
+2020-04-15,"China","Guizhou","Bijie",23,23,0,0
+2020-04-15,"China","Guizhou","Tongren",10,10,0,0
+2020-04-15,"China","Guizhou","Qianxinan Prefecture",4,4,0,0
+2020-04-15,"China","Guizhou","Qiandongnan Prefecture",10,10,0,0
+2020-04-15,"China","Guizhou","Qiannan Prefecture",17,17,0,0
+2020-04-15,"China","Yunnan",NA,10,4,0,0
+2020-04-15,"China","Yunnan","Kunming",53,53,0,0
+2020-04-15,"China","Yunnan","Qujing",13,13,0,0
+2020-04-15,"China","Yunnan","Yuxi",14,13,1,0
+2020-04-15,"China","Yunnan","Baoshan",9,9,0,0
+2020-04-15,"China","Yunnan","Zhaotong",25,25,0,0
+2020-04-15,"China","Yunnan","Lijiang",7,7,0,0
+2020-04-15,"China","Yunnan","Pu'er",4,4,0,0
+2020-04-15,"China","Yunnan","Lincang",1,1,0,0
+2020-04-15,"China","Yunnan","Chuxiong Prefecture",4,4,0,0
+2020-04-15,"China","Yunnan",NA,9,9,0,0
+2020-04-15,"China","Yunnan","Wenshan Prefecture",2,2,0,0
+2020-04-15,"China","Yunnan","Xishuangbanna",15,14,1,0
+2020-04-15,"China","Yunnan",NA,13,13,0,0
+2020-04-15,"China","Yunnan",NA,5,5,0,0
+2020-04-15,"China","Yunnan",NA,0,0,0,0
+2020-04-15,"China","Yunnan",NA,0,0,0,0
+2020-04-15,"China","Tibet",NA,0,0,0,0
+2020-04-15,"China","Tibet","Lhasa",1,1,0,0
+2020-04-15,"China","Tibet","Xigazê",0,0,0,0
+2020-04-15,"China","Tibet","Qamdo",0,0,0,0
+2020-04-15,"China","Tibet","Nyingchi",0,0,0,0
+2020-04-15,"China","Tibet","Shannan",0,0,0,0
+2020-04-15,"China","Tibet","Nagqu",0,0,0,0
+2020-04-15,"China","Tibet",NA,0,0,0,0
+2020-04-15,"China","Shaanxi",NA,11,9,0,0
+2020-04-15,"China","Shaanxi","Xi'an",120,117,3,0
+2020-04-15,"China","Shaanxi","Tongchuan",8,8,0,0
+2020-04-15,"China","Shaanxi","Baoji",13,13,0,0
+2020-04-15,"China","Shaanxi","Xianyang",17,17,0,0
+2020-04-15,"China","Shaanxi","Weinan",15,15,0,0
+2020-04-15,"China","Shaanxi","Yan'an",8,8,0,0
+2020-04-15,"China","Shaanxi","Hanzhong",26,26,0,0
+2020-04-15,"China","Shaanxi","Yulin",3,3,0,0
+2020-04-15,"China","Shaanxi","Ankang",26,26,0,0
+2020-04-15,"China","Shaanxi","Yangling Demonstration Zone",1,1,0,0
+2020-04-15,"China","Shaanxi","Shangluo",7,7,0,0
+2020-04-15,"China","Shaanxi","Hancheng",1,1,0,0
+2020-04-15,"China","Gansu",NA,47,46,0,0
+2020-04-15,"China","Gansu","Lanzhou",37,35,2,0
+2020-04-15,"China","Gansu","Jiayuguan",0,0,0,0
+2020-04-15,"China","Gansu","Jinchang",1,1,0,0
+2020-04-15,"China","Gansu","Baiyin",4,4,0,0
+2020-04-15,"China","Gansu","Tianshui",12,12,0,0
+2020-04-15,"China","Gansu","Wuwei",0,0,0,0
+2020-04-15,"China","Gansu","Zhangye",2,2,0,0
+2020-04-15,"China","Gansu","Pingliang",9,9,0,0
+2020-04-15,"China","Gansu","Jiuquan",0,0,0,0
+2020-04-15,"China","Gansu","Qingyang",3,3,0,0
+2020-04-15,"China","Gansu","Dingxi",9,9,0,0
+2020-04-15,"China","Gansu","Longnan",4,4,0,0
+2020-04-15,"China","Gansu",NA,3,3,0,0
+2020-04-15,"China","Gansu","Gannan Prefecture",8,8,0,0
+2020-04-15,"China","Qinghai",NA,0,0,0,0
+2020-04-15,"China","Qinghai","Xining",15,15,0,0
+2020-04-15,"China","Qinghai","Haidong",0,0,0,0
+2020-04-15,"China","Qinghai","Haibei Prefecture",3,3,0,0
+2020-04-15,"China","Qinghai",NA,0,0,0,0
+2020-04-15,"China","Qinghai",NA,0,0,0,0
+2020-04-15,"China","Qinghai",NA,0,0,0,0
+2020-04-15,"China","Qinghai",NA,0,0,0,0
+2020-04-15,"China","Qinghai",NA,0,0,0,0
+2020-04-15,"China","Ningxia","Ningdong",1,1,0,0
+2020-04-15,"China","Ningxia",NA,0,0,0,0
+2020-04-15,"China","Ningxia","Yinchuan",36,36,0,0
+2020-04-15,"China","Ningxia","Shizuishan",1,1,0,0
+2020-04-15,"China","Ningxia","Wuzhong",28,28,0,0
+2020-04-15,"China","Ningxia","Guyuan",5,5,0,0
+2020-04-15,"China","Ningxia","Zhongwei",4,4,0,0
+2020-04-15,"China","Xinjiang","9th Division of Xinjiang Production and Construction Corps",4,3,1,0
+2020-04-15,"China","Xinjiang","7th Division of Xinjiang Production and Construction Corps",1,1,0,0
+2020-04-15,"China","Xinjiang",NA,0,0,0,0
+2020-04-15,"China","Xinjiang","ÜrümqiÜrümqi",23,23,0,0
+2020-04-15,"China","Xinjiang","Karamay",0,0,0,0
+2020-04-15,"China","Xinjiang","Turpan",3,3,0,0
+2020-04-15,"China","Xinjiang","Hami",0,0,0,0
+2020-04-15,"China","Xinjiang","12th Division of Xinjiang Production and Construction Corps",3,3,0,0
+2020-04-15,"China","Xinjiang",NA,10,9,1,0
+2020-04-15,"China","Xinjiang","Changji Prefecture",4,4,0,0
+2020-04-15,"China","Xinjiang",NA,0,0,0,0
+2020-04-15,"China","Xinjiang",NA,3,3,0,0
+2020-04-15,"China","Xinjiang","Aksu",1,1,0,0
+2020-04-15,"China","Xinjiang",NA,0,0,0,0
+2020-04-15,"China","Xinjiang","Kashgar",0,0,0,0
+2020-04-15,"China","Xinjiang","Hotan",0,0,0,0
+2020-04-15,"China","Xinjiang",NA,18,18,0,0
+2020-04-15,"China","Xinjiang","Tacheng",0,0,0,0
+2020-04-15,"China","Xinjiang","Altay",0,0,0,0
+2020-04-15,"China","Xinjiang","Shihezi",4,3,1,0
+2020-04-15,"China","Xinjiang","Aral",0,0,0,0
+2020-04-15,"China","Xinjiang","Tumxuk",0,0,0,0
+2020-04-15,"China","Xinjiang","Wujiaqu",2,2,0,0
+2020-04-15,"China","Xinjiang","Beitun",0,0,0,0
+2020-04-15,"China","Xinjiang","Tiemenguan",0,0,0,0
+2020-04-15,"China","Xinjiang","Shuanghe",0,0,0,0
+2020-04-15,"China","Xinjiang","Kokdala",0,0,0,0
+2020-04-15,"China","Xinjiang","Kunyu",0,0,0,0
+2020-04-15,"China","Taiwan","Taiwan",395,137,6,0
+2020-04-15,"China","Hong Kong","Hong Kong",1016,459,4,0
+2020-04-15,"China","Macau","Macau",45,16,0,0
+2020-04-16,"China","Beijing","Location TBD",0,384,8,0
+2020-04-16,"China","Beijing","Foreign to Beijing",25,2,0,0
+2020-04-16,"China","Beijing",NA,174,99,0,0
+2020-04-16,"China","Beijing","Dongcheng",14,0,0,0
+2020-04-16,"China","Beijing","Xicheng",53,0,0,0
+2020-04-16,"China","Beijing","Chaoyang",75,0,0,0
+2020-04-16,"China","Beijing","Fengtai",43,0,0,0
+2020-04-16,"China","Beijing","Shijingshan",14,1,0,0
+2020-04-16,"China","Beijing","Haidian",64,0,0,0
+2020-04-16,"China","Beijing","Mentougou",3,0,0,0
+2020-04-16,"China","Beijing","Fangshan",16,0,0,0
+2020-04-16,"China","Beijing","Tongzhou",19,0,0,0
+2020-04-16,"China","Beijing","Shunyi",10,0,0,0
+2020-04-16,"China","Beijing","Changping",29,1,0,0
+2020-04-16,"China","Beijing","Daxing",39,16,0,0
+2020-04-16,"China","Beijing","Huairou",7,0,0,0
+2020-04-16,"China","Beijing",NA,0,0,0,0
+2020-04-16,"China","Beijing","Miyun",7,0,0,0
+2020-04-16,"China","Beijing","Yanqing",1,0,0,0
+2020-04-16,"China","Tianjin","Foreign to Tianjin",6,6,0,0
+2020-04-16,"China","Tianjin",NA,49,38,0,0
+2020-04-16,"China","Tianjin","Changjiang County",6,6,0,0
+2020-04-16,"China","Tianjin","Ding'an County",15,14,1,0
+2020-04-16,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-16,"China","Tianjin","Qiongzhong County",6,6,0,0
+2020-04-16,"China","Tianjin","Lingao County",12,12,0,0
+2020-04-16,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-16,"China","Tianjin","Qiongzhong County",4,4,0,0
+2020-04-16,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-16,"China","Tianjin","Ledong County",2,2,0,0
+2020-04-16,"China","Tianjin","Beichen District",6,6,0,0
+2020-04-16,"China","Tianjin","Wuqing District",2,2,0,0
+2020-04-16,"China","Tianjin","Lingshui County",60,58,2,0
+2020-04-16,"China","Tianjin","Ledong County",3,3,0,0
+2020-04-16,"China","Tianjin","Ledong County",4,4,0,0
+2020-04-16,"China","Tianjin",NA,0,0,0,0
+2020-04-16,"China","Tianjin",NA,0,0,0,0
+2020-04-16,"China","Hebei",NA,10,3,0,0
+2020-04-16,"China","Hebei","Shijiazhuang",29,29,0,0
+2020-04-16,"China","Hebei","Tangshan",58,57,1,0
+2020-04-16,"China","Hebei","Qinhuangdao",10,9,1,0
+2020-04-16,"China","Hebei","Handan",32,32,0,0
+2020-04-16,"China","Hebei","Xingtai",23,22,1,0
+2020-04-16,"China","Hebei","Baoding",32,32,0,0
+2020-04-16,"China","Hebei","Zhangjiakou",41,41,0,0
+2020-04-16,"China","Hebei","Chengde",7,7,0,0
+2020-04-16,"China","Hebei","Cangzhou",48,45,3,0
+2020-04-16,"China","Hebei","Langfang",30,30,0,0
+2020-04-16,"China","Hebei","Hengshui",8,8,0,0
+2020-04-16,"China","Shanxi",NA,61,2,0,0
+2020-04-16,"China","Shanxi","Taiyuan",20,20,0,0
+2020-04-16,"China","Shanxi","Datong",12,12,0,0
+2020-04-16,"China","Shanxi","Yangquan",4,4,0,0
+2020-04-16,"China","Shanxi","Changzhi",8,8,0,0
+2020-04-16,"China","Shanxi","Jincheng",10,10,0,0
+2020-04-16,"China","Shanxi","Shuozhou",8,8,0,0
+2020-04-16,"China","Shanxi","Jinzhong",37,37,0,0
+2020-04-16,"China","Shanxi","Yuncheng",19,19,0,0
+2020-04-16,"China","Shanxi","Xinzhou",7,7,0,0
+2020-04-16,"China","Shanxi","Linfen",2,2,0,0
+2020-04-16,"China","Shanxi","Lüliang",6,6,0,0
+2020-04-16,"China","Inner Mongolia",NA,118,20,0,0
+2020-04-16,"China","Inner Mongolia","Hohhot",7,7,0,0
+2020-04-16,"China","Inner Mongolia","Baotou",11,11,0,0
+2020-04-16,"China","Inner Mongolia","Wuhai",2,2,0,0
+2020-04-16,"China","Inner Mongolia","Chifeng",9,9,0,0
+2020-04-16,"China","Inner Mongolia","Tongliao",7,7,0,0
+2020-04-16,"China","Inner Mongolia","Ordos",11,11,0,0
+2020-04-16,"China","Inner Mongolia","Hulunbuir",7,7,0,0
+2020-04-16,"China","Inner Mongolia","Bayannur",8,7,1,0
+2020-04-16,"China","Inner Mongolia","Ulanqab",3,3,0,0
+2020-04-16,"China","Inner Mongolia",NA,1,1,0,0
+2020-04-16,"China","Inner Mongolia","Xilingol League",9,9,0,0
+2020-04-16,"China","Inner Mongolia",NA,0,0,0,0
+2020-04-16,"China","Liaoning",NA,21,19,0,0
+2020-04-16,"China","Liaoning","Shenyang",28,28,0,0
+2020-04-16,"China","Liaoning","Dalian",18,17,0,0
+2020-04-16,"China","Liaoning","Anshan",4,4,0,0
+2020-04-16,"China","Liaoning","Benxi",3,3,0,0
+2020-04-16,"China","Liaoning","Dandong",11,11,0,0
+2020-04-16,"China","Liaoning","Jinzhou",12,12,0,0
+2020-04-16,"China","Liaoning","Yingkou",1,1,0,0
+2020-04-16,"China","Liaoning","Fuxin",8,8,0,0
+2020-04-16,"China","Liaoning","Liaoyang",3,3,0,0
+2020-04-16,"China","Liaoning","Panjin",11,11,0,0
+2020-04-16,"China","Liaoning","Tieling",7,7,0,0
+2020-04-16,"China","Liaoning","Chaoyang",6,5,1,0
+2020-04-16,"China","Liaoning","Huludao",12,11,1,0
+2020-04-16,"China","Jilin","Gongzhuling",6,6,0,0
+2020-04-16,"China","Jilin",NA,9,4,0,0
+2020-04-16,"China","Jilin","Changchun",45,45,0,0
+2020-04-16,"China","Jilin","Jilin",5,5,0,0
+2020-04-16,"China","Jilin","Siping",15,14,1,0
+2020-04-16,"China","Jilin","Liaoyuan",7,7,0,0
+2020-04-16,"China","Jilin","Tonghua",6,6,0,0
+2020-04-16,"China","Jilin","Baishan",0,0,0,0
+2020-04-16,"China","Jilin","Songyuan",2,2,0,0
+2020-04-16,"China","Jilin","Baicheng",1,1,0,0
+2020-04-16,"China","Jilin","Meihekou",1,1,0,0
+2020-04-16,"China","Jilin",NA,5,5,0,0
+2020-04-16,"China","Heilongjiang",NA,356,2,0,0
+2020-04-16,"China","Heilongjiang","Harbin",221,194,4,0
+2020-04-16,"China","Heilongjiang","Qiqihar",43,42,1,0
+2020-04-16,"China","Heilongjiang","Jixi",46,46,0,0
+2020-04-16,"China","Heilongjiang","Hegang",5,5,0,0
+2020-04-16,"China","Heilongjiang","Shuangyashan",52,49,3,0
+2020-04-16,"China","Heilongjiang","Daqing",26,25,1,0
+2020-04-16,"China","Heilongjiang","Yichun",1,1,0,0
+2020-04-16,"China","Heilongjiang","Jiamusi",15,15,0,0
+2020-04-16,"China","Heilongjiang","Qitaihe",17,17,0,0
+2020-04-16,"China","Heilongjiang","Mudanjiang",15,15,0,0
+2020-04-16,"China","Heilongjiang","Heihe",14,14,0,0
+2020-04-16,"China","Heilongjiang","Suihua",47,43,4,0
+2020-04-16,"China","Heilongjiang","Daxing'anling",3,3,0,0
+2020-04-16,"China","Shanghai","Location TBD",0,3,1,0
+2020-04-16,"China","Shanghai","Foreign to Shanghai",111,107,1,0
+2020-04-16,"China","Shanghai",NA,289,159,0,0
+2020-04-16,"China","Shanghai","Huangpu",6,5,1,0
+2020-04-16,"China","Shanghai","Xuhui",18,17,1,0
+2020-04-16,"China","Shanghai","Changning",13,13,0,0
+2020-04-16,"China","Shanghai","Jing'an",16,15,1,0
+2020-04-16,"China","Shanghai","Putuo",11,11,0,0
+2020-04-16,"China","Shanghai","Hongkou",7,7,0,0
+2020-04-16,"China","Shanghai","Yangpu",9,9,0,0
+2020-04-16,"China","Shanghai","Minhang",19,19,0,0
+2020-04-16,"China","Shanghai","Baoshan",22,19,1,0
+2020-04-16,"China","Shanghai","Jiading",9,7,1,0
+2020-04-16,"China","Shanghai",NA,61,61,0,0
+2020-04-16,"China","Shanghai","Jinshan",4,4,0,0
+2020-04-16,"China","Shanghai","Songjiang",14,14,0,0
+2020-04-16,"China","Shanghai","Qingpu",6,6,0,0
+2020-04-16,"China","Shanghai","Fengxian",9,9,0,0
+2020-04-16,"China","Shanghai","Chongming",4,4,0,0
+2020-04-16,"China","Jiangsu",NA,22,11,0,0
+2020-04-16,"China","Jiangsu","Nanjing",93,93,0,0
+2020-04-16,"China","Jiangsu","Wuxi",55,55,0,0
+2020-04-16,"China","Jiangsu","Xuzhou",79,79,0,0
+2020-04-16,"China","Jiangsu","Changzhou",51,51,0,0
+2020-04-16,"China","Jiangsu","Suzhou",87,87,0,0
+2020-04-16,"China","Jiangsu","Nantong",40,40,0,0
+2020-04-16,"China","Jiangsu","Lianyungang",48,48,0,0
+2020-04-16,"China","Jiangsu","Huai'an",66,66,0,0
+2020-04-16,"China","Jiangsu","Yancheng",27,27,0,0
+2020-04-16,"China","Jiangsu","Yangzhou",23,23,0,0
+2020-04-16,"China","Jiangsu","Zhenjiang",12,12,0,0
+2020-04-16,"China","Jiangsu","Taizhou",37,37,0,0
+2020-04-16,"China","Jiangsu","Suqian",13,13,0,0
+2020-04-16,"China","Zhejiang",NA,36,36,0,0
+2020-04-16,"China","Zhejiang",NA,50,27,0,0
+2020-04-16,"China","Zhejiang",NA,0,0,0,0
+2020-04-16,"China","Zhejiang","Hangzhou",181,181,0,0
+2020-04-16,"China","Zhejiang","Ningbo",157,157,0,0
+2020-04-16,"China","Zhejiang","Wenzhou",504,503,1,0
+2020-04-16,"China","Zhejiang","Jiaxing",46,46,0,0
+2020-04-16,"China","Zhejiang","Huzhou",10,10,0,0
+2020-04-16,"China","Zhejiang","Shaoxing",42,42,0,0
+2020-04-16,"China","Zhejiang","Jinhua",55,55,0,0
+2020-04-16,"China","Zhejiang","Quzhou",14,14,0,0
+2020-04-16,"China","Zhejiang","Zhoushan",10,10,0,0
+2020-04-16,"China","Zhejiang","Taizhou",146,146,0,0
+2020-04-16,"China","Zhejiang","Lishui",17,17,0,0
+2020-04-16,"China","Anhui",NA,1,0,0,0
+2020-04-16,"China","Anhui","Hefei",174,173,1,0
+2020-04-16,"China","Anhui","Wuhu",34,34,0,0
+2020-04-16,"China","Anhui","Bengbu",160,155,5,0
+2020-04-16,"China","Anhui","Huainan",27,27,0,0
+2020-04-16,"China","Anhui","Ma'anshan",38,38,0,0
+2020-04-16,"China","Anhui","Huaibei",27,27,0,0
+2020-04-16,"China","Anhui","Tongling",29,29,0,0
+2020-04-16,"China","Anhui","Anqing",83,83,0,0
+2020-04-16,"China","Anhui","Huangshan",9,9,0,0
+2020-04-16,"China","Anhui","Chuzhou",13,13,0,0
+2020-04-16,"China","Anhui","Fuyang",155,155,0,0
+2020-04-16,"China","Anhui","Suzhou",41,41,0,0
+2020-04-16,"China","Anhui","Lu'an",69,69,0,0
+2020-04-16,"China","Anhui","Bozhou",108,108,0,0
+2020-04-16,"China","Anhui","Chizhou",17,17,0,0
+2020-04-16,"China","Anhui","Xuancheng",6,6,0,0
+2020-04-16,"China","Fujian",NA,57,38,0,0
+2020-04-16,"China","Fujian","Fuzhou",72,71,1,0
+2020-04-16,"China","Fujian","Xiamen",35,35,0,0
+2020-04-16,"China","Fujian","Putian",56,56,0,0
+2020-04-16,"China","Fujian","Sanming",14,14,0,0
+2020-04-16,"China","Fujian","Quanzhou",47,47,0,0
+2020-04-16,"China","Fujian","Zhangzhou",20,20,0,0
+2020-04-16,"China","Fujian","Nanping",20,20,0,0
+2020-04-16,"China","Fujian","Longyan",6,6,0,0
+2020-04-16,"China","Fujian","Ningde",26,26,0,0
+2020-04-16,"China","Jiangxi",NA,1,1,0,0
+2020-04-16,"China","Jiangxi",NA,2,2,0,0
+2020-04-16,"China","Jiangxi","Nanchang",230,230,0,0
+2020-04-16,"China","Jiangxi","Jingdezhen",6,6,0,0
+2020-04-16,"China","Jiangxi","Pingxiang",33,33,0,0
+2020-04-16,"China","Jiangxi","Jiujiang",118,118,0,0
+2020-04-16,"China","Jiangxi","Xinyu",130,130,0,0
+2020-04-16,"China","Jiangxi","Yingtan",18,18,0,0
+2020-04-16,"China","Jiangxi","Ganzhou",76,75,1,0
+2020-04-16,"China","Jiangxi","Ji'an",22,22,0,0
+2020-04-16,"China","Jiangxi","Yichun",106,106,0,0
+2020-04-16,"China","Jiangxi","Fuzhou",72,72,0,0
+2020-04-16,"China","Jiangxi","Shangrao",123,123,0,0
+2020-04-16,"China","Shandong",NA,23,9,0,0
+2020-04-16,"China","Shandong","Jinan",47,47,0,0
+2020-04-16,"China","Shandong","Qingdao",63,60,1,0
+2020-04-16,"China","Shandong","Zibo",30,29,1,0
+2020-04-16,"China","Shandong","Zaozhuang",24,24,0,0
+2020-04-16,"China","Shandong","Dongying",0,0,0,0
+2020-04-16,"China","Shandong","Yantai",47,47,0,0
+2020-04-16,"China","Shandong","Weifang",44,44,0,0
+2020-04-16,"China","Shandong","Jining",260,260,0,0
+2020-04-16,"China","Shandong","Tai'an",35,33,2,0
+2020-04-16,"China","Shandong","Weihai",38,37,1,0
+2020-04-16,"China","Shandong","Rizhao",16,16,0,0
+2020-04-16,"China","Shandong","Linyi",49,49,0,0
+2020-04-16,"China","Shandong","Dezhou",37,35,2,0
+2020-04-16,"China","Shandong","Liaocheng",38,38,0,0
+2020-04-16,"China","Shandong","Binzhou",15,15,0,0
+2020-04-16,"China","Shandong","Heze",18,18,0,0
+2020-04-16,"China","Henan",NA,3,3,0,0
+2020-04-16,"China","Henan","Zhengzhou",157,152,5,0
+2020-04-16,"China","Henan","Kaifeng",26,26,0,0
+2020-04-16,"China","Henan","Luoyang",31,30,1,0
+2020-04-16,"China","Henan","Pingdingshan",58,57,1,0
+2020-04-16,"China","Henan","Anyang",53,53,0,0
+2020-04-16,"China","Henan","Hebi",19,19,0,0
+2020-04-16,"China","Henan","Xinxiang",57,54,3,0
+2020-04-16,"China","Henan","Jiaozuo",32,31,1,0
+2020-04-16,"China","Henan","Puyang",17,17,0,0
+2020-04-16,"China","Henan","Xuchang",39,38,1,0
+2020-04-16,"China","Henan","Luohe",36,36,0,0
+2020-04-16,"China","Henan","Sanmenxia",7,6,1,0
+2020-04-16,"China","Henan","Nanyang",156,153,3,0
+2020-04-16,"China","Henan","Shangqiu",91,88,3,0
+2020-04-16,"China","Henan","Xinyang",274,272,2,0
+2020-04-16,"China","Henan","Zhoukou",76,75,1,0
+2020-04-16,"China","Henan","Zhumadian",139,139,0,0
+2020-04-16,"China","Henan","Jiyuan",5,5,0,0
+2020-04-16,"China","Hubei",NA,0,0,0,0
+2020-04-16,"China","Hubei",NA,1,0,0,0
+2020-04-16,"China","Hubei","Wuhan",50007,47283,2579,0
+2020-04-16,"China","Hubei","Huangshi",1015,976,39,0
+2020-04-16,"China","Hubei","Shiyan",672,664,8,0
+2020-04-16,"China","Hubei","Yichang",931,894,37,0
+2020-04-16,"China","Hubei","Xiangyang",1175,1135,40,0
+2020-04-16,"China","Hubei","Ezhou",1394,1335,59,0
+2020-04-16,"China","Hubei","Jingmen",928,887,41,0
+2020-04-16,"China","Hubei","Xiaogan",3518,3389,129,0
+2020-04-16,"China","Hubei","Jingzhou",1580,1528,52,0
+2020-04-16,"China","Hubei","Huanggang",2907,2782,125,0
+2020-04-16,"China","Hubei","Xianning",836,821,15,0
+2020-04-16,"China","Hubei","Suizhou",1307,1262,45,0
+2020-04-16,"China","Hubei","Enshi",252,245,7,0
+2020-04-16,"China","Hubei","Xiantao",575,553,22,0
+2020-04-16,"China","Hubei","Qianjiang",198,189,9,0
+2020-04-16,"China","Hubei","Tianmen",496,481,15,0
+2020-04-16,"China","Hubei","Shennongjia",11,11,0,0
+2020-04-16,"China","Hunan",NA,1,0,0,0
+2020-04-16,"China","Hunan","Changsha",242,240,2,0
+2020-04-16,"China","Hunan","Zhuzhou",80,80,0,0
+2020-04-16,"China","Hunan","Xiangtan",36,36,0,0
+2020-04-16,"China","Hunan","Hengyang",48,48,0,0
+2020-04-16,"China","Hunan","Shaoyang",102,101,1,0
+2020-04-16,"China","Hunan","Yueyang",156,155,1,0
+2020-04-16,"China","Hunan","Changde",82,82,0,0
+2020-04-16,"China","Hunan","Zhangjiajie",5,5,0,0
+2020-04-16,"China","Hunan","Yiyang",60,60,0,0
+2020-04-16,"China","Hunan","Chenzhou",39,39,0,0
+2020-04-16,"China","Hunan","Yongzhou",44,44,0,0
+2020-04-16,"China","Hunan","Huaihua",40,40,0,0
+2020-04-16,"China","Hunan","Loudi",76,76,0,0
+2020-04-16,"China","Hunan",NA,8,8,0,0
+2020-04-16,"China","Guangdong","Location TBD",0,1,0,0
+2020-04-16,"China","Guangdong",NA,0,0,0,0
+2020-04-16,"China","Guangdong","Guangzhou",494,449,1,0
+2020-04-16,"China","Guangdong","Shaoguan",10,9,1,0
+2020-04-16,"China","Guangdong","Shenzhen",458,429,3,0
+2020-04-16,"China","Guangdong","Zhuhai",103,99,1,0
+2020-04-16,"China","Guangdong","Shantou",26,26,0,0
+2020-04-16,"China","Guangdong","Foshan",98,86,0,0
+2020-04-16,"China","Guangdong","Jiangmen",24,23,0,0
+2020-04-16,"China","Guangdong","Zhanjiang",24,23,0,0
+2020-04-16,"China","Guangdong","Maoming",14,14,0,0
+2020-04-16,"China","Guangdong","Zhaoqing",20,19,1,0
+2020-04-16,"China","Guangdong","Huizhou",62,62,0,0
+2020-04-16,"China","Guangdong","Meizhou",17,16,0,0
+2020-04-16,"China","Guangdong","Shanwei",5,5,0,0
+2020-04-16,"China","Guangdong","Heyuan",5,4,0,0
+2020-04-16,"China","Guangdong","Yangjiang",14,14,0,0
+2020-04-16,"China","Guangdong","Qingyuan",12,12,0,0
+2020-04-16,"China","Guangdong","Dongguan",100,99,1,0
+2020-04-16,"China","Guangdong","Zhongshan",68,68,0,0
+2020-04-16,"China","Guangdong","Chaozhou",6,5,0,0
+2020-04-16,"China","Guangdong","Jieyang",11,8,0,0
+2020-04-16,"China","Guangdong","Yunfu",0,0,0,0
+2020-04-16,"China","Guangxi",NA,2,2,0,0
+2020-04-16,"China","Guangxi","Nanning",55,55,0,0
+2020-04-16,"China","Guangxi","Liuzhou",24,24,0,0
+2020-04-16,"China","Guangxi","Guilin",32,32,0,0
+2020-04-16,"China","Guangxi","Wuzhou",5,5,0,0
+2020-04-16,"China","Guangxi","Beihai",44,43,1,0
+2020-04-16,"China","Guangxi","Fangchenggang",19,19,0,0
+2020-04-16,"China","Guangxi","Qinzhou",8,8,0,0
+2020-04-16,"China","Guangxi","Guigang",8,8,0,0
+2020-04-16,"China","Guangxi","Yulin",11,11,0,0
+2020-04-16,"China","Guangxi","Baise",3,3,0,0
+2020-04-16,"China","Guangxi","Hezhou",4,4,0,0
+2020-04-16,"China","Guangxi","Hechi",28,27,1,0
+2020-04-16,"China","Guangxi","Laibin",11,11,0,0
+2020-04-16,"China","Guangxi","Chongzuo",0,0,0,0
+2020-04-16,"China","Hainan",NA,0,0,0,0
+2020-04-16,"China","Hainan","Haikou",39,39,0,0
+2020-04-16,"China","Hainan","Sanya",54,53,1,0
+2020-04-16,"China","Hainan","Sansha",0,0,0,0
+2020-04-16,"China","Hainan","Danzhou",15,14,1,0
+2020-04-16,"China","Hainan","Wuzhishan",0,0,0,0
+2020-04-16,"China","Hainan","Qionghai",6,5,1,0
+2020-04-16,"China","Hainan","Wenchang",3,3,0,0
+2020-04-16,"China","Hainan","Wanning",13,13,0,0
+2020-04-16,"China","Hainan","Dongfang",3,2,1,0
+2020-04-16,"China","Hainan","Ding'an County",3,2,1,0
+2020-04-16,"China","Hainan",NA,0,0,0,0
+2020-04-16,"China","Hainan","Chengmai County",9,8,1,0
+2020-04-16,"China","Hainan","Lingao County",6,6,0,0
+2020-04-16,"China","Hainan",NA,0,0,0,0
+2020-04-16,"China","Hainan","Changjiang County",7,7,0,0
+2020-04-16,"China","Hainan",NA,2,2,0,0
+2020-04-16,"China","Hainan","Lingshui County",4,4,0,0
+2020-04-16,"China","Hainan","Baoting County",3,3,0,0
+2020-04-16,"China","Hainan","Qiongzhong County",1,1,0,0
+2020-04-16,"China","Chongqing","Gaoxin District",4,4,0,0
+2020-04-16,"China","Chongqing","Liangjiang New Area",17,17,0,0
+2020-04-16,"China","Chongqing",NA,3,0,0,0
+2020-04-16,"China","Chongqing","Wanzhou District",118,114,4,0
+2020-04-16,"China","Chongqing","Fuling District",5,5,0,0
+2020-04-16,"China","Chongqing","Yuzhong District",20,20,0,0
+2020-04-16,"China","Chongqing","Dadukou District",7,7,0,0
+2020-04-16,"China","Chongqing","Jiangbei District",28,28,0,0
+2020-04-16,"China","Chongqing","Shapingba District",9,9,0,0
+2020-04-16,"China","Chongqing","Jiulongpo District",21,20,1,0
+2020-04-16,"China","Chongqing","Nan'an District",15,15,0,0
+2020-04-16,"China","Chongqing",NA,0,0,0,0
+2020-04-16,"China","Chongqing","Qijiang District",23,23,0,0
+2020-04-16,"China","Chongqing","Dazu District",14,14,0,0
+2020-04-16,"China","Chongqing","Yubei District",17,17,0,0
+2020-04-16,"China","Chongqing","Banan District",6,6,0,0
+2020-04-16,"China","Chongqing","Qianjiang District",2,2,0,0
+2020-04-16,"China","Chongqing","Changshou District",22,22,0,0
+2020-04-16,"China","Chongqing","Jiangjin District",4,4,0,0
+2020-04-16,"China","Chongqing","Hechuan District",23,23,0,0
+2020-04-16,"China","Chongqing","Yongchuan District",5,5,0,0
+2020-04-16,"China","Chongqing",NA,0,0,0,0
+2020-04-16,"China","Chongqing","Bishan District",9,9,0,0
+2020-04-16,"China","Chongqing","Tongliang District",10,10,0,0
+2020-04-16,"China","Chongqing","Tongnan District",18,18,0,0
+2020-04-16,"China","Chongqing","Rongchang District",9,9,0,0
+2020-04-16,"China","Chongqing","Kaizhou District",21,20,1,0
+2020-04-16,"China","Chongqing","Liangping District",4,4,0,0
+2020-04-16,"China","Chongqing","Wulong District",1,1,0,0
+2020-04-16,"China","Chongqing","Chengkou District",2,2,0,0
+2020-04-16,"China","Chongqing","Fengdu County",10,10,0,0
+2020-04-16,"China","Chongqing","Dianjiang County",20,20,0,0
+2020-04-16,"China","Chongqing","Zhong County",21,21,0,0
+2020-04-16,"China","Chongqing","Yunyang County",25,25,0,0
+2020-04-16,"China","Chongqing","Fengjie County",22,22,0,0
+2020-04-16,"China","Chongqing","Wushan County",10,10,0,0
+2020-04-16,"China","Chongqing","Wuxi County",14,14,0,0
+2020-04-16,"China","Chongqing","Shizhu County",15,15,0,0
+2020-04-16,"China","Chongqing","Xiushan County",1,1,0,0
+2020-04-16,"China","Chongqing","Youyang County",1,1,0,0
+2020-04-16,"China","Chongqing","Pengshui County",2,2,0,0
+2020-04-16,"China","Chongqing","Wansheng Economic Development Zone",1,1,0,0
+2020-04-16,"China","Sichuan",NA,0,0,0,0
+2020-04-16,"China","Sichuan","Chengdu",165,157,3,0
+2020-04-16,"China","Sichuan","Zigong",9,9,0,0
+2020-04-16,"China","Sichuan","Panzhihua",16,16,0,0
+2020-04-16,"China","Sichuan","Luzhou",24,24,0,0
+2020-04-16,"China","Sichuan","Deyang",18,18,0,0
+2020-04-16,"China","Sichuan","Mianyang",22,22,0,0
+2020-04-16,"China","Sichuan","Guangyuan",6,6,0,0
+2020-04-16,"China","Sichuan","Suining",17,17,0,0
+2020-04-16,"China","Sichuan","Neijiang",22,22,0,0
+2020-04-16,"China","Sichuan","Leshan",3,3,0,0
+2020-04-16,"China","Sichuan","Nanchong",39,39,0,0
+2020-04-16,"China","Sichuan","Meishan",8,8,0,0
+2020-04-16,"China","Sichuan","Yibin",12,12,0,0
+2020-04-16,"China","Sichuan","Guang'an",30,30,0,0
+2020-04-16,"China","Sichuan","Dazhou",42,42,0,0
+2020-04-16,"China","Sichuan","Ya'an",7,7,0,0
+2020-04-16,"China","Sichuan","Bazhong",24,24,0,0
+2020-04-16,"China","Sichuan","Ziyang",4,4,0,0
+2020-04-16,"China","Sichuan","Ngawa County",1,1,0,0
+2020-04-16,"China","Sichuan","Garzê",78,78,0,0
+2020-04-16,"China","Sichuan","Liangshan",13,13,0,0
+2020-04-16,"China","Guizhou",NA,1,0,0,0
+2020-04-16,"China","Guizhou","Guiyang",36,35,1,0
+2020-04-16,"China","Guizhou","Liupanshui",10,9,1,0
+2020-04-16,"China","Guizhou","Zunyi",32,32,0,0
+2020-04-16,"China","Guizhou","Anshun",4,4,0,0
+2020-04-16,"China","Guizhou","Bijie",23,23,0,0
+2020-04-16,"China","Guizhou","Tongren",10,10,0,0
+2020-04-16,"China","Guizhou","Qianxinan Prefecture",4,4,0,0
+2020-04-16,"China","Guizhou","Qiandongnan Prefecture",10,10,0,0
+2020-04-16,"China","Guizhou","Qiannan Prefecture",17,17,0,0
+2020-04-16,"China","Yunnan",NA,10,4,0,0
+2020-04-16,"China","Yunnan","Kunming",53,53,0,0
+2020-04-16,"China","Yunnan","Qujing",13,13,0,0
+2020-04-16,"China","Yunnan","Yuxi",14,13,1,0
+2020-04-16,"China","Yunnan","Baoshan",9,9,0,0
+2020-04-16,"China","Yunnan","Zhaotong",25,25,0,0
+2020-04-16,"China","Yunnan","Lijiang",7,7,0,0
+2020-04-16,"China","Yunnan","Pu'er",4,4,0,0
+2020-04-16,"China","Yunnan","Lincang",1,1,0,0
+2020-04-16,"China","Yunnan","Chuxiong Prefecture",4,4,0,0
+2020-04-16,"China","Yunnan",NA,9,9,0,0
+2020-04-16,"China","Yunnan","Wenshan Prefecture",2,2,0,0
+2020-04-16,"China","Yunnan","Xishuangbanna",15,14,1,0
+2020-04-16,"China","Yunnan",NA,13,13,0,0
+2020-04-16,"China","Yunnan",NA,5,5,0,0
+2020-04-16,"China","Yunnan",NA,0,0,0,0
+2020-04-16,"China","Yunnan",NA,0,0,0,0
+2020-04-16,"China","Tibet",NA,0,0,0,0
+2020-04-16,"China","Tibet","Lhasa",1,1,0,0
+2020-04-16,"China","Tibet","Xigazê",0,0,0,0
+2020-04-16,"China","Tibet","Qamdo",0,0,0,0
+2020-04-16,"China","Tibet","Nyingchi",0,0,0,0
+2020-04-16,"China","Tibet","Shannan",0,0,0,0
+2020-04-16,"China","Tibet","Nagqu",0,0,0,0
+2020-04-16,"China","Tibet",NA,0,0,0,0
+2020-04-16,"China","Shaanxi",NA,11,9,0,0
+2020-04-16,"China","Shaanxi","Xi'an",120,117,3,0
+2020-04-16,"China","Shaanxi","Tongchuan",8,8,0,0
+2020-04-16,"China","Shaanxi","Baoji",13,13,0,0
+2020-04-16,"China","Shaanxi","Xianyang",17,17,0,0
+2020-04-16,"China","Shaanxi","Weinan",15,15,0,0
+2020-04-16,"China","Shaanxi","Yan'an",8,8,0,0
+2020-04-16,"China","Shaanxi","Hanzhong",26,26,0,0
+2020-04-16,"China","Shaanxi","Yulin",3,3,0,0
+2020-04-16,"China","Shaanxi","Ankang",26,26,0,0
+2020-04-16,"China","Shaanxi","Yangling Demonstration Zone",1,1,0,0
+2020-04-16,"China","Shaanxi","Shangluo",7,7,0,0
+2020-04-16,"China","Shaanxi","Hancheng",1,1,0,0
+2020-04-16,"China","Gansu",NA,47,46,0,0
+2020-04-16,"China","Gansu","Lanzhou",37,35,2,0
+2020-04-16,"China","Gansu","Jiayuguan",0,0,0,0
+2020-04-16,"China","Gansu","Jinchang",1,1,0,0
+2020-04-16,"China","Gansu","Baiyin",4,4,0,0
+2020-04-16,"China","Gansu","Tianshui",12,12,0,0
+2020-04-16,"China","Gansu","Wuwei",0,0,0,0
+2020-04-16,"China","Gansu","Zhangye",2,2,0,0
+2020-04-16,"China","Gansu","Pingliang",9,9,0,0
+2020-04-16,"China","Gansu","Jiuquan",0,0,0,0
+2020-04-16,"China","Gansu","Qingyang",3,3,0,0
+2020-04-16,"China","Gansu","Dingxi",9,9,0,0
+2020-04-16,"China","Gansu","Longnan",4,4,0,0
+2020-04-16,"China","Gansu",NA,3,3,0,0
+2020-04-16,"China","Gansu","Gannan Prefecture",8,8,0,0
+2020-04-16,"China","Qinghai",NA,0,0,0,0
+2020-04-16,"China","Qinghai","Xining",15,15,0,0
+2020-04-16,"China","Qinghai","Haidong",0,0,0,0
+2020-04-16,"China","Qinghai","Haibei Prefecture",3,3,0,0
+2020-04-16,"China","Qinghai",NA,0,0,0,0
+2020-04-16,"China","Qinghai",NA,0,0,0,0
+2020-04-16,"China","Qinghai",NA,0,0,0,0
+2020-04-16,"China","Qinghai",NA,0,0,0,0
+2020-04-16,"China","Qinghai",NA,0,0,0,0
+2020-04-16,"China","Ningxia","Ningdong",1,1,0,0
+2020-04-16,"China","Ningxia",NA,0,0,0,0
+2020-04-16,"China","Ningxia","Yinchuan",36,36,0,0
+2020-04-16,"China","Ningxia","Shizuishan",1,1,0,0
+2020-04-16,"China","Ningxia","Wuzhong",28,28,0,0
+2020-04-16,"China","Ningxia","Guyuan",5,5,0,0
+2020-04-16,"China","Ningxia","Zhongwei",4,4,0,0
+2020-04-16,"China","Xinjiang","9th Division of Xinjiang Production and Construction Corps",4,3,1,0
+2020-04-16,"China","Xinjiang","7th Division of Xinjiang Production and Construction Corps",1,1,0,0
+2020-04-16,"China","Xinjiang",NA,0,0,0,0
+2020-04-16,"China","Xinjiang","ÜrümqiÜrümqi",23,23,0,0
+2020-04-16,"China","Xinjiang","Karamay",0,0,0,0
+2020-04-16,"China","Xinjiang","Turpan",3,3,0,0
+2020-04-16,"China","Xinjiang","Hami",0,0,0,0
+2020-04-16,"China","Xinjiang","12th Division of Xinjiang Production and Construction Corps",3,3,0,0
+2020-04-16,"China","Xinjiang",NA,10,9,1,0
+2020-04-16,"China","Xinjiang","Changji Prefecture",4,4,0,0
+2020-04-16,"China","Xinjiang",NA,0,0,0,0
+2020-04-16,"China","Xinjiang",NA,3,3,0,0
+2020-04-16,"China","Xinjiang","Aksu",1,1,0,0
+2020-04-16,"China","Xinjiang",NA,0,0,0,0
+2020-04-16,"China","Xinjiang","Kashgar",0,0,0,0
+2020-04-16,"China","Xinjiang","Hotan",0,0,0,0
+2020-04-16,"China","Xinjiang",NA,18,18,0,0
+2020-04-16,"China","Xinjiang","Tacheng",0,0,0,0
+2020-04-16,"China","Xinjiang","Altay",0,0,0,0
+2020-04-16,"China","Xinjiang","Shihezi",4,3,1,0
+2020-04-16,"China","Xinjiang","Aral",0,0,0,0
+2020-04-16,"China","Xinjiang","Tumxuk",0,0,0,0
+2020-04-16,"China","Xinjiang","Wujiaqu",2,2,0,0
+2020-04-16,"China","Xinjiang","Beitun",0,0,0,0
+2020-04-16,"China","Xinjiang","Tiemenguan",0,0,0,0
+2020-04-16,"China","Xinjiang","Shuanghe",0,0,0,0
+2020-04-16,"China","Xinjiang","Kokdala",0,0,0,0
+2020-04-16,"China","Xinjiang","Kunyu",0,0,0,0
+2020-04-16,"China","Taiwan","Taiwan",395,137,6,0
+2020-04-16,"China","Hong Kong","Hong Kong",1017,485,4,0
+2020-04-16,"China","Macau","Macau",45,16,0,0

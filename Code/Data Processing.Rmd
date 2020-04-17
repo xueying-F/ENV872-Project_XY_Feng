@@ -10,7 +10,7 @@ editor_options:
 
 ```{r}
 library('remotes')
-remotes::install_github("GuangchuangYu/nCov2019")
+remotes::install_github("GuangchuangYu/nCov2019",force = TRUE)
 ```
 
 ## Access China's COVID-19 data 
@@ -20,8 +20,6 @@ library(nCov2019)
 nCov2019 = get_nCov2019(lang='en')
 
 nCov2019 
-#China (total confirmed cases): 83482
-#last update: 2020-04-12 09:44:19 
 
 # create table
 Covid19_China <- nCov2019[] 
@@ -55,8 +53,6 @@ library('nCov2019')
 nCov2019_history <- load_nCov2019(lang = 'en')
 
 nCov2019_history
-#nCov2019 historical data 
-#last update: 2020-04-11 
 
 # create table
 historical_China <- nCov2019_history[] 
@@ -109,5 +105,22 @@ Covid19_US <- theUS['province']
 
 # Save to csv.
 write.csv(Covid19_US, row.names = FALSE, file = "./Data/Raw/Covid19_US.csv")
+
+```
+
+## Access United Kingdom cumulative confirm data
+
+```{r}
+nCov2019_set_country('United Kingdom') 
+theUK <- load_nCov2019(lang = 'en', source = 'github')
+
+# Check data
+# This will return province data of Spain
+head(theUK['province']) 
+
+Covid19_UK <- theUK['province']
+
+# Save to csv.
+write.csv(Covid19_UK, row.names = FALSE, file = "./Data/Raw/Covid19_UK.csv")
 
 ```
