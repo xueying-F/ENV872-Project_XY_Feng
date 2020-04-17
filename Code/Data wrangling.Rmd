@@ -11,33 +11,89 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Read data
+## Read data and Wrangle Data
 
 ```{r cars}
 getwd()
 setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng/Data/Raw")
 
-Covid19_China_raw <- read.csv("Covid19_China_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+library(plyr) #Tools for Splitting, Applying and Combining Data
+library(tidyverse) #Getting data frames to tidy
+library(lubridate) #For dates and date-times
 
-Covid19_Global_raw <- read.csv("Covid19_Global_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_China_raw <- read.csv("Covid19_China_raw.csv",
+                              header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
-Covid19_Hubei_raw <- read.csv("Covid19_Hubei_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
-
-Covid19_Italy_raw <- read.csv("Covid19_Italy_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
-
-Covid19_US_raw <- read.csv("Covid19_US_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
-
-Covid19_UK_raw <- read.csv("Covid19_UK_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
-
-historical_China_raw <- read.csv("historical_China_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
-
-historical_Global_raw <- read.csv("historical_Global_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_China_processed <- 
+  select(Covid19_China_raw, name, confirm, dead, deadRate, heal, healRate)
 
 ```
 
-## Wrangling Data
+```{r}
+Covid19_Global_raw <- read.csv("Covid19_Global_raw.csv",
+                               header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_Global_processed <- 
+  select(Covid19_Global_raw, name, confirm, dead, deadRate, heal, healRate)
+
+```
 
 
 ```{r}
-plot(pressure)
+Covid19_Hubei_raw <- read.csv("Covid19_Hubei_raw.csv",
+                              header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_Hubei_processed <- 
+  select(Covid19_Hubei_raw, name, confirm, dead, deadRate, heal, healRate)
+
+```
+
+```{r}
+Covid19_Italy_raw <- read.csv("Covid19_Italy_raw.csv",
+                              header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_Italy_processed <- 
+  select(Covid19_Italy_raw, time:cum_dead) %>%
+  filter(province != "Unpublished sources")
+
+```
+
+```{r}
+Covid19_US_raw <- read.csv("Covid19_US_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_US_processed <- 
+  select(Covid19_US_raw, time:cum_dead)
+ 
+```
+
+```{r}
+Covid19_UK_raw <- read.csv("Covid19_UK_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Covid19_UK_processed <- 
+  select(Covid19_UK_raw, time:cum_dead) %>%
+  filter(province != "Unpublished sources")
+   
+```
+
+```{r}
+historical_China_raw <- read.csv("historical_China_raw.csv",
+                                 header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Historical_China_processed <- 
+  select(historical_China_raw, time:cum_dead)
+```
+
+```{r}
+historical_Global_raw <- read.csv("historical_Global_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+Historical_Global_processed <- historical_Global_raw
+```
+
+## Save processing data
+
+```{r}
+getwd()
+setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng/Data/Processed")
+write.csv(Covid19_China_processed,
+          file = "./ENV872 Project_XY_Feng/Data/Processed/Covid19_China_processed.csv")
 ```
