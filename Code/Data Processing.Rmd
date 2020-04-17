@@ -25,7 +25,7 @@ nCov2019
 Covid19_China <- nCov2019[] 
 
 # Save to csv.
-write.csv(Covid19_China, row.names = FALSE, file = "./Data/Raw/Covid19_China.csv")
+write.csv(Covid19_China, row.names = FALSE, file = "./Data/Raw/Covid19_China_raw.csv")
 ```
 
 ## Access Hubei Province COVID-19 data 
@@ -34,7 +34,7 @@ write.csv(Covid19_China, row.names = FALSE, file = "./Data/Raw/Covid19_China.csv
 Covid19_Hubei <- nCov2019['Hubei']
 
 # Save to csv.
-write.csv(Covid19_Hubei, row.names = FALSE, file = "./Data/Raw/Covid19_Hubei.csv")
+write.csv(Covid19_Hubei, row.names = FALSE, file = "./Data/Raw/Covid19_Hubei_raw.csv")
 ```
 
 
@@ -42,7 +42,7 @@ write.csv(Covid19_Hubei, row.names = FALSE, file = "./Data/Raw/Covid19_Hubei.csv
 
 ```{r}
 Covid19_Global <- nCov2019['global']
-write.csv(Covid19_Global, row.names = FALSE, file = "./Data/Raw/Covid19_Global.csv")
+write.csv(Covid19_Global, row.names = FALSE, file = "./Data/Raw/Covid19_Global_raw.csv")
 
 ```
 
@@ -58,7 +58,7 @@ nCov2019_history
 historical_China <- nCov2019_history[] 
 
 # Save to csv.
-write.csv(historical_China, row.names = FALSE, file = "./Data/Raw/historical_China.csv")
+write.csv(historical_China, row.names = FALSE, file = "./Data/Raw/historical_China_raw.csv")
 ```
 
 ## Access Global's Historical data
@@ -71,7 +71,7 @@ historical_Global <- nCov2019_history['global']
 tail(historical_Global)
 
 # Save to csv.
-write.csv(historical_Global, row.names = FALSE, file = "./Data/Raw/historical_Global.csv")
+write.csv(historical_Global, row.names = FALSE, file = "./Data/Raw/historical_Global_raw.csv")
 ```
 
 ## Access Italy cumulative confirm data
@@ -87,7 +87,7 @@ head(Italy['province'])
 Covid19_Italy <- Italy['province']
 
 # Save to csv.
-write.csv(Covid19_Italy, row.names = FALSE, file = "./Data/Raw/Covid19_Italy.csv")
+write.csv(Covid19_Italy, row.names = FALSE, file = "./Data/Raw/Covid19_Italy_raw.csv")
 
 ```
 
@@ -104,7 +104,7 @@ head(theUS['province'])
 Covid19_US <- theUS['province']
 
 # Save to csv.
-write.csv(Covid19_US, row.names = FALSE, file = "./Data/Raw/Covid19_US.csv")
+write.csv(Covid19_US, row.names = FALSE, file = "./Data/Raw/Covid19_US_raw.csv")
 
 ```
 
@@ -121,6 +121,6 @@ head(theUK['province'])
 Covid19_UK <- theUK['province']
 
 # Save to csv.
-write.csv(Covid19_UK, row.names = FALSE, file = "./Data/Raw/Covid19_UK.csv")
+write.csv(Covid19_UK, row.names = FALSE, file = "./Data/Raw/Covid19_UK_raw.csv")
 
 ```

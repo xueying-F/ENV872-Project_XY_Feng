@@ -17,19 +17,21 @@ knitr::opts_chunk$set(echo = TRUE)
 getwd()
 setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng/Data/Raw")
 
-Covid19_China <- read.csv("Covid19_China.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_China_raw <- read.csv("Covid19_China_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
-Covid19_Global <- read.csv("Covid19_Global.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_Global_raw <- read.csv("Covid19_Global_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
-Covid19_Hubei <- read.csv("Covid19_Hubei.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_Hubei_raw <- read.csv("Covid19_Hubei_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
-Covid19_Italy <- read.csv("Covid19_Italy.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_Italy_raw <- read.csv("Covid19_Italy_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
-Covid19_US <- read.csv("Covid19_US.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_US_raw <- read.csv("Covid19_US_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
-historical_China <- read.csv("historical_China.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+Covid19_UK_raw <- read.csv("Covid19_UK_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
-historical_Global <- read.csv("historical_Global.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+historical_China_raw <- read.csv("historical_China_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+
+historical_Global_raw <- read.csv("historical_Global_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 
 ```
 
