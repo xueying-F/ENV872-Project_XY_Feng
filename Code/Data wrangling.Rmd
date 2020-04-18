@@ -112,6 +112,6 @@ write.csv(Covid19_UK_processed,
 write.csv(Historical_China_processed,
           file = "./Data/Processed/Historical_China_processed.csv")
 
-write.csv(Historical_Global_processed,
+write.csv(Historical_Global_processed,row.names = FALSE,
           file = "./Data/Processed/Historical_Global_processed.csv")
 ```
