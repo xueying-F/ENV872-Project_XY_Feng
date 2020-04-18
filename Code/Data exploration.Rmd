@@ -65,12 +65,14 @@ library("here")
 pdf(here("output", "world trends.pdf"), width = 11, height = 8.5)
 ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
     geom_line() +
-    geom_label_repel(aes(label=country),nudge_x = -5, nudge_y = -5, size = 3, alpha = 0.8) +
+    geom_text_repel(aes(label=country),
+                    function(Historical_TopTen) 
+                      Historical_TopTen[Historical_TopTen$time == as.Date("2020-04-16"),])+
     mytheme +
     theme(legend.position = "none") +
-    labs(x = "Null",
-         y = "Null",
-         color = "Null")
+    labs(x = "Month",
+         y = "Number",
+         color = "Country")
 
 dev.off()
 ```
