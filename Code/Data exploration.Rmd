@@ -3,28 +3,72 @@ title: "Data exploration"
 author: "Xueying Feng"
 date: "4/11/2020"
 output: pdf_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+```{r}
+library(lubridate)
+require(dplyr)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+#Import datasets
+Historical_Global_processed <- read.csv("./Data/Processed/Historical_Global_processed.csv")
 ```
 
-## Including Plots
+## TopTen_countries
 
-You can also embed plots, for example:
+```{r cars}
+# Check on data frame
+head(Historical_Global_processed)
+str(Historical_Global_processed)
+
+# Change date column to date
+Historical_Global_processed$time <- as.Date(Historical_Global_processed$time, format = "%Y-%m-%d") 
+class(Historical_Global_processed$time)
+
+# Remove China data
+Historical_Global_processed = Historical_Global_processed[Historical_Global_processed$country != 'China',]
+head(Historical_Global_processed)
+
+# Filter out the top ten countries with the highest number of diagnoses (except China)
+TopTen_countries <- Historical_Global_processed %>% 
+  filter(time >= as.Date("2020-04-16")) %>%
+  top_n(10, cum_confirm) %>%
+  arrange(desc(cum_confirm)) %>%
+  pull(country)
+
+Historical_TopTen <- filter(Historical_Global_processed, country %in% TopTen_countries)
+```
+
+## Plots
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+require(ggplot2)
+#install.packages("ggrepel") 
+require(ggrepel)
+
+mytheme <- theme_minimal(base_size = 12, base_family = "Times") + 
+  theme(axis.text.x = element_text(color = "DarkGrey"),
+        legend.position = "top") 
+theme_set(mytheme)
+
+#save as pdf
+library("here")
+pdf(here("output", "world trends.pdf"), width = 11, height = 8.5)
+ggplot(filter(Historical_Global_processed, country %in% TopTen_countries), aes(x = time, y =cum_confirm, color=country)) +
+    geom_line() +
+    geom_label_repel(aes(label=country),nudge_x = -5, nudge_y = -5, size = 3, alpha = 0.8) +
+    mytheme +
+    theme(legend.position = "none") +
+    labs(x = "Null",
+         y = "Null",
+         color = "Null")
+
+dev.off()
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
