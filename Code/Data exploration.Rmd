@@ -38,10 +38,14 @@ head(Historical_Global_processed)
 TopTen_countries <- Historical_Global_processed %>% 
   filter(time >= as.Date("2020-04-16")) %>%
   top_n(10, cum_confirm) %>%
-  arrange(desc(cum_confirm)) %>%
-  pull(country)
+  arrange(desc(cum_confirm)) 
 
-Historical_TopTen <- filter(Historical_Global_processed, country %in% TopTen_countries)
+# Selects a column in a data frame and transforms it into a vector
+TopTen_countries <- pull(TopTen_countries, country)
+
+Historical_TopTen <- filter(Historical_Global_processed, country %in% TopTen_countries) %>%
+  arrange(desc(cum_confirm))
+
 ```
 
 ## Plots
@@ -59,7 +63,7 @@ theme_set(mytheme)
 #save as pdf
 library("here")
 pdf(here("output", "world trends.pdf"), width = 11, height = 8.5)
-ggplot(filter(Historical_Global_processed, country %in% TopTen_countries), aes(x = time, y =cum_confirm, color=country)) +
+ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
     geom_line() +
     geom_label_repel(aes(label=country),nudge_x = -5, nudge_y = -5, size = 3, alpha = 0.8) +
     mytheme +
