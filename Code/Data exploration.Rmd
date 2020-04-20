@@ -34,9 +34,9 @@ China_Trend <-
   ggplot(Historical_China, aes(x=time, y=cum_confirm)) +
   geom_point() +
   geom_line() +
-  labs(x = "Date (Month)", 
+  labs(x = "Date", 
        y = "Confirmed Cases") + 
-  scale_x_date(date_breaks="1 day", date_labels="%D")
+  scale_x_date(date_labels = "%b %d")
 
 print(China_Trend)
 
