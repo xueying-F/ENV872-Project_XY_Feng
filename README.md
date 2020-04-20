@@ -36,6 +36,11 @@ Folders contained in the repository:
 * Data (csv file)
 * Output (pdf file)
 
+* All scripts are saved as .rmd format. 
+* All scripts will be knitted and saved as a PDF when they are done.
+* Both processed and raw data are saved as csv files.
+* All outputs are saved as PDF files
+
 ## Metadata
 
 Covid19_China.csv
@@ -119,10 +124,10 @@ historical_Global
 ## Scripts and code
 
 In code folder:
-* Data Processing
-* Data wrangling
-* Data exploration (time series, mapping of global data, ect.)
-* Data analysis
+* Data Processing - Script for downloading data from R package and save as raw data
+* Data wrangling - Script for importing raw dataset and making data neat for analysis and save as processed data.
+* Data exploration - Script for exploring data, such time series, mapping of global data, ect.
+* Data analysis -  Script for all analysis.
 
 ## Quality assurance/quality control
 
