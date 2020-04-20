@@ -19,6 +19,30 @@ require(dplyr)
 Historical_Global_processed <- read.csv("./Data/Processed/Historical_Global_processed.csv")
 ```
 
+## Time series analysis
+```{r, fig.cap=paste("Increase cases trend in China")}
+#Selsct data from China
+Historical_China = Historical_Global_processed[Historical_Global_processed$country == 'China',]
+head(Historical_China)
+
+# Change date column to date
+Historical_China$time <- as.Date(Historical_China$time, format = "%Y-%m-%d") 
+class(Historical_China$time)
+
+# Create a ggplot depicting cases incereasing over time
+China_Trend <- 
+  ggplot(Historical_China, aes(x=time, y=cum_confirm)) +
+  geom_point() +
+  geom_line() +
+  labs(x = "Date (Month)", 
+       y = "Confirmed Cases") + 
+  scale_x_date(date_breaks="1 day", date_labels="%D")
+
+print(China_Trend)
+
+
+```
+
 ## TopTen_countries
 
 ```{r cars}
@@ -31,11 +55,11 @@ Historical_Global_processed$time <- as.Date(Historical_Global_processed$time, fo
 class(Historical_Global_processed$time)
 
 # Remove China data
-Historical_Global_processed = Historical_Global_processed[Historical_Global_processed$country != 'China',]
-head(Historical_Global_processed)
+Historical_Global = Historical_Global_processed[Historical_Global_processed$country != 'China',]
+head(Historical_Global)
 
 # Filter out the top ten countries with the highest number of diagnoses (except China)
-TopTen_countries <- Historical_Global_processed %>% 
+TopTen_countries <- Historical_Global %>% 
   filter(time >= as.Date("2020-04-16")) %>%
   top_n(10, cum_confirm) %>%
   arrange(desc(cum_confirm)) 
@@ -43,14 +67,15 @@ TopTen_countries <- Historical_Global_processed %>%
 # Selects a column in a data frame and transforms it into a vector
 TopTen_countries <- pull(TopTen_countries, country)
 
-Historical_TopTen <- filter(Historical_Global_processed, country %in% TopTen_countries) %>%
+Historical_TopTen <- filter(Historical_Global, country %in% TopTen_countries) %>%
   arrange(desc(cum_confirm))
+str(Historical_TopTen)
 
 ```
 
-## Plots
+## Set theme
 
-```{r pressure, echo=FALSE}
+```{r}
 require(ggplot2)
 #install.packages("ggrepel") 
 require(ggrepel)
@@ -60,21 +85,34 @@ mytheme <- theme_minimal(base_size = 12, base_family = "Times") +
         legend.position = "top") 
 theme_set(mytheme)
 
-#save as pdf
-library("here")
-pdf(here("output", "world trends.pdf"), width = 11, height = 8.5)
+```
+
+## Plots trens of comfirmed cases in top ten coutries
+
+```{r, fig.cap=paste("Trend of Comfirmed Cases in Top Ten Countries")}
+
+# Draw plot
 ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
-    geom_line() +
+    geom_line(alpha = 0.95, size = 1) +
     geom_text_repel(aes(label=country),
                     function(Historical_TopTen) 
                       Historical_TopTen[Historical_TopTen$time == as.Date("2020-04-16"),])+
     mytheme +
     theme(legend.position = "none") +
-    labs(x = "Month",
-         y = "Number",
-         color = "Country")
+    labs(x=expression(paste("Month"))) + 
+    labs(y=expression(paste("Comfimed Cases")))+
+    labs(color="Country")
 
-dev.off()
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Analysis of each province in China 
+
+```{r}
+#Import datasets
+Historical_China_processed <- read.csv("./Data/Processed/Historical_China_processed.csv",header = TRUE)
+
+head(Historical_China_processed)
+str(Historical_China_processed)
+```
+
