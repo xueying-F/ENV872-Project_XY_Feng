@@ -3,28 +3,111 @@ title: "Data analysis"
 author: "Xueying Feng"
 date: "4/11/2020"
 output: pdf_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r}
+getwd()
+setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng/Data/Processed")
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+library(lubridate)
+require(dplyr)
 
-```{r cars}
-summary(cars)
+require(ggplot2)
+#install.packages("ggrepel") 
+require(ggrepel)
+
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+## Analysis of United States Data
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+#Import datasets
+Covid19_US_processed <- read.csv("./Data/Processed/Covid19_US_processed.csv")
+
+head(Covid19_US_processed)
+str(Covid19_US_processed)
+
+Covid19_US_processed$time <- as.Date(Covid19_US_processed$time, format = "%m/%d/%y") 
+class(Covid19_US_processed$time)
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r, fig.cap=paste("Trend of each states in United States")}
+# Create a ggplot depicting cases incereasing over time in each state
+US_State_Trend <- ggplot(Covid19_US_processed, aes(x=time, y=cum_confirm, color=province)) +
+    geom_line(alpha = 0.95, size = 0.5) +
+    geom_text_repel(aes(label=province),
+                    function(Covid19_US_processed) 
+                      Covid19_US_processed[Covid19_US_processed$time == as.Date("2020-04-16"),])+
+    mytheme +
+    theme(legend.position = "none") +
+    labs(x=expression(paste("Time"))) + 
+    labs(y=expression(paste("Comfimed Cases")))+
+    labs(color="Covid19_US_processed") +
+    scale_x_date(date_labels = "%Y-%m-%d") 
+
+print(US_State_Trend)
+```
+
+
+```{r, fig.cap=paste("Trend of top ten states in United States (except NY and NJ)")}
+
+TopTen_States <- Covid19_US_processed %>%
+  filter(time >= as.Date("2020-04-16")) %>%
+  filter(province!= "New York state" & province!= "New Jersey" & province!= "Unpublishedsources") %>%
+  top_n(10, cum_confirm) %>%
+  arrange(desc(cum_confirm))
+
+TopTen_States <- pull(TopTen_States, province)
+
+TenStates_US <- Covid19_US_processed %>% 
+  filter(province %in% TopTen_States) 
+
+str(TenStates_US)
+
+# Create a ggplot 
+TenStates_trend <- ggplot(TenStates_US, aes(x = time, y =cum_confirm, color=province)) +
+  geom_line(alpha = 0.95, size = 1) +
+  geom_text_repel(aes(label=province),
+                      function(TenStates_US) 
+                      TenStates_US[TenStates_US$time == as.Date("2020-04-16"),])+
+  mytheme +
+  theme(legend.position = "none") +
+  labs(x=expression(paste("Time"))) + 
+  labs(y=expression(paste("Comfimed Cases"))) +
+  labs(color="province") +
+  scale_x_date(date_labels = "%Y-%m-%d")
+
+print(TenStates_trend)
+```
+
+
+## Draw maps
+```{r, fig.cap=paste("Map of comfimed cases sidtribution in China")}
+Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.csv")
+
+
+```
+
+
+
+```{r, fig.cap=paste("Map of comfimed cases sidtribution on Global level")}
+
+Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
+```
+
+
+
+```{r, fig.cap=paste("Map of comfimed cases sidtribution in United State")}
+
+```
+
