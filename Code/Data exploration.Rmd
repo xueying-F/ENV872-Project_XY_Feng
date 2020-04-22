@@ -33,7 +33,7 @@ theme_set(mytheme)
 
 ## Increasing case trend in China
 
-```{r, fig.cap=paste("Increasing case trend in China")}
+```{r, fig.cap=paste("Trend of confirmed case in China from Dec-2019 to Apri-2020")}
 #Import datasets
 Historical_Global_processed <- read.csv("./Data/Processed/Historical_Global_processed.csv")
 
@@ -48,11 +48,11 @@ class(Historical_China$time)
 # Create a ggplot depicting cases incereasing over time
 China_Trend <- 
   ggplot(Historical_China, aes(x=time, y=cum_confirm)) +
-  geom_point() +
-  geom_line() +
-  labs(x = "Date", 
+  geom_point(colour = "#e6550d") +
+  geom_line(colour = "#d95f0e") +
+  labs(x = "Time", 
        y = "Confirmed Cases") + 
-  scale_x_date(date_labels = "%b %d")
+  scale_x_date(date_labels = "%Y-%m-%d")
 
 print(China_Trend)
 
@@ -67,7 +67,8 @@ Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.cs
 China.plot <-ggplot(Covid19_China_processed,aes(x = name,y = confirm)) + 
   geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
   scale_y_log10() +
-  labs(y = "Numbers of Confirmed Cases") + 
+  labs(x= "Province Name (China)",
+       y = "Numbers of Confirmed Cases") + 
   mytheme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
@@ -105,7 +106,7 @@ Historical_HubeiCityV2 <- Historical_Hubei %>%
 ```
 
 ## Draw trend line of each city in Hubei province
-```{r, fig.cap=paste("Increase cases trend in each cities in Hubei province, China")}
+```{r, fig.cap=paste("Trend of each city in Hubei province, China")}
 # Create a ggplot depicting cases incereasing over time
 HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=total_confirm, color=city)) +
     geom_line(alpha = 0.95, size = 0.5) +
@@ -114,15 +115,16 @@ HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=total_confirm, c
                       Historical_HubeiCityV2[Historical_HubeiCityV2$time == as.Date("2020-04-16"),])+
     mytheme +
     theme(legend.position = "none") +
-    labs(x=expression(paste("Month"))) + 
+    labs(x=expression(paste("Time"))) + 
     labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="city")
+    labs(color="city") +
+    scale_x_date(date_labels = "%Y-%m-%d")
 
 print(HubeiCity_Trend)
 ```
 
 ## Draw trend line of each city in Hubei province (except Wuhan)
-```{r, fig.cap=paste("Increase cases trend in each cities in Hubei province, China (except Wuhan)")}
+```{r, fig.cap=paste("Trend of each city in Hubei province (except Wuhan)")}
 # Group by Hubei cities
 Historical_HubeiCityV3 <- Historical_Hubei %>%
   filter(city!= "Location TBD" & city!= "Wuhan") %>%
@@ -137,9 +139,10 @@ HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=total_confirm, c
                       Historical_HubeiCityV3[Historical_HubeiCityV3$time == as.Date("2020-04-16"),])+
     mytheme +
     theme(legend.position = "none") +
-    labs(x=expression(paste("Month"))) + 
+    labs(x=expression(paste("Time"))) + 
     labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="city")
+    labs(color="city") +
+    scale_x_date(date_labels = "%Y-%m-%d")
 
 print(HubeiCity_Trend)
 ```
@@ -157,7 +160,7 @@ Historical_ChinaProvinceV2 <- Historical_ChinaProvince %>%
 ```
 
 ## Draw trend line of each province (except Hubei)
-```{r, fig.cap=paste("Increase cases trend in each province, China (except Hubei)")}
+```{r, fig.cap=paste("Trend of each province, China (except Hubei)")}
 # Create a ggplot depicting cases incereasing over time
 ChinaProvince_Trend <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_confirm, color=province)) +
     geom_line(alpha = 0.95, size = 1) +
@@ -166,9 +169,10 @@ ChinaProvince_Trend <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_co
                       Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
     mytheme +
     theme(legend.position = "none") +
-    labs(x=expression(paste("Month"))) + 
-    labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="province")
+    labs(x=expression(paste("Time"))) + 
+    labs(y=expression(paste("Comfimed Cases"))) +
+    labs(color="province") +
+    scale_x_date(date_labels = "%Y-%m-%d")
 
 print(ChinaProvince_Trend)
 ```
@@ -189,7 +193,7 @@ TopTen_provinces
 ```
 
 ## Draw trend line of top ten province (except Hubei)
-```{r, fig.cap=paste("Top ten provinces with the highest number of diagnoses, China (except Hubei)")}
+```{r, fig.cap=paste("Trend of top ten provinces, China (except Hubei)")}
 # Draw plot
 TenProvince_trend <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, color=province)) +
     geom_line(alpha = 0.95, size = 1) +
@@ -198,9 +202,10 @@ TenProvince_trend <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, 
                       Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
     mytheme +
     theme(legend.position = "none") +
-    labs(x=expression(paste("Month"))) + 
-    labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="province")
+    labs(x=expression(paste("Time"))) + 
+    labs(y=expression(paste("Comfimed Cases"))) +
+    labs(color="province") +
+    scale_x_date(date_labels = "%Y-%m-%d")
 
 print(TenProvince_trend)
 ```
@@ -219,10 +224,10 @@ Fifty_countries <- Covid19_Global_processed %>%
 # Draw histogram plot
 Global.plot <-ggplot(Fifty_countries,aes(x = name,y = confirm)) + 
   geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
-  labs(y = "Numbers of Confirmed Cases") + 
+  labs(x = " Country Name (Top 15)",
+       y = "Numbers of Confirmed Cases") + 
   mytheme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
 
 print(Global.plot)
 ```
@@ -257,9 +262,9 @@ str(Historical_TopTen)
 
 ```
 
-## Plots trens of comfirmed cases in top ten coutries
+## Plots trends of comfirmed cases in top ten coutries (except China)
 
-```{r, fig.cap=paste("Top ten countries with the highest number of diagnoses (except China)")}
+```{r, fig.cap=paste("Trend of Top Ten Countries (except China)")}
 
 # Draw plot
 TenCountries <- ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
@@ -269,9 +274,10 @@ TenCountries <- ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=co
                       Historical_TopTen[Historical_TopTen$time == as.Date("2020-04-16"),])+
     mytheme +
     theme(legend.position = "none") +
-    labs(x=expression(paste("Month"))) + 
-    labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="Country")
+    labs(x=expression(paste("Time"))) + 
+    labs(y=expression(paste("Comfimed Cases"))) +
+    labs(color="Country") +
+    scale_x_date(date_labels = "%Y-%m-%d")
 
 print(TenCountries)
 ```
