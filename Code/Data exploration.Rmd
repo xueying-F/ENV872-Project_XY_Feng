@@ -189,7 +189,8 @@ TopTen_provinces <- pull(TopTen_provinces, province)
 
 TenProvinces_China <- filter(Historical_ChinaProvinceV2, province %in% TopTen_provinces) %>%
   arrange(desc(total_confirm))
-TopTen_provinces
+
+str(TenProvinces_China)
 ```
 
 ## Draw trend line of top ten province (except Hubei)
@@ -245,7 +246,7 @@ class(Historical_Global_processed$time)
 
 # Remove China data
 Historical_Global = Historical_Global_processed[Historical_Global_processed$country != 'China',]
-head(Historical_Global)
+str(Historical_Global)
 
 # Filter out the top ten countries with the highest number of diagnoses (except China)
 TopTen_countries <- Historical_Global %>% 
