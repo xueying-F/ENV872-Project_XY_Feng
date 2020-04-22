@@ -33,7 +33,8 @@ theme_set(mytheme)
 
 ```
 
-## Time series analysis
+## Increasing case trend in China
+
 ```{r, fig.cap=paste("Increasing case trend in China")}
 #Selsct data from China
 Historical_China = Historical_Global_processed[Historical_Global_processed$country == 'China',]
@@ -54,10 +55,140 @@ China_Trend <-
 
 print(China_Trend)
 
+```
+
+## Analysis of trend of each province in China 
+
+```{r}
+#Import datasets
+Historical_China_processed <- read.csv("./Data/Processed/Historical_China_processed.csv",header = TRUE)
+
+head(Historical_China_processed)
+str(Historical_China_processed)
+
+# Change date column to date
+Historical_China_processed$time <- as.Date(Historical_China_processed$time, format = "%m/%d/%y") 
+head(Historical_China_processed)
+class(Historical_China_processed$time)
 
 ```
 
-## TopTen_countries
+## Only select Hubei data
+
+```{r}
+# Select Hubei province data
+Historical_Hubei = Historical_China_processed[Historical_China_processed$province == 'Hubei',]
+head(Historical_Hubei)
+
+# Group by Hubei cities
+Historical_HubeiCityV2 <- Historical_Hubei %>%
+  filter(city!= "Location TBD") %>%
+  group_by(time,city) %>%
+  summarise(total_confirm = sum(cum_confirm))
+```
+
+## Draw trend line of each city in Hubei province
+```{r, fig.cap=paste("Increase cases trend in each cities in Hubei province, China")}
+# Create a ggplot depicting cases incereasing over time
+HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=total_confirm, color=city)) +
+    geom_line(alpha = 0.95, size = 0.5) +
+    geom_text_repel(aes(label=city),
+                    function(Historical_HubeiCityV2) 
+                      Historical_HubeiCityV2[Historical_HubeiCityV2$time == as.Date("2020-04-16"),])+
+    mytheme +
+    theme(legend.position = "none") +
+    labs(x=expression(paste("Month"))) + 
+    labs(y=expression(paste("Comfimed Cases")))+
+    labs(color="city")
+
+print(HubeiCity_Trend)
+```
+
+## Draw trend line of each city in Hubei province (except Wuhan)
+```{r, fig.cap=paste("Increase cases trend in each cities in Hubei province, China (except Wuhan)")}
+# Group by Hubei cities
+Historical_HubeiCityV3 <- Historical_Hubei %>%
+  filter(city!= "Location TBD" & city!= "Wuhan") %>%
+  group_by(time,city) %>%
+  summarise(total_confirm = sum(cum_confirm))
+
+# Create a ggplot depicting cases incereasing over time
+HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=total_confirm, color=city)) +
+    geom_line(alpha = 0.95, size = 0.5) +
+    geom_text_repel(aes(label=city),
+                    function(Historical_HubeiCityV3) 
+                      Historical_HubeiCityV3[Historical_HubeiCityV3$time == as.Date("2020-04-16"),])+
+    mytheme +
+    theme(legend.position = "none") +
+    labs(x=expression(paste("Month"))) + 
+    labs(y=expression(paste("Comfimed Cases")))+
+    labs(color="city")
+
+print(HubeiCity_Trend)
+```
+
+## Remove HUbei Data
+
+```{r}
+# Remove Hubei province data
+Historical_ChinaProvince = Historical_China_processed[Historical_China_processed$province != 'Hubei',]
+head(Historical_ChinaProvince)
+
+Historical_ChinaProvinceV2 <- Historical_ChinaProvince %>%
+  group_by(time,province) %>%
+  summarise(total_confirm = sum(cum_confirm))
+```
+
+## Draw trend line of each province (except Hubei)
+```{r, fig.cap=paste("Increase cases trend in each province, China (except Hubei)")}
+# Create a ggplot depicting cases incereasing over time
+ChinaProvince_Trend <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_confirm, color=province)) +
+    geom_line(alpha = 0.95, size = 1) +
+    geom_text_repel(aes(label=province),
+                    function(Historical_ChinaProvinceV2) 
+                      Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
+    mytheme +
+    theme(legend.position = "none") +
+    labs(x=expression(paste("Month"))) + 
+    labs(y=expression(paste("Comfimed Cases")))+
+    labs(color="province")
+
+print(ChinaProvince_Trend)
+```
+
+## Top ten province in China (except Hubei)
+```{r}
+# Filter out the top ten provinces with the highest number of diagnoses (except Hubei)
+TopTen_provinces <- Historical_ChinaProvinceV2 %>% 
+  filter(time >= as.Date("2020-04-16")) %>%
+  top_n(10, total_confirm) %>%
+  arrange(desc(total_confirm)) 
+
+TopTen_provinces <- pull(TopTen_provinces, province)
+
+TenProvinces_China <- filter(Historical_ChinaProvinceV2, province %in% TopTen_provinces) %>%
+  arrange(desc(total_confirm))
+TopTen_provinces
+```
+
+## Draw trend line of top ten province (except Hubei)
+```{r, fig.cap=paste("Top ten provinces with the highest number of diagnoses, China (except Hubei)")}
+# Draw plot
+TenProvince_trend <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, color=province)) +
+    geom_line(alpha = 0.95, size = 1) +
+    geom_text_repel(aes(label=province),
+                    function(Historical_ChinaProvinceV2) 
+                      Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
+    mytheme +
+    theme(legend.position = "none") +
+    labs(x=expression(paste("Month"))) + 
+    labs(y=expression(paste("Comfimed Cases")))+
+    labs(color="province")
+
+print(TenProvince_trend)
+```
+
+## TopTen_countries (global level except China)
 
 ```{r cars}
 # Check on data frame
@@ -92,7 +223,7 @@ str(Historical_TopTen)
 ```{r, fig.cap=paste("Top ten countries with the highest number of diagnoses (except China)")}
 
 # Draw plot
-ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
+TenCountries <- ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
     geom_line(alpha = 0.95, size = 1) +
     geom_text_repel(aes(label=country),
                     function(Historical_TopTen) 
@@ -103,75 +234,7 @@ ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
     labs(y=expression(paste("Comfimed Cases")))+
     labs(color="Country")
 
+print(TenCountries)
 ```
 
 
-## Analysis of each province in China 
-
-```{r}
-#Import datasets
-Historical_China_processed <- read.csv("./Data/Processed/Historical_China_processed.csv",header = TRUE)
-
-head(Historical_China_processed)
-str(Historical_China_processed)
-
-# Change date column to date
-Historical_China_processed$time <- as.Date(Historical_China_processed$time, format = "%m/%d/%y") 
-head(Historical_China_processed)
-class(Historical_China_processed$time)
-
-# Remove Hubei province data
-Historical_ChinaProvince = Historical_China_processed[Historical_China_processed$province != 'Hubei',]
-head(Historical_ChinaProvince)
-
-Historical_ChinaProvinceV2 <- Historical_ChinaProvince %>%
-  group_by(time,province) %>%
-  summarise(total_confirm = sum(cum_confirm))
-```
-
-## Draw trend line of each province
-```{r, fig.cap=paste("Increase cases trend in each province, China (except Hubei)")}
-# Create a ggplot depicting cases incereasing over time
-Province_Trend <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_confirm, color=province)) +
-    geom_line(alpha = 0.95, size = 1) +
-    geom_text_repel(aes(label=province),
-                    function(Historical_ChinaProvinceV2) 
-                      Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
-    mytheme +
-    theme(legend.position = "none") +
-    labs(x=expression(paste("Month"))) + 
-    labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="province")
-
-print(Province_Trend)
-```
-
-## Top ten province in China
-```{r}
-# Filter out the top ten provinces with the highest number of diagnoses (except Hubei)
-TopTen_provinces <- Historical_ChinaProvinceV2 %>% 
-  filter(time >= as.Date("2020-04-16")) %>%
-  top_n(10, total_confirm) %>%
-  arrange(desc(total_confirm)) 
-
-TopTen_provinces <- pull(TopTen_provinces, province)
-
-TenProvinces_China <- filter(Historical_ChinaProvinceV2, province %in% TopTen_provinces) %>%
-  arrange(desc(total_confirm))
-str(TopTen_provinces)
-```
-
-```{r, fig.cap=paste("Top ten provinces with the highest number of diagnoses, China (except Hubei)")}
-# Draw plot
-ggplot(TenProvinces_China, aes(x = time, y =total_confirm, color=province)) +
-    geom_line(alpha = 0.95, size = 1) +
-    geom_text_repel(aes(label=province),
-                    function(Historical_ChinaProvinceV2) 
-                      Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
-    mytheme +
-    theme(legend.position = "none") +
-    labs(x=expression(paste("Month"))) + 
-    labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="province")
-
-```
