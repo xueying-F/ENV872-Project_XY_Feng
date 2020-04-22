@@ -15,8 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 library(lubridate)
 require(dplyr)
 
-#Import datasets
-Historical_Global_processed <- read.csv("./Data/Processed/Historical_Global_processed.csv")
 ```
 
 ## Set theme
@@ -36,6 +34,9 @@ theme_set(mytheme)
 ## Increasing case trend in China
 
 ```{r, fig.cap=paste("Increasing case trend in China")}
+#Import datasets
+Historical_Global_processed <- read.csv("./Data/Processed/Historical_Global_processed.csv")
+
 #Selsct data from China
 Historical_China = Historical_Global_processed[Historical_Global_processed$country == 'China',]
 head(Historical_China)
@@ -55,6 +56,22 @@ China_Trend <-
 
 print(China_Trend)
 
+```
+
+## Compare total number in each province 
+
+```{r, fig.cap=paste("Compare total number in each province, China")}
+Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.csv")
+
+# scale_y_log10: transform the y-axis to make it easier to read
+China.plot <-ggplot(Covid19_China_processed,aes(x = name,y = confirm)) + 
+  geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
+  scale_y_log10() +
+  labs(y = "Numbers of Confirmed Cases") + 
+  mytheme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print(China.plot)
 ```
 
 ## Analysis of trend of each province in China 
@@ -186,6 +203,28 @@ TenProvince_trend <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, 
     labs(color="province")
 
 print(TenProvince_trend)
+```
+
+
+## Compare total number in each country 
+
+```{r, fig.cap=paste("Compare total number in each country")}
+Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
+
+# Filter out top 15 countries with the highest number of diagnoses
+Fifty_countries <- Covid19_Global_processed %>% 
+  top_n(15, confirm) %>%
+  arrange(desc(confirm))
+
+# Draw histogram plot
+Global.plot <-ggplot(Fifty_countries,aes(x = name,y = confirm)) + 
+  geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
+  labs(y = "Numbers of Confirmed Cases") + 
+  mytheme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+print(Global.plot)
 ```
 
 ## TopTen_countries (global level except China)
