@@ -107,7 +107,7 @@ write.csv(Covid19_US_processed,
           file = "./Data/Processed/Covid19_US_processed.csv")
 
 write.csv(Covid19_UK_processed,
-          file = "./Data/Processed/Covid19_IUK_processed.csv")
+          file = "./Data/Processed/Covid19_UK_processed.csv")
 
 write.csv(Historical_China_processed,
           file = "./Data/Processed/Historical_China_processed.csv")
