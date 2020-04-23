@@ -40,13 +40,61 @@ class(Covid19_US_processed$time)
 
 ```
 
+## Draw maps
+
+```{r}
+# get column names
+colnames(Covid19_US_processed)
+
+# Rename column where names is "province"
+names(Covid19_US_processed)[names(Covid19_US_processed) == "province"] <- "state"
+str(Covid19_US_processed)
+
+
+# Select total confirmed cases in 51 States
+US_States <- Covid19_US_processed %>%
+  filter(time >= as.Date("2020-04-16")) %>%
+  filter(state!= "Unpublished sources") %>%
+  top_n(51, cum_confirm)
+
+# Convert state column to characters 
+US_States$state <- as.character(US_States$state)
+
+# rename specific cell name
+US_States$state[US_States$state == 'New York state'] <- 'New York'
+US_States$state[US_States$state == "Washington State"] <- "Washington"
+US_States$state[US_States$state == 'the state of Wisconsin'] <- 'Wisconsin'
+
+
+```
+
+```{r, fig.cap=paste("Map of comfimed cases didtribution in United State")}
+#install.packages("usmap")
+library(usmap)
+
+USMap_Base <- plot_usmap(regions = "counties") + 
+  labs(title = "US Counties",
+       subtitle = "This is a blank map of the counties of the United States.") + 
+  theme(panel.background = element_rect(color = "black", fill = "lightblue"))
+
+
+### Draw map
+CasesDidtribution <- plot_usmap(regions="state", data = US_States, values = "cum_confirm", color = "black") +
+  scale_fill_continuous(low = "#fee6ce", high = "#d95f0e", 
+                        name = "Total confirmed cases", label = scales::comma) + 
+  labs(title = "State Reporting Cases of Covid 19") +
+  theme(legend.position = "right")
+
+print(CasesDidtribution)
+```
+
 ## Draw trend of each states in United States
 
 ```{r, fig.cap=paste("Trend of each states in United States")}
 # Create a ggplot depicting cases incereasing over time in each state
-US_State_Trend <- ggplot(Covid19_US_processed, aes(x=time, y=cum_confirm, color=province)) +
+US_State_Trend <- ggplot(Covid19_US_processed, aes(x=time, y=cum_confirm, color=state)) +
     geom_line(alpha = 0.95, size = 0.5) +
-    geom_text_repel(aes(label=province),
+    geom_text_repel(aes(label=state),
                     function(Covid19_US_processed) 
                       Covid19_US_processed[Covid19_US_processed$time == as.Date("2020-04-16"),])+
     mytheme +
@@ -64,14 +112,14 @@ print(US_State_Trend)
 
 TopTen_States <- Covid19_US_processed %>%
   filter(time >= as.Date("2020-04-16")) %>%
-  filter(province!= "New York state" & province!= "New Jersey" & province!= "Unpublishedsources") %>%
+  filter(state!= "New York state" & state!= "New Jersey" & state!= "Unpublishedsources") %>%
   top_n(10, cum_confirm) %>%
   arrange(desc(cum_confirm))
 
-TopTen_States <- pull(TopTen_States, province)
+TopTen_States <- pull(TopTen_States, state)
 
 TenStates_US <- Covid19_US_processed %>% 
-  filter(province %in% TopTen_States) 
+  filter(state %in% TopTen_States) 
 
 str(TenStates_US)
 
@@ -83,70 +131,96 @@ write.csv(TenStates_US,
 
 ```{r, fig.cap=paste("Trend of top ten states in United States (except NY and NJ)")}
 # Create a ggplot 
-TenStates_trend <- ggplot(TenStates_US, aes(x = time, y =cum_confirm, color=province)) +
+TenStates_trend <- ggplot(TenStates_US, aes(x = time, y =cum_confirm, color=state)) +
   geom_line(alpha = 0.95, size = 1) +
-  geom_text_repel(aes(label=province),
+  geom_text_repel(aes(label=state),
                       function(TenStates_US) 
                       TenStates_US[TenStates_US$time == as.Date("2020-04-16"),])+
   mytheme +
   theme(legend.position = "none") +
   labs(x=expression(paste("Time"))) + 
   labs(y=expression(paste("Comfimed Cases"))) +
-  labs(color="province") +
+  labs(color="state") +
   scale_x_date(date_labels = "%Y-%m-%d")
+
 
 print(TenStates_trend)
 ```
 
+## Trend analysis of comfirmed cases, dead cases, and heal cases
+```{r")}
+#install.packages("trend") 
+library(trend) 
+#install.packages("zoo") 
+library(zoo)
 
-## Draw maps
+Historical_USTrend = Historical_Global_processed[Historical_Global_processed$country == 'United States',] %>%
+  na.omit(Historical_USTrend)
 
-```{r, fig.cap=paste("Map of comfimed cases didtribution in United State")}
-#install.packages("usmap")
-library(usmap)
+tail(Historical_USTrend)
 
-plot_usmap(regions = "counties") + 
-  labs(title = "US Counties",
-       subtitle = "This is a blank map of the counties of the United States.") + 
-  theme(panel.background = element_rect(color = "black", fill = "lightblue"))
+# Save as csv
+write.csv(Historical_USTrend,
+          file = "./Data/Processed/Historical_USTrend.csv",row.names=FALSE)
+
+```
+
+## Increasing case trend in US
+
+```{r, fig.cap=paste("Trend of confirmed case in the U.S. from Dec-2019 to Apri-2020")}
+US_ComfirmedCases_Trend <-
+  ggplot(Historical_USTrend, aes(x = time, y = cum_confirm)) +
+  geom_point(colour = "#e6550d") +
+  geom_line(colour = "#d95f0e") +
+  labs(x = "Time", 
+       y = "Confirmed Cases") + 
+  scale_x_date(date_labels = "%Y-%m-%d")
+
+print(US_ComfirmedCases_Trend)
+```
+
+## Trend anlysis on confirmed, heal, dead number
+
+```{r}
+# Change Historical_USTrend dataset's Column names
+names(Historical_USTrend)[1] <- "Time"
+names(Historical_USTrend)[3] <- "Total Confirm"
+names(Historical_USTrend)[4] <- "Total Heal"
+names(Historical_USTrend)[5] <- "Total Dead"
 
 
-head(Covid19_US_processed)
-
-# get column names
-colnames(Covid19_US_processed)
-
-# Rename column where names is "province"
-names(Covid19_US_processed)[names(Covid19_US_processed) == "province"] <- "state"
-str(Covid19_US_processed)
+USTrend_gather <- tidyr::gather(Historical_USTrend, "Type", "Number", 3:5)
+str(USTrend_gather)
+```
 
 
-# Select total confirmed cases in 51 States
-US_States <- Covid19_US_processed %>%
-  filter(time >= as.Date("2020-04-16")) %>%
-  filter(state!= "Unpublished sources") %>%
-  top_n(51, cum_confirm)
+```{r, fig.cap=paste("Number of deaths, confirms, and cures in US")}
+US_Trend <- ggplot(USTrend_gather, aes(Time, Number, color = Type)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x=expression(paste("Time"))) + 
+  labs(y=expression(paste("Total number")))+
+  mytheme + 
+  theme(legend.position = "right") +
+  scale_x_date(date_labels = "%Y-%m-%d", 
+    limits = c(as.Date("2020-01-15"), as.Date("2020-04-16"))) +
+  labs(title="Number of deaths, confirms, and cures in US") 
+print(US_Trend)
 
-# rename specific cell nme
-US_States$state[US_States$state == 'New York state'] <- 'New York'
-US_States$state[US_States$state == 'Washington State'] <- 'Washington'
-US_States$state[US_States$state == 'the state of Wisconsin'] <- 'Wisconsin'
-
-US_States$state <- as.character(US_States$state)
-
-### Draw map
-plot_usmap(regions="state", data = US_States, values = "cum_confirm", color = "black") +
-  scale_fill_continuous(low = "#fee6ce", high = "#d95f0e", 
-                        name = "Total confirmed cases", label = scales::comma) + 
-  labs(title = "State Reporting Cases of Covid 19") +
-  theme(legend.position = "right")
+US_Trend2 <-
+  ggplot(USTrend_gather, aes(x = Time, y = Number)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color="steelblue") +
+  facet_wrap(~Type)
+print(US_Trend2)
 
 
 ```
 
+## Draw heal and dead plot 
 
 ```{r, fig.cap=paste("Compare heal and death number with total confirmed number in top ten states (except NY and NJ)")}
-ggplot(TenStates_US, aes(cum_confirm, cum_heal,cum_dead)) + 
+ggplot(Historical_USTrend, aes(cum_confirm, cum_heal,cum_dead)) + 
   stat_smooth() +
   facet_wrap(~province)
 
@@ -154,7 +228,6 @@ ggplot(TenStates_US, aes(cum_confirm, cum_heal,cum_dead)) +
 
 
 ```{r, fig.cap=paste("Map of comfimed cases sidtribution in China")}
-Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.csv")
 
 
 ```
@@ -163,7 +236,6 @@ Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.cs
 
 ```{r, fig.cap=paste("Map of comfimed cases sidtribution on Global level")}
 
-Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
 ```
 
 

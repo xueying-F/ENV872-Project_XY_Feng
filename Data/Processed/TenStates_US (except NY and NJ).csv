@@ -1,4 +1,4 @@
-"","time","country","province","cum_confirm","cum_heal","cum_dead"
+"","time","country","state","cum_confirm","cum_heal","cum_dead"
 "1",2020-03-15,"United States","California",431,2,6
 "2",2020-03-15,"United States","Massachusetts",164,1,0
 "3",2020-03-15,"United States","Florida",136,0,5
