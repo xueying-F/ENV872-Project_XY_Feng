@@ -183,11 +183,12 @@ print(US_ComfirmedCases_Trend)
 
 ```{r}
 # Change Historical_USTrend dataset's Column names
+str(Historical_USTrend)
+
 names(Historical_USTrend)[1] <- "Time"
 names(Historical_USTrend)[3] <- "Total Confirm"
 names(Historical_USTrend)[4] <- "Total Heal"
 names(Historical_USTrend)[5] <- "Total Dead"
-
 
 USTrend_gather <- tidyr::gather(Historical_USTrend, "Type", "Number", 3:5)
 str(USTrend_gather)
@@ -207,22 +208,35 @@ US_Trend <- ggplot(USTrend_gather, aes(Time, Number, color = Type)) +
   labs(title="Number of deaths, confirms, and cures in US") 
 print(US_Trend)
 
-US_Trend2 <-
-  ggplot(USTrend_gather, aes(x = Time, y = Number)) +
-  geom_line(color = "steelblue", size = 1) +
-  geom_point(color="steelblue") +
-  facet_wrap(~Type)
-print(US_Trend2)
-
 
 ```
 
 ## Draw heal and dead plot 
 
-```{r, fig.cap=paste("Compare heal and death number with total confirmed number in top ten states (except NY and NJ)")}
-ggplot(Historical_USTrend, aes(cum_confirm, cum_heal,cum_dead)) + 
-  stat_smooth() +
-  facet_wrap(~province)
+```{r}
+head(TenStates_US)
+
+names(TenStates_US)[1] <- "Time"
+names(TenStates_US)[4] <- "Total Confirm"
+names(TenStates_US)[5] <- "Total Heal"
+names(TenStates_US)[6] <- "Total Dead"
+
+TenStates_US_gather <- tidyr::gather(TenStates_US, "Type", "Number", 4:6)
+str(TenStates_US_gather)
+```
+
+
+```{r, fig.cap=paste("Number of deaths, confirms, and cures in top ten states")}
+US_Topten_Trend <-
+  ggplot(TenStates_US_gather, aes(x = Time, y = Number, color = Type)) +
+  geom_line() +
+  geom_point() +
+  labs(x=expression(paste("Time"))) + 
+  labs(y=expression(paste("Total number")))+
+  mytheme + 
+  theme(legend.position = "right") +
+  facet_wrap(.~state)
+print(US_Topten_Trend)
 
 ```
 
