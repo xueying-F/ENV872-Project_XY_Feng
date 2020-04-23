@@ -92,25 +92,25 @@ getwd()
 setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng/Data/Processed")
 
 write.csv(Covid19_China_processed,
-          file = "./Data/Processed/Covid19_China_processed.csv")
+          file = "./Data/Processed/Covid19_China_processed.csv", row.names=FALSE)
 
 write.csv(Covid19_Global_processed,
-          file = "./Data/Processed/Covid19_Global_processed.csv")
+          file = "./Data/Processed/Covid19_Global_processed.csv", row.names=FALSE)
 
 write.csv(Covid19_Hubei_processed,
-          file = "./Data/Processed/Covid19_Hubei_processed.csv")
+          file = "./Data/Processed/Covid19_Hubei_processed.csv", row.names=FALSE)
 
 write.csv(Covid19_Italy_processed,
-          file = "./Data/Processed/Covid19_Italy_processed.csv")
+          file = "./Data/Processed/Covid19_Italy_processed.csv", row.names=FALSE)
 
 write.csv(Covid19_US_processed,
-          file = "./Data/Processed/Covid19_US_processed.csv")
+          file = "./Data/Processed/Covid19_US_processed.csv", row.names=FALSE)
 
 write.csv(Covid19_UK_processed,
-          file = "./Data/Processed/Covid19_UK_processed.csv")
+          file = "./Data/Processed/Covid19_UK_processed.csv", row.names=FALSE)
 
 write.csv(Historical_China_processed,
-          file = "./Data/Processed/Historical_China_processed.csv")
+          file = "./Data/Processed/Historical_China_processed.csv", row.names=FALSE)
 
 write.csv(Historical_Global_processed,
           file = "./Data/Processed/Historical_Global_processed.csv")
