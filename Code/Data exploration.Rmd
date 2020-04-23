@@ -100,15 +100,16 @@ head(Historical_Hubei)
 
 # Group by Hubei cities
 Historical_HubeiCityV2 <- Historical_Hubei %>%
-  filter(city!= "Location TBD") %>%
-  group_by(time,city) %>%
-  summarise(total_confirm = sum(cum_confirm))
+  select(time, city:cum_dead) 
+# Save as csv
+write.csv(Historical_HubeiCityV2,
+          file = "./Data/Processed/Historical_HubeiCity.csv",row.names=FALSE)
 ```
 
 ## Draw trend line of each city in Hubei province
 ```{r, fig.cap=paste("Trend of each city in Hubei province, China")}
 # Create a ggplot depicting cases incereasing over time
-HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=total_confirm, color=city)) +
+HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=cum_confirm, color=city)) +
     geom_line(alpha = 0.95, size = 0.5) +
     geom_text_repel(aes(label=city),
                     function(Historical_HubeiCityV2) 
@@ -124,15 +125,19 @@ print(HubeiCity_Trend)
 ```
 
 ## Draw trend line of each city in Hubei province (except Wuhan)
-```{r, fig.cap=paste("Trend of each city in Hubei province (except Wuhan)")}
+```{r}
 # Group by Hubei cities
-Historical_HubeiCityV3 <- Historical_Hubei %>%
-  filter(city!= "Location TBD" & city!= "Wuhan") %>%
-  group_by(time,city) %>%
-  summarise(total_confirm = sum(cum_confirm))
+Historical_HubeiCityV3 <- Historical_HubeiCityV2 %>%
+  filter(city!= "Location TBD" & city!= "Wuhan") 
 
+# Save as csv
+write.csv(Historical_HubeiCityV3,
+          file = "./Data/Processed/Historical_HubeiCity (except Wuhan).csv", row.names=FALSE)
+```
+
+```{r, fig.cap=paste("Trend of each city in Hubei province (except Wuhan)")}
 # Create a ggplot depicting cases incereasing over time
-HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=total_confirm, color=city)) +
+HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=cum_confirm, color=city)) +
     geom_line(alpha = 0.95, size = 0.5) +
     geom_text_repel(aes(label=city),
                     function(Historical_HubeiCityV3) 
@@ -147,7 +152,7 @@ HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=total_confirm, c
 print(HubeiCity_Trend)
 ```
 
-## Remove HUbei Data
+## Remove Hubei Data
 
 ```{r}
 # Remove Hubei province data
@@ -156,7 +161,13 @@ head(Historical_ChinaProvince)
 
 Historical_ChinaProvinceV2 <- Historical_ChinaProvince %>%
   group_by(time,province) %>%
-  summarise(total_confirm = sum(cum_confirm))
+  summarise(total_confirm = sum(cum_confirm),
+            total_heal = sum(cum_heal),
+            total_dead = sum(cum_dead)) 
+
+# Save as csv
+write.csv(Historical_ChinaProvinceV2,
+          file = "./Data/Processed/Historical_ChinaProvince (except Hubei).csv", row.names=FALSE)
 ```
 
 ## Draw trend line of each province (except Hubei)
@@ -190,7 +201,11 @@ TopTen_provinces <- pull(TopTen_provinces, province)
 TenProvinces_China <- filter(Historical_ChinaProvinceV2, province %in% TopTen_provinces) %>%
   arrange(desc(total_confirm))
 
-str(TenProvinces_China)
+head(TenProvinces_China)
+
+# Save as csv
+write.csv(TenProvinces_China,
+          file = "./Data/Processed/TenProvinces_China (except Hubei).csv", row.names=FALSE)
 ```
 
 ## Draw trend line of top ten province (except Hubei)
@@ -214,7 +229,7 @@ print(TenProvince_trend)
 
 ## Compare total number in each country 
 
-```{r, fig.cap=paste("Compare total number in each country")}
+```{r}
 Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
 
 # Filter out top 15 countries with the highest number of diagnoses
@@ -222,6 +237,12 @@ Fifty_countries <- Covid19_Global_processed %>%
   top_n(15, confirm) %>%
   arrange(desc(confirm))
 
+# Save as csv
+write.csv(Fifty_countries,
+          file = "./Data/Processed/Top_Fifty_countries (cum).csv", row.names=FALSE)
+```
+
+```{r, fig.cap=paste("Compare total number in each country")}
 # Draw histogram plot
 Global.plot <-ggplot(Fifty_countries,aes(x = name,y = confirm)) + 
   geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
@@ -259,8 +280,11 @@ TopTen_countries <- pull(TopTen_countries, country)
 
 Historical_TopTen <- filter(Historical_Global, country %in% TopTen_countries) %>%
   arrange(desc(cum_confirm))
-str(Historical_TopTen)
+head(Historical_TopTen)
 
+# Save as csv
+write.csv(Historical_TopTen,
+          file = "./Data/Processed/TopTen_countries_trend(except China).csv", row.names=FALSE)
 ```
 
 ## Plots trends of comfirmed cases in top ten coutries (except China)
