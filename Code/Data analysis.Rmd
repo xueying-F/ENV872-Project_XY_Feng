@@ -40,6 +40,7 @@ class(Covid19_US_processed$time)
 
 ```
 
+## Draw trend of each states in United States
 
 ```{r, fig.cap=paste("Trend of each states in United States")}
 # Create a ggplot depicting cases incereasing over time in each state
@@ -58,8 +59,8 @@ US_State_Trend <- ggplot(Covid19_US_processed, aes(x=time, y=cum_confirm, color=
 print(US_State_Trend)
 ```
 
-
-```{r, fig.cap=paste("Trend of top ten states in United States (except NY and NJ)")}
+## Draw trend of top ten states in United States (except NY and NJ)
+```{r}
 
 TopTen_States <- Covid19_US_processed %>%
   filter(time >= as.Date("2020-04-16")) %>%
@@ -74,6 +75,13 @@ TenStates_US <- Covid19_US_processed %>%
 
 str(TenStates_US)
 
+# Save as csv
+write.csv(TenStates_US,
+          file = "./Data/Processed/TenStates_US (except NY and NJ).csv")
+```
+
+
+```{r, fig.cap=paste("Trend of top ten states in United States (except NY and NJ)")}
 # Create a ggplot 
 TenStates_trend <- ggplot(TenStates_US, aes(x = time, y =cum_confirm, color=province)) +
   geom_line(alpha = 0.95, size = 1) +
@@ -92,6 +100,59 @@ print(TenStates_trend)
 
 
 ## Draw maps
+
+```{r, fig.cap=paste("Map of comfimed cases didtribution in United State")}
+#install.packages("usmap")
+library(usmap)
+
+plot_usmap(regions = "counties") + 
+  labs(title = "US Counties",
+       subtitle = "This is a blank map of the counties of the United States.") + 
+  theme(panel.background = element_rect(color = "black", fill = "lightblue"))
+
+
+head(Covid19_US_processed)
+
+# get column names
+colnames(Covid19_US_processed)
+
+# Rename column where names is "province"
+names(Covid19_US_processed)[names(Covid19_US_processed) == "province"] <- "state"
+str(Covid19_US_processed)
+
+
+# Select total confirmed cases in 51 States
+US_States <- Covid19_US_processed %>%
+  filter(time >= as.Date("2020-04-16")) %>%
+  filter(state!= "Unpublished sources") %>%
+  top_n(51, cum_confirm)
+
+# rename specific cell nme
+US_States$state[US_States$state == 'New York state'] <- 'New York'
+US_States$state[US_States$state == 'Washington State'] <- 'Washington'
+US_States$state[US_States$state == 'the state of Wisconsin'] <- 'Wisconsin'
+
+US_States$state <- as.character(US_States$state)
+
+### Draw map
+plot_usmap(regions="state", data = US_States, values = "cum_confirm", color = "black") +
+  scale_fill_continuous(low = "#fee6ce", high = "#d95f0e", 
+                        name = "Total confirmed cases", label = scales::comma) + 
+  labs(title = "State Reporting Cases of Covid 19") +
+  theme(legend.position = "right")
+
+
+```
+
+
+```{r, fig.cap=paste("Compare heal and death number with total confirmed number in top ten states (except NY and NJ)")}
+ggplot(TenStates_US, aes(cum_confirm, cum_heal,cum_dead)) + 
+  stat_smooth() +
+  facet_wrap(~province)
+
+```
+
+
 ```{r, fig.cap=paste("Map of comfimed cases sidtribution in China")}
 Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.csv")
 
@@ -107,7 +168,4 @@ Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.
 
 
 
-```{r, fig.cap=paste("Map of comfimed cases sidtribution in United State")}
-
-```
 
