@@ -227,16 +227,6 @@ ggplot(Historical_USTrend, aes(cum_confirm, cum_heal,cum_dead)) +
 ```
 
 
-```{r, fig.cap=paste("Map of comfimed cases sidtribution in China")}
-
-
-```
-
-
-
-```{r, fig.cap=paste("Map of comfimed cases sidtribution on Global level")}
-
-```
 
 
 
