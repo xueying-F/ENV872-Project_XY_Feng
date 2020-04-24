@@ -113,5 +113,5 @@ write.csv(Historical_China_processed,
           file = "./Data/Processed/Historical_China_processed.csv", row.names=FALSE)
 
 write.csv(Historical_Global_processed,
-          file = "./Data/Processed/Historical_Global_processed.csv")
+          file = "./Data/Processed/Historical_Global_processed.csv",row.names=FALSE)
 ```

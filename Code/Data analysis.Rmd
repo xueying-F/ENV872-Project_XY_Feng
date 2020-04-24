@@ -175,7 +175,163 @@ print(US_ComfirmedCases_Trend)
 ```
 
 ## Trend anlysis on confirmed, heal, dead number
+### China
+```{r}
+str(Covid19_China_processed)
 
+names(Covid19_China_processed)[1] <- "Province"
+names(Covid19_China_processed)[4] <- "Dead Rate"
+names(Covid19_China_processed)[6] <- "Heal Rate"
+
+ChinaTrend_gather <- tidyr::gather(Covid19_China_processed, "Type","Rate", 4,6)
+head(ChinaTrend_gather)
+
+```
+
+```{r, fig.cap=paste("Compare death rate and heal rate (China")}
+China_death_heal_Trend <- ggplot(ChinaTrend_gather, aes(fill=Type, y=Rate, x=Province)) + 
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(x=expression(paste("Province Name"))) + 
+  labs(y=expression(paste("Rate"))) +
+  labs(fill = "Rate Types") +
+  mytheme + 
+  theme(legend.position = "right") +
+  labs(title="Compare death rate and heal rate in China province") 
+print(China_death_heal_Trend)
+```
+
+# Three lines for China
+```{r}
+# Change Historical_China_processed dataset's Column names
+str(Historical_China_processed)
+
+Historical_China_processed2 <- Historical_China_processed %>%
+  group_by(time,country) %>%
+  summarise(total_confirm = sum(cum_confirm),
+            total_heal = sum(cum_heal),
+            total_dead = sum(cum_dead))
+head(Historical_China_processed2)
+
+names(Historical_China_processed2)[1] <- "Time"
+names(Historical_China_processed2)[3] <- "Total Confirm"
+names(Historical_China_processed2)[4] <- "Total Heal"
+names(Historical_China_processed2)[5] <- "Total Dead"
+
+Historical_China_gather <- tidyr::gather(Historical_China_processed2, "Type", "Number", 3:5)
+str(Historical_China_gather)
+```
+
+```{r, fig.cap=paste("Trend of deaths, confirms, and heal numberin China")}
+Historical_China_gather.plot <- ggplot(Historical_China_gather, aes(Time, Number, color = Type)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x=expression(paste("Time"))) + 
+  labs(y=expression(paste("Total number")))+
+  mytheme + 
+  theme(legend.position = "right") +
+  scale_x_date(date_labels = "%Y-%m-%d") +
+  labs(title="Trend of deaths, confirms, and heal numberin China") 
+print(Historical_China_gather.plot)
+```
+
+```{r, fig.cap=paste("Trend of deaths, confirms, and heal number in China (12/1/2019-2/15/2019")}
+Historical_China_limt.plot <- ggplot(Historical_China_gather, aes(Time, Number, color = Type)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x=expression(paste("Time"))) + 
+  labs(y=expression(paste("Total number")))+
+  mytheme + 
+  theme(legend.position = "right") +
+  scale_x_date(date_labels = "%Y-%m-%d", 
+    limits = c(as.Date("2019-12-1"), as.Date("2020-02-15"))) +
+  ylim(c(0, 500)) +
+  labs(title="Trend of deaths, confirms, and heal numberin China") 
+print(Historical_China_limt.plot)
+```
+
+
+**Heal and dead plot for Hubei provine, China** 
+
+```{r}
+head(Historical_Hubei)
+
+# Select top five cities
+TopFive_Hubei <- Historical_Hubei %>%
+  filter(time >= as.Date("2020-04-16")) %>%
+  top_n(5, cum_confirm) %>%
+  arrange(desc(cum_confirm))
+
+TopFive_Hubei <- pull(TopFive_Hubei, city)
+
+TopFiveCity_Hubei <- filter(Historical_Hubei, city %in% TopFive_Hubei) %>%
+  arrange(desc(cum_confirm))
+
+head(TopFiveCity_Hubei)
+
+# Change column names
+names(TopFiveCity_Hubei)[1] <- "Time"
+names(TopFiveCity_Hubei)[5] <- "Total Confirm"
+names(TopFiveCity_Hubei)[6] <- "Total Heal"
+names(TopFiveCity_Hubei)[7] <- "Total Dead"
+
+Historical_Hubei_gather <- tidyr::gather(TopFiveCity_Hubei, "Type", "Number", 5:7)
+head(Historical_Hubei_gather)
+```
+
+
+```{r, fig.cap=paste("Trend of deaths, confirms, and heal numberin top ten provine, China (expect Hubei)")}
+Historical_Hubei_gather.plot <-
+  ggplot(Historical_Hubei_gather, aes(x = Time, y = Number, color = Type)) +
+  geom_line() +
+  geom_point() +
+  labs(x=expression(paste("Time"))) + 
+  labs(y=expression(paste("Total number")))+
+  mytheme + 
+  theme(legend.position = "right") +
+  scale_x_date(date_labels = "%Y-%m-%d", 
+    limits = c(as.Date("2019-12-1"), as.Date("2020-03-15"))) +
+  ylim(c(0, 5000)) +
+  facet_wrap(.~city)
+print(Historical_Hubei_gather.plot)
+
+```
+
+
+
+**Heal and dead plot for top ten provine, China** 
+
+```{r}
+head(TenProvinces_China)
+
+names(TenProvinces_China)[1] <- "Time"
+names(TenProvinces_China)[3] <- "Total Confirm"
+names(TenProvinces_China)[4] <- "Total Heal"
+names(TenProvinces_China)[5] <- "Total Dead"
+
+TenProvinces_China_gather <- tidyr::gather(TenProvinces_China, "Type", "Number", 3:5)
+str(TenProvinces_China_gather)
+```
+
+
+```{r, fig.cap=paste("Trend of deaths, confirms, and heal numberin top ten provine, China (expect Hubei)")}
+TenProvinces_China_gather.plot <-
+  ggplot(TenProvinces_China_gather, aes(x = Time, y = Number, color = Type)) +
+  geom_line() +
+  geom_point() +
+  labs(x=expression(paste("Time"))) + 
+  labs(y=expression(paste("Total number")))+
+  mytheme + 
+  theme(legend.position = "right") +
+  scale_x_date(date_labels = "%Y-%m-%d", 
+    limits = c(as.Date("2019-12-1"), as.Date("2020-02-15"))) +
+  ylim(c(0, 500)) +
+  facet_wrap(.~province)
+print(TenProvinces_China_gather.plot)
+
+```
+
+### United States
 ```{r}
 # Change Historical_USTrend dataset's Column names
 str(Historical_USTrend)
@@ -186,7 +342,7 @@ names(Historical_USTrend)[4] <- "Total Heal"
 names(Historical_USTrend)[5] <- "Total Dead"
 
 USTrend_gather <- tidyr::gather(Historical_USTrend, "Type", "Number", 3:5)
-str(USTrend_gather)
+head(USTrend_gather)
 ```
 
 
