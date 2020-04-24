@@ -59,12 +59,12 @@ Covid19_US_processed <- read.csv("./Data/Processed/Covid19_US_processed.csv")
 
 China broke out a global disease, COVID-19, in December 2019. It has been confirmed that it is a new type of virus called 2019 new coronavirus (2019-nCoV) in Jan 2020. The World Health Organization (WHO) announced the official new name of the disease caused by nCoV2019 (2019 novel coronavirus) in Feb 2020. The CDC noted that the symptoms of the new coronavirus include "symptoms of fever and lower respiratory tract disease (eg. coughing, difficulty breathing). There is currently no vaccine, and because this is a virus, antibiotics will not work. 
 
-COVID-19 is a global pandemic disease confirmed by the World Health Organization (WHO), and likely to occur when a new virus appears. Also, it can easily infect humans, and can spread from person to person in a rapid and sustained manner. This research focus on the datasets about China, United States, and whole global level to see the increase trend of confirmed cases, death cases and heal cases. Moreover, I will combine some news report that I read to analyze the trend pattern.
+COVID-19 has spread worldwide in just four months, and more than 2.7 million people have been sick. It is a global pandemic disease announced by the World Health Organization (WHO). Also, it can easily infect humans, and can spread from person to person in a rapid and sustained manner. This research focus on the datasets from China, United States, and whole global countries to see the trend of confirmed cases, death cases and heal cases. Moreover, I will combine some news and report into policies in each country to analyze the trend patterns.
 
-The research question is:
-* Is there a same trend pattern on China and United States? 
-* What is trend pattern on global level?
-* Why trend patterns look like that?
+The research question is:    
+(1) Is there a same trend pattern on China and United States?    
+(2) What is trend pattern on global level?    
+(3) Why trend patterns look like that?    
 
 Downloading datasets from R package, nCov2019 (https://github.com/GuangchuangYu/nCov2019), which provides convenient access to epidemiological data on the coronavirus outbreak, which contains real-time data and historical data for each country. Please see the detail information in Dataset Information setion.
 
@@ -81,9 +81,9 @@ More information can be found here:https://github.com/GuangchuangYu/nCov2019.
 
 ## Data Content Information
 
-I pulled all relevent data from nCov2019 package. I named all pulled data as raw.csv and then saved into Data/Raw folder. Beside, I wrangled all raw and selected the relevent columns, and then saved into Data/Processed folder. Because data pulled from nCov2019 package are real-time data, I kept the update time on April 16th, 2020. Therefore, the following descriptions of my datasets are processed data.
+I pulled all relevent data from nCov2019 package. I named all pulled data as raw.csv and then saved into Data/Raw folder. Beside, I wrangled all raw and selected the relevent columns, and then saved into Data/Processed folder. Because data pulled from nCov2019 package are real-time data, I kept the update time on April 16th, 2020. Therefore, the following descriptions of my datasets are for processed data.
 
-```{r, table1, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+```{r Historical_Global_processed dataset, table1, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 #install.packages("pander")
 require(pander)
 panderOptions('table.split.table', Inf)
@@ -101,7 +101,7 @@ row.names(df)<-NULL
 pander(df, style = 'rmarkdown')
 ```
 
-```{r, table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+```{r Historical_China_processed dataset, table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 panderOptions('table.split.table', Inf)
 set.caption("Historical_China_processed dataset")
 my.data <- "  Column name | Description 
@@ -119,7 +119,7 @@ row.names(df)<-NULL
 pander(df, style = 'rmarkdown')
 ```
 
-```{r, table3, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+```{r Covid19_Global_processed dataset, table3, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 panderOptions('table.split.table', Inf)
 set.caption("Covid19_Global_processed dataset")
 my.data <- "  Column name | Description 
@@ -136,7 +136,7 @@ row.names(df)<-NULL
 pander(df, style = 'rmarkdown')
 ```
 
-```{r, table4, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+```{r Covid19_China_processed dataset, table4, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 panderOptions('table.split.table', Inf)
 set.caption("Covid19_China_processed dataset")
 my.data <- "  Column name | Description 
@@ -153,7 +153,7 @@ row.names(df)<-NULL
 pander(df, style = 'rmarkdown')
 ```
 
-```{r, table5, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+```{r Covid19_US_processed dataset, table5, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 panderOptions('table.split.table', Inf)
 set.caption("Covid19_US_processed dataset")
 my.data <- "  Column name | Description 
@@ -177,38 +177,40 @@ pander(df, style = 'rmarkdown')
 
 Wrangling the raw data for thess datasets is to select the columns that are useful for this research. After wrangling all dataset, they are saved into processed folder. However, this section will show how processed data form, but processed data will be directly used to do analysis. During analysis, datasets will be wrangled again based on anlysis requirments.
 
-```{r}
+```{r Raw data to processed data}
 #Covid19_China_raw <- read.csv("Covid19_China_raw.csv",
-#                              header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+#                     header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 #Covid19_China_processed <- 
 #  select(Covid19_China_raw, name, confirm, dead, deadRate, heal, healRate)
 
 
-#Covid19_US_raw <- read.csv("Covid19_US_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+#Covid19_US_raw <- read.csv("Covid19_US_raw.csv", header=TRUE,
+#                  stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 #Covid19_US_processed <- 
 #  select(Covid19_US_raw, time:cum_dead)
 
 
 #Covid19_Global_raw <- read.csv("Covid19_Global_raw.csv",
-#                               header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+#                      header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 #Covid19_Global_processed <- 
 #  select(Covid19_Global_raw, name, confirm, dead, deadRate,heal, healRate)
 
 
 #historical_China_raw <- read.csv("historical_China_raw.csv",
-#                                 header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+#                        header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 #Historical_China_processed <- 
 #  select(historical_China_raw, time:cum_dead)
 
 
-#historical_Global_raw <- read.csv("historical_Global_raw.csv",header=TRUE,stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
+#historical_Global_raw <- read.csv("historical_Global_raw.csv", header=TRUE, 
+#                                  stringsAsFactors = FALSE, strip.white = TRUE,sep = ',')
 #Historical_Global_processed <- historical_Global_raw
 ```
 
 
 ## Explore China Dataset
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Explore Covid19_China_processed dataset, results='hide', message=FALSE, warning=FALSE}
 Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.csv")
 
 # Check data frame
@@ -216,7 +218,7 @@ colnames(Covid19_China_processed)
 head(Covid19_China_processed)
 ```
 
-```{r, echo =FALSE, fig.cap="Compare total confimed number in each province in China"}
+```{r China.plot, fig.cap="Compare total confimed number in each province in China"}
 # scale_y_log10: transform the y-axis to make it easier to read
 China.plot <-ggplot(Covid19_China_processed,aes(x = name,y = confirm)) + 
   geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
@@ -233,7 +235,7 @@ print(China.plot)
 ## Explore Global Dataset 
 
 **Top 15 countries**
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Explore Covid19_Global_processed Dataset, results='hide', message=FALSE, warning=FALSE}
 Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
 
 # Check data frame
@@ -241,7 +243,8 @@ head(Historical_Global_processed)
 str(Historical_Global_processed)
 
 # Change date column to date
-Historical_Global_processed$time <- as.Date(Historical_Global_processed$time, format = "%Y-%m-%d") 
+Historical_Global_processed$time <- as.Date(Historical_Global_processed$time, 
+                                            format = "%Y-%m-%d") 
 class(Historical_Global_processed$time)
 
 
@@ -256,7 +259,7 @@ write.csv(Fifty_countries,
 ```
 
 
-```{r, fig.cap=paste("Compare total confimed number of each country"),echo = FALSE}
+```{r Global.plot, fig.cap=paste("Compare total confimed number of each country")}
 # Draw histogram plot
 Global.plot <-ggplot(Fifty_countries,aes(x = name,y = confirm)) + 
   geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
@@ -268,14 +271,12 @@ Global.plot <-ggplot(Fifty_countries,aes(x = name,y = confirm)) +
 print(Global.plot)
 ```
 
-Figure 2 shows the total confimed number of each country (update on April 16th, 2020). Due to this graph, I will focus on the United States dataset and see its trend pattern.
-
 
 ## Explore United States Dataset
 
-**Map of comfimed cases didtribution in United State**
+**Map of comfimed cases distribution in United State**
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Explore Covid19_US_processed Dataset, results='hide', message=FALSE, warning=FALSE}
 # Check data
 head(Covid19_US_processed)
 str(Covid19_US_processed)
@@ -284,9 +285,6 @@ str(Covid19_US_processed)
 Covid19_US_processed$time <- as.Date(Covid19_US_processed$time, format = "%m/%d/%y") 
 class(Covid19_US_processed$time)
 
-```
-
-```{r, results='hide', message=FALSE, warning=FALSE}
 # Check column names
 colnames(Covid19_US_processed)
 
@@ -312,7 +310,7 @@ US_States$state[US_States$state == 'the state of Wisconsin'] <- 'Wisconsin'
 
 ```
 
-```{r, fig.cap=paste("Map of comfimed cases didtribution in United State"), echo = FALSE}
+```{r US.map, fig.cap=paste("Map of comfimed cases didtribution in United State"),warning=FALSE}
 #install.packages("usmap")
 library(usmap)
 
@@ -323,35 +321,42 @@ USMap_Base <- plot_usmap(regions = "counties") +
 
 
 ### Draw US Case distribution on map
-CasesDidtribution <- plot_usmap(regions="state", data = US_States, values = "cum_confirm", color = "black") +
+US.map <- plot_usmap(regions="state", data = US_States, 
+                                values = "cum_confirm", color = "black") +
   scale_fill_continuous(low = "#fee6ce", high = "#d95f0e", 
                         name = "Total confirmed cases", label = scales::comma) + 
   labs(title = "State Reporting Cases of Covid 19") +
   theme(legend.position = "right")
 
-print(CasesDidtribution)
+print(US.map)
 ```
 
-* Figure 1 shows the total confimed number of each province in China (update on April 16th, 2020). Due to this graph, I will seperate Hubei province and other provinces in China and see their trend pattern.
 
-* Figure 2 shows the total confimed number of each country (update on April 16th, 2020). Due to this graph, I will focus on the United States dataset and see its trend pattern.
+> Figure 1 shows the total confimed number of each province in China (update on April 16th, 2020). Due to this graph, I will seperate Hubei province and other provinces in China and see their trend patterns.
 
-* Figure 3 shows confirmed cases distribution in each state by using map, which can make readers straighter forward to see which states are more serious. 
+> Figure 2 shows the total confimed number of each country (update on April 16th, 2020). Due to this graph, I will focus on the United States dataset and see its trend pattern.
+
+> Figure 3 shows confirmed cases distribution in each state by using map, which can make readers straighter forward to see which states are more serious. 
 
 \newpage
 
 # Analysis
 
 ## Anlysis trend of confirmed cases in China
+
 ### Trend of Total confirmed cases in China
-```{r, fig.cap=paste("Trend of confirmed case in China"), echo = FALSE}
+
+```{r Select China data}
 # Selsct data from China
 str(Historical_Global_processed)
 Historical_China = Historical_Global_processed[Historical_Global_processed$country == 'China',]
 head(Historical_China)
+```
 
+
+```{r China_Total_Trend.plot, fig.cap=paste("Trend of confirmed case in China"), warning=FALSE}
 # Create a ggplot depicting cases incereasing over time
-China_Trend <- 
+China_Total_Trend.plot <- 
   ggplot(Historical_China, aes(x=time, y=cum_confirm)) +
   geom_point(colour = "#e6550d") +
   geom_line(colour = "#d95f0e") +
@@ -359,19 +364,20 @@ China_Trend <-
        y = "Confirmed Cases") + 
   scale_x_date(date_labels = "%Y-%m-%d")
 
-print(China_Trend)
+print(China_Total_Trend.plot)
 ```
 
 
 ### Trend of confirmed cases in each province in China 
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Explore Historical_China_processed dataset, results='hide', message=FALSE, warning=FALSE}
 # Check data
 head(Historical_China_processed)
 str(Historical_China_processed)
 
 # Change date column to date
-Historical_China_processed$time <- as.Date(Historical_China_processed$time, format = "%m/%d/%y") 
+Historical_China_processed$time <- as.Date(Historical_China_processed$time, 
+                                           format = "%m/%d/%y") 
 head(Historical_China_processed)
 class(Historical_China_processed$time)
 
@@ -379,7 +385,7 @@ class(Historical_China_processed$time)
 
 ### Trend of confirmed cases in Hubei, China
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Select all Hubei province data, results='hide', message=FALSE, warning=FALSE}
 # Select Hubei province data
 Historical_Hubei = Historical_China_processed[Historical_China_processed$province == 'Hubei',]
 head(Historical_Hubei)
@@ -393,9 +399,10 @@ write.csv(Historical_HubeiCityV2,
           file = "./Data/Processed/Historical_HubeiCity.csv",row.names=FALSE)
 ```
 
-```{r, fig.cap=paste("Trend of each city in Hubei province, China"), echo = FALSE}
+```{r HubeiCity_Trend.plot, fig.cap=paste("Trend of each city in Hubei province, China"),warning=FALSE}
 # Create a ggplot depicting cases incereasing over time
-HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=cum_confirm, color=city)) +
+HubeiCity_Trend.plot <- ggplot(Historical_HubeiCityV2, 
+                               aes(x=time, y=cum_confirm, color=city)) +
     geom_line(alpha = 0.95, size = 0.5) +
     geom_text_repel(aes(label=city),
                     function(Historical_HubeiCityV2) 
@@ -407,13 +414,17 @@ HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=cum_confirm, col
     labs(color="city") +
     scale_x_date(date_labels = "%Y-%m-%d")
 
-print(HubeiCity_Trend)
+print(HubeiCity_Trend.plot)
 ```
 
 
+>Due to the confimred cases in Hubei are almost 80% of total confimred cases in China. I draw the trend plots for total confimred cases in China and in each Hubei city, which shows the pattern are very similar between Wuhan trend and China Trend. 
+
 ### Trend of confirmed cases in Hubei cities, China (except Wuhan)
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+> Most cases are from Wuhan, so I deleted data from Wuhan City, and see the if the other cities have same patterns.  
+
+```{r Select Hubei cities (except Wuhan), results='hide', message=FALSE, warning=FALSE}
 # Group by Hubei cities
 Historical_HubeiCityV3 <- Historical_HubeiCityV2 %>%
   filter(city!= "Location TBD" & city!= "Wuhan") 
@@ -423,9 +434,9 @@ write.csv(Historical_HubeiCityV3,
           file = "./Data/Processed/Historical_HubeiCity (except Wuhan).csv", row.names=FALSE)
 ```
 
-```{r, fig.cap=paste("Trend of each city in Hubei province,China (except Wuhan)"),echo = FALSE}
+```{r No_Wuhan.plot, fig.cap=paste("Trend of each city in Hubei province,China (except Wuhan)")}
 # Create a ggplot depicting cases incereasing over time
-HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=cum_confirm, color=city)) +
+No_Wuhan.plot <- ggplot(Historical_HubeiCityV3, aes(x=time, y=cum_confirm, color=city)) +
     geom_line(alpha = 0.95, size = 0.5) +
     geom_text_repel(aes(label=city),
                     function(Historical_HubeiCityV3) 
@@ -437,13 +448,17 @@ HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=cum_confirm, col
     labs(color="city") +
     scale_x_date(date_labels = "%Y-%m-%d")
 
-print(HubeiCity_Trend)
+print(No_Wuhan.plot)
 ```
 
+> Based on the information from Wikipedia, On 23 January 2020, the central government of China imposed a lockdown in Wuhan and other cities in Hubei in an effort to quarantine the center of an outbreak of coronavirus disease 2019 (COVID-19). To be noticed, Xiaogan and Huanggang become the worst places in the country outside Wuhan, because before the "lockdown" in Wuhan, the flow of people in Wuhan mainly flowed into Xiaogan and Huanggang. Hoever, based on this action, The confirmed cases has stabilized after one month.
 
 ### Trend of confirmed cases in China provinces(except Hubei)
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+>Hubei is not a typical changing pattern in China, so I deleted Hubei data, and see patterns of other provinces.
+
+
+```{r Select provinces data (except Hubei) , results='hide', message=FALSE, warning=FALSE}
 # Remove Hubei province data
 Historical_ChinaProvince = Historical_China_processed[Historical_China_processed$province != 'Hubei',]
 head(Historical_ChinaProvince)
@@ -459,9 +474,9 @@ write.csv(Historical_ChinaProvinceV2,
           file = "./Data/Processed/Historical_ChinaProvince (except Hubei).csv", row.names=FALSE)
 ```
 
-```{r, fig.cap=paste("Trend of each province in China (except Hubei)"),echo = FALSE}
+```{r OtherProvinces.plot, fig.cap=paste("Trend of each province in China (except Hubei)")}
 # Create a ggplot depicting cases incereasing over time
-ChinaProvince_Trend <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_confirm, color=province)) +
+OtherProvinces.plot <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_confirm, color=province)) +
     geom_line(alpha = 0.95, size = 1) +
     geom_text_repel(aes(label=province),
                     function(Historical_ChinaProvinceV2) 
@@ -473,12 +488,15 @@ ChinaProvince_Trend <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_co
     labs(color="province") +
     scale_x_date(date_labels = "%Y-%m-%d")
 
-print(ChinaProvince_Trend)
+print(OtherProvinces.plot)
 ```
 
 
 ### Trend of confirmed cases of top ten provinces in China (except Hubei)
-```{r, results='hide', message=FALSE, warning=FALSE}
+
+> Some province are far from Hubei, and has less cases, which is also not a typical trend pattern. Therfore, I selected top ten probince to see their trends.
+
+```{r Select top ten provinces (except Hubei), results='hide', message=FALSE, warning=FALSE}
 # Filter out the top ten provinces with the highest number of diagnoses (except Hubei)
 TopTen_provinces <- Historical_ChinaProvinceV2 %>% 
   filter(time >= as.Date("2020-04-16")) %>%
@@ -497,9 +515,9 @@ write.csv(TenProvinces_China,
           file = "./Data/Processed/TenProvinces_China (except Hubei).csv", row.names=FALSE)
 ```
 
-```{r, fig.cap=paste("Trend of top ten provinces, China (except Hubei)"), echo = FALSE}
+```{r TenProvinces_trend.plot, fig.cap=paste("Trend of top ten provinces, China (except Hubei)")}
 # Draw plot
-TenProvince_trend <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, color=province)) +
+TenProvinces_trend.plot <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, color=province)) +
     geom_line(alpha = 0.95, size = 1) +
     geom_text_repel(aes(label=province),
                     function(Historical_ChinaProvinceV2) 
@@ -511,13 +529,23 @@ TenProvince_trend <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, 
     labs(color="province") +
     scale_x_date(date_labels = "%Y-%m-%d")
 
-print(TenProvince_trend)
+print(TenProvinces_trend.plot)
 ```
+
+> Heilongjiang, Hongkong, and Guangzhou provinces should be notied form TenProvinces_trend.plot.
+
+> According to the information I have obtained from the news, the epidemic situation of Russia ’s COVID-19 has deteriorated rapidly in the past few days (mid-April). The number of cases of COVID-19 detected in Helongjiang from Russia has increased, which makes it the most “outside import” case in China.
+
+> According to the news I saw, the reason is that the new cases in early March were mainly from Hong Kong people who participated in two tours to India and Egypt. The new cases increased rapidly in the second half, mainly from people returning from overseas International students and Hong Kong people who have settled in foreign countries, as well as the Languifang Bar infection group.
+
+> There are many people came back to Guangzhou from overseas coutries, and cause the new increase in late March.
 
 
 ## Anlysis Global trend of confirmed cases of top ten countries (except China) 
 
-```{r cars}
+> The breakout time of China is different from that of other countries, so I deleted China data and see other countries patterns. Also, I selected top ten countries to narrow down the data
+
+```{r Select top ten countries (except China) }
 # Remove China data
 Historical_Global = Historical_Global_processed[Historical_Global_processed$country != 'China',]
 str(Historical_Global)
@@ -540,9 +568,9 @@ write.csv(Historical_TopTen,
           file = "./Data/Processed/TopTen_countries_trend(except China).csv", row.names=FALSE)
 ```
 
-```{r, fig.cap=paste("Trend of Top Ten Countries (except China)"), echo = FALSE}
+```{r TopTenCountries.plot, fig.cap=paste("Trend of Top Ten Countries (except China)")}
 # Draw plot
-TenCountries <- ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
+TopTenCountries.plot <- ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
     geom_line(alpha = 0.95, size = 1) +
     geom_text_repel(aes(label=country),
                     function(Historical_TopTen) 
@@ -554,13 +582,16 @@ TenCountries <- ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=co
     labs(color="Country") +
     scale_x_date(date_labels = "%Y-%m-%d")
 
-print(TenCountries)
+print(TopTenCountries.plot)
 ```
 
 
 ## Analysis trend of confirmed cases in United States. 
 
-```{r,results='hide', message=FALSE, warning=FALSE}
+> Based on last graph, obvisiouly, the United State has the highest confimred numbers, and I will do the analysis based on the U.S. dataset.
+
+
+```{r Select United States data,results='hide', message=FALSE, warning=FALSE}
 Historical_USTrend <- Historical_Global_processed[Historical_Global_processed$country == 'United States',] %>%
   na.omit(Historical_USTrend)
 
@@ -574,7 +605,9 @@ write.csv(Historical_USTrend,
 
 ### Trend of total confirmed case in United States.
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+> First I would like to see the entire confirmed case trend through the U.S.
+
+```{r Wrangle United States data, results='hide', message=FALSE, warning=FALSE}
 Historical_USTrend <- read.csv("./Data/Processed/Historical_USTrend.csv")
 
 head(Historical_USTrend)
@@ -584,8 +617,8 @@ Historical_USTrend$time <- as.Date(Historical_USTrend$time, format = "%Y-%m-%d")
 class(Historical_USTrend$time)
 ```
 
-```{r, fig.cap=paste("Trend of confirmed case in the U.S."), echo=FALSE}
-US_ComfirmedCases_Trend <-
+```{r US_Total_Trend.plot, fig.cap=paste("Trend of confirmed case in the U.S.")}
+US_Total_Trend.plot <-
   ggplot(Historical_USTrend, aes(x = time, y = cum_confirm)) +
   geom_point(colour = "#e6550d") +
   geom_line(colour = "#d95f0e") +
@@ -593,14 +626,15 @@ US_ComfirmedCases_Trend <-
        y = "Confirmed Cases") + 
   scale_x_date(date_labels = "%Y-%m-%d")
 
-print(US_ComfirmedCases_Trend)
+print(US_Total_Trend.plot)
 ```
 
 ### Trend of total confirmed case in all states in the U.S.
 
-```{r, fig.cap=paste("Trend of each states in United States"), echo = FALSE}
+
+```{r US_State_Trend.plot, fig.cap=paste("Trend of each states in United States")}
 # Create a ggplot depicting cases incereasing over time in each state
-US_State_Trend <- ggplot(Covid19_US_processed, aes(x=time, y=cum_confirm, color=state)) +
+US_State_Trend.plot <- ggplot(Covid19_US_processed, aes(x=time, y=cum_confirm, color=state)) +
     geom_line(alpha = 0.95, size = 0.5) +
     geom_text_repel(aes(label=state),
                     function(Covid19_US_processed) 
@@ -612,12 +646,16 @@ US_State_Trend <- ggplot(Covid19_US_processed, aes(x=time, y=cum_confirm, color=
     labs(color="Covid19_US_processed") +
     scale_x_date(date_labels = "%Y-%m-%d") 
 
-print(US_State_Trend)
+print(US_State_Trend.plot)
 ```
 
+> I found pattern of New York is simaliar to that of whole US pattern.
 
 ### Trend of total confirmed case of top ten states in the U.S. (except NY and NJ)
-```{r, results='hide', message=FALSE, warning=FALSE}
+
+> New York and New Jersey have the almost 50% confirmed cases in US, so I seleted data fro these two states, and ckeck other states pattern. I also selected top ten states, which is more representative.
+
+```{r Select top ten states in the U.S. (except NY and NJ), results='hide', message=FALSE, warning=FALSE}
 TopTen_States <- Covid19_US_processed %>%
   filter(time >= as.Date("2020-04-16")) %>%
   filter(state!= "New York state" & state!= "New Jersey" & state!= "Unpublishedsources") %>%
@@ -629,7 +667,7 @@ TopTen_States <- pull(TopTen_States, state)
 TenStates_US <- Covid19_US_processed %>% 
   filter(state %in% TopTen_States) 
 
-str(TenStates_US)
+head(TenStates_US)
 
 # Save as csv
 write.csv(TenStates_US,
@@ -637,9 +675,9 @@ write.csv(TenStates_US,
 ```
 
 
-```{r, fig.cap=paste("Trend of top ten states in United States (except NY and NJ)"), echo = FALSE}
+```{r TenStates_Trend.plot, fig.cap=paste("Trend of top ten states in United States (except NY and NJ)")}
 # Create a ggplot 
-TenStates_trend <- ggplot(TenStates_US, aes(x = time, y =cum_confirm, color=state)) +
+TenStates_Trend.plot <- ggplot(TenStates_US, aes(x = time, y =cum_confirm, color=state)) +
   geom_line(alpha = 0.95, size = 1) +
   geom_text_repel(aes(label=state),
                       function(TenStates_US) 
@@ -652,14 +690,19 @@ TenStates_trend <- ggplot(TenStates_US, aes(x = time, y =cum_confirm, color=stat
   scale_x_date(date_labels = "%Y-%m-%d")
 
 
-print(TenStates_trend)
+print(TenStates_Trend.plot)
 ```
 
+> Based on the top ten countries, California, Florida, Illinois, Texas and so on, they are largest state, and has more population, which can show it is an infectious disease.
+
+
 ## Analysis trend of dead and heal cases number and rate
+
 ### China
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Gather Covid19_China_processed dataset, results='hide', message=FALSE, warning=FALSE}
 str(Covid19_China_processed)
+head(Covid19_China_processed)
 
 names(Covid19_China_processed)[1] <- "Province"
 names(Covid19_China_processed)[4] <- "Dead Rate"
@@ -671,22 +714,23 @@ head(ChinaTrend_gather)
 ```
 
 
-```{r, fig.cap=paste("Compare total death rate and heal rate in each province (China)")}
-China_death_heal_Trend <- ggplot(ChinaTrend_gather, aes(fill=Type, y=Rate, x=Province)) + 
-  geom_bar(stat = "identity") +
+```{r China_Rate.plot, fig.cap=paste("Compare total death rate and heal rate in each province (China)")}
+China_Rate.plot <- ggplot(ChinaTrend_gather, aes(fill=Type, y=Rate, x=Province)) + 
+  geom_bar(stat = "identity",position=position_dodge()) +
   coord_flip() +
   labs(x=expression(paste("Province Name"))) + 
   labs(y=expression(paste("Rate"))) +
   labs(fill = "Rate Types") +
   mytheme + 
-  theme(legend.position = "right") +
-  labs(title="Compare death rate and heal rate in China province") 
-print(China_death_heal_Trend)
+  theme(legend.position = "right") 
+print(China_Rate.plot)
 ```
+
+> In this Section, I will exeplore and analysis dead and heal cases number and rate. I used bar plot to see the heal rate and dead rate in each province in China (This dataset update on April 16th).
 
 **Trend of confirms, deaths,and heal number in China**
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Gather Historical_China_processed dataset, results='hide', message=FALSE, warning=FALSE}
 # Change Historical_China_processed dataset's Column names
 str(Historical_China_processed)
 
@@ -706,23 +750,23 @@ Historical_China_gather <- tidyr::gather(Historical_China_processed2, "Type", "N
 str(Historical_China_gather)
 ```
 
-```{r, fig.cap=paste("Trend of deaths, confirms, and heal number in China")}
-Historical_China_gather.plot <- ggplot(Historical_China_gather, aes(Time, Number, color = Type)) +
+```{r China_Number_Trend.plot, fig.cap=paste("Trend of deaths, confirms, and heal number in China")}
+China_Number_Trend.plot <- ggplot(Historical_China_gather, aes(Time, Number, color = Type)) +
   geom_point() + 
   geom_line() + 
   labs(x=expression(paste("Time"))) + 
   labs(y=expression(paste("Total number")))+
   mytheme + 
   theme(legend.position = "right") +
-  scale_x_date(date_labels = "%Y-%m-%d") +
-  labs(title="Trend of deaths, confirms, and heal numberin China") 
-print(Historical_China_gather.plot)
+  scale_x_date(date_labels = "%Y-%m-%d")  
+print(China_Number_Trend.plot)
 ```
+
 
 **Trend of confirms, deaths,and heal number in China (12/1/2019-2/15/2020")**
 
-```{r, fig.cap=paste("Trend of deaths, confirms, and heal number in China (12/1/2019-2/15/2019")}
-Historical_China_limt.plot <- ggplot(Historical_China_gather, aes(Time, Number, color = Type)) +
+```{r China_Number_Trend_Limit.plot, fig.cap=paste("Trend of deaths, confirms, and heal number in China (12/1/2019-2/15/2019"), warning=FALSE}
+China_Number_Trend_Limit.plot <- ggplot(Historical_China_gather, aes(Time, Number, color = Type)) +
   geom_point() + 
   geom_line() + 
   labs(x=expression(paste("Time"))) + 
@@ -731,14 +775,18 @@ Historical_China_limt.plot <- ggplot(Historical_China_gather, aes(Time, Number, 
   theme(legend.position = "right") +
   scale_x_date(date_labels = "%Y-%m-%d", 
     limits = c(as.Date("2019-12-1"), as.Date("2020-02-15"))) +
-  ylim(c(0, 500)) +
-  labs(title="Trend of deaths, confirms, and heal numberin China") 
-print(Historical_China_limt.plot)
+  ylim(c(0, 500))  
+print(China_Number_Trend_Limit.plot)
 ```
+
+> I enlarged the pattern of January and Febuary to see if there is difference between ealry period and late period. Comparing the trajectory of confirmed cases, heal cases, and death cases number may have some policy experience for other countries.
+
+> During the late January, the confirmed cases and death numbers are increase rapidly. After lockdown the cities, the confirmed cases was gruadly stablized in mid-Febuary. Therefore, the social distancing wroks to reduece the infected cases.
+
 
 **Trend of confirms, deaths,and heal number top ten provines, China** 
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Gather TenProvinces_China dataset, results='hide', message=FALSE, warning=FALSE}
 head(TenProvinces_China)
 
 names(TenProvinces_China)[1] <- "Time"
@@ -751,8 +799,8 @@ str(TenProvinces_China_gather)
 ```
 
 
-```{r, fig.cap=paste("Trend of deaths, confirms, and heal numberin top ten provine, China (expect Hubei)")}
-TenProvinces_China_gather.plot <-
+```{r TenProvinces_Number_Trend.plot (expect Hubei), fig.cap=paste("Trend of deaths, confirms, and heal number in top ten provine (expect Hubei), China")}
+TenProvinces_Number_Trend.plot <-
   ggplot(TenProvinces_China_gather, aes(x = Time, y = Number, color = Type)) +
   geom_line() +
   geom_point() +
@@ -764,15 +812,17 @@ TenProvinces_China_gather.plot <-
     limits = c(as.Date("2020-1-15"), as.Date("2020-02-15"))) +
   ylim(c(0, 500)) +
   facet_wrap(.~province)
-print(TenProvinces_China_gather.plot)
+print(TenProvinces_Number_Trend.plot)
 
 ```
+
+> To see the trends of top ten provinces (ecpect Hubei), Guangdong, Henan, Jiangxi, Zhejiang, and Hunan have smiliar trend. Because these five provinces have large population movements during the Spring Festival, and people in these province are more suspicious on COVID-19.
 
 ### Hubei province, China
 
 **Trend of confirms, deaths,and heal number in top five cities, Hubei(12/1/2019-3/15/2020)**
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Select and gather top five cities (Hubei), results='hide', message=FALSE, warning=FALSE}
 head(Historical_Hubei)
 
 # Select top five cities
@@ -799,8 +849,8 @@ head(Historical_Hubei_gather)
 ```
 
 
-```{r, fig.cap=paste("Trend of confirms, deaths,and heal number in top five cities, Hubei(12/1/2019-3/15/2020)")}
-Historical_Hubei_gather.plot <-
+```{r FiveCities_Number_Trend.plot, fig.cap=paste("Trend of confirms, deaths,and heal number in top five cities, Hubei(12/1/2019-3/15/2020)"), warning=FALSE}
+FiveCities_Number_Trend.plot <-
   ggplot(Historical_Hubei_gather, aes(x = Time, y = Number, color = Type)) +
   geom_line() +
   geom_point() +
@@ -812,15 +862,15 @@ Historical_Hubei_gather.plot <-
     limits = c(as.Date("2019-12-1"), as.Date("2020-03-15"))) +
   ylim(c(0, 5000)) +
   facet_wrap(.~city)
-print(Historical_Hubei_gather.plot)
+print(FiveCities_Number_Trend.plot)
 
 ```
 
-
+> I also pulled the top five five cities in Hubei, and found excepy Wuhan, other cities have the same trend pattern. 
 
 ### United States
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Gather Historical_USTrend dataset, results='hide', message=FALSE, warning=FALSE}
 # Change Historical_USTrend dataset's Column names
 str(Historical_USTrend)
 
@@ -835,8 +885,8 @@ str(USTrend_gather)
 ```
 
 
-```{r, fig.cap=paste("Trend of confirms, deaths,and heal number in the U.S."), echo = FALSE}
-US_Trend <- ggplot(USTrend_gather, aes(Time, Number, color = Type)) +
+```{r US_Number_Trend.plot, fig.cap=paste("Trend of confirms, deaths,and heal number in the U.S.")}
+US_Number_Trend.plot <- ggplot(USTrend_gather, aes(Time, Number, color = Type)) +
   geom_point() + 
   geom_line() + 
   labs(x=expression(paste("Time"))) + 
@@ -844,17 +894,16 @@ US_Trend <- ggplot(USTrend_gather, aes(Time, Number, color = Type)) +
   mytheme + 
   theme(legend.position = "right") +
   scale_x_date(date_labels = "%Y-%m-%d", 
-    limits = c(as.Date("2020-01-15"), as.Date("2020-04-16"))) +
-  labs(title="Trend of deaths, confirms, and heal number in US") 
-print(US_Trend)
+    limits = c(as.Date("2020-01-15"), as.Date("2020-04-16"))) 
+print(US_Number_Trend.plot)
 
 
 ```
 
 
-**Heal and dead plot for top ten states**
+**Heal and dead number plot for top ten states**
 
-```{r, results='hide', message=FALSE, warning=FALSE}
+```{r Gather TenStates_US dataset, results='hide', message=FALSE, warning=FALSE}
 head(TenStates_US)
 
 names(TenStates_US)[1] <- "Time"
@@ -867,8 +916,8 @@ str(TenStates_US_gather)
 ```
 
 
-```{r, fig.cap=paste("Trend of confirms, deaths,and heal number in top ten states"), echo = FALSE}
-US_Topten_Trend <-
+```{r Ten_States_Number_Trend.plot, fig.cap=paste("Trend of confirms, deaths,and heal number in top ten states")}
+Ten_States_Number_Trend.plot <-
   ggplot(TenStates_US_gather, aes(x = Time, y = Number, color = Type)) +
   geom_line() +
   geom_point() +
@@ -877,25 +926,27 @@ US_Topten_Trend <-
   mytheme + 
   theme(legend.position = "right") +
   facet_wrap(.~state)
-print(US_Topten_Trend)
+print(Ten_States_Number_Trend.plot)
 
 ```
 
 
+> Compared tope ten states (except New York and New Jersey) to whole United States trends. The confimred cases lines are all increasing, but they are less steep in April than those in March.
 
 \newpage
 
 # Summary and Conclusions
 
-This Study uses visualization way to depict incresed confirmed cases trend on China, United States, and global level, and find their patterns.
+A "COVID-19" epidemic caused by a new coronavirus has spread worldwide in few months, which is an unprecedented rapid spread. China started to lockdown cities  with all countries evacuating overseas, banned navigation, and many countries, such as United States, have closed their borders. 
+
+This Study uses visualization method to depict incresed confirmed cases trend on China, United States, and global level, and find their patterns. I tried to use time series test analysis to predict the trend of confirmeded case number, but it does not work due to short time period. However, Hubei Province, China is the first place was reported COVID-19. Therefore, I focus on ploting figures based on China and US data to see if there are same patterns and relevences.
+
+By comparing the cases trend between provinces or states and country, contry and country, and global level, I found the intial trend pattern are very similar. Using the trajectory of the confirmed curve and death curve in China predicts the progress of the outbreak in the U.S. and other countries, which is a perspective way to set up some policies. However, the characteristics of the virus and the trend of the epidemic are still full of variables and unknowns. Every country’s actions and every international organization’s decision-making  affect not only the safety of the group’s lives, but also the political and economic development of each country, and are more likely to affect the global situation. Therefore, even if there are similarities in early data from various countries, one cannot assume that countries will follow the same trajectory.
 
 
-According to the information I have obtained from the news, the epidemic situation of Russia ’s COVID-19 has deteriorated rapidly in the past few days (mid-April). The number of cases of COVID-19 detected in Helongjiang from Russia has increased, which makes it the most “outside import” case in China.
+China has closed off a city of more than 11 million people in an unprecedented effort to try to stop the spread of a deadly new virus. Also, Everyone has a health code after stoping lockdown the cities, and health code is an electronic voucher for individuals to pass in and out of the local area, using the location recorded by the mobile phone GPS to determine whether the other party is a close contact. Each state in the U.S. also operate social-distance to prevent virvus spread. However, China implemented restrictions earlier than other countries, and the health code may not appear in the United States for many reasons in western countries. Therefore, the trend of Covid-19 still need time to tell us.
 
-According to the news I saw, the reason is that the new cases in early March were mainly from Hong Kong people who participated in two tours to India and Egypt. The new cases increased rapidly in the second half, mainly from people returning from overseas International students and Hong Kong people who have settled in foreign countries, as well as the Languifang Bar infection group.
-
-
-In the furture research, I will explore the relationship of Covid-19 cases number with high-risk susceptible population and race. Besides, I would like to explore the relationship of Covid-19 with social, economic fields, such as states GDP and states crime rate.
+In the furture research, I will explore the relationship of Covid-19 cases number with high-risk susceptible population and race. Besides, I would like to explore the relationship of Covid-19 with social, economic fields, such as states GDP and states crime rate, to have a whole overview on society and COVID-19.
 
 
 \newpage
