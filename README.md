@@ -6,8 +6,9 @@
 
 This repository was prepared for the final project of Env 872L course, Environmental Data Analytics at Duke Univeristy, Spring 2020.
 
-* I will use covid-19 data to do analysis on China and other global countries, especailly Italy and the United States. 
-* I will also  do time series anlysis and mapping covid-19 data on country and city levels. 
+* I will use covid-19 data to do analysis on global level, especailly China and the United States. 
+* I will do the trend anlysis and mapping covid-19 data. 
+* I will do the anlysis on high-risk susceptible population and race based on the U.S. data.
 
 ## Investigators
 
@@ -15,7 +16,7 @@ Xueying Feng, Duke University, xueying.feng@duke.edu.
 
 ## Keywords
 
-COVID-19, time series, Geospatial analysis
+COVID-19, Trend anlysis, Geospatial analysis
 
 ## Database Information
 
@@ -42,84 +43,59 @@ Folders contained in the repository:
 * All outputs are saved as PDF files
 
 ## Metadata
-
-Covid19_China.csv
-| Column name | Description |
-| --- | --- |
-| name | Provivence name in China |
-| nowConfirm | Increased number of COVID-19 cases in each province in China by date reported |
-| confirm | Cumulative total number of COVID-19 cases in each province |
-| dead | Total deaths number of COVID-19 cases in each province in China |
-| deadRate | Total deaths number/ Cumulative total number of COVID-19 cases |
-| heal | Total heal number of COVID-19 cases in each province |
-| healRate | Total heal number/ Cumulative total number of COVID-19 cases |
-
-
-Covid19_Hubei.csv
-| Column name | Description |
-| --- | --- |
-| name | City name in Wuhan |
-| nowConfirm | Increased number of COVID-19 cases in each city in Wuhan by date reported |
-| confirm | Cumulative total number of COVID-19 cases in each city |
-| dead | Total deaths number of COVID-19 cases in each city in Wuhan |
-| deadRate | Total deaths number/ Cumulative total number of COVID-19 cases |
-| heal | Total heal number of COVID-19 cases in each province |
-| healRate | Total heal number/ Cumulative total number of COVID-19 cases |
-
-
 Covid19_Global
 | Column name | Description |
 | --- | --- |
 | name | Country name |
-| confirm | Cumulative total number of COVID-19 cases in each country |
-| dead | Total deaths number of COVID-19 cases in each country |
-| deadRate | Total deaths number/ Cumulative total number of COVID-19 cases |
-| heal | Total heal number of COVID-19 cases in each country |
-| healRate | Total heal number/ Cumulative total number of COVID-19 cases |
+| confirm | Number of COVID-19 confirmed cases |
+| dead | Number of COVID-19 death cases |
+| deadRate | Total death number/ Cumulative total number of COVID-19 cases(%)|
+| heal | number of COVID-19 heal cases |
+| healRate | Total heal number/ Cumulative total number of COVID-19 cases(%)|
 
 
-Covid19_Italy
+Covid19_China
 | Column name | Description |
 | --- | --- |
-| time | Recorded date for COVID-19 cases |
-| country | Country name |
-| province | Province name |
-| cum_confirm | Cumulative total number of COVID-19 daily cases in each province |
-| cum_heal | Total heal number of COVID-19 cases in daily each province |
-| cum_dead | Total deaths number of COVID-19 cases in daily each province |
+| name | Province name |
+| confirm | Number of COVID-19 confirmed cases |
+| dead | Number of COVID-19 death cases |
+| deadRate | Total death number/ Cumulative total number of COVID-19 cases(%)|
+| heal | number of COVID-19 heal cases |
+| healRate | Total heal number/ Cumulative total number of COVID-19 cases(%)|
 
 
 Covid19_US
 | Column name | Description |
 | --- | --- |
-| time | Recorded date for COVID-19 cases |
-| country | Country name |
-| province | State name |
-| cum_confirm | Cumulative total number of COVID-19 daily cases in each State |
-| cum_heal | Total heal number of COVID-19 daily cases in each State |
-| cum_dead | Total deaths number of COVID-19 daily cases in each State |
+| time | Date |
+| country | United States |
+| province | States name |
+| cum_confirm | Cumulative number of COVID-19 confirmed cases  |
+| cum_heal | Cumulative number of COVID-19 heal cases |
+| cum_dead | Cumulative number of COVID-19 death cases |
 
 
 historical_China
 | Column name | Description |
 | --- | --- |
-| time | Recorded date for COVID-19 cases |
+| time | Date |
 | country | Country name |
-| province | State name |
-| city | City name in each province |
-| cum_confirm | Cumulative total number of COVID-19 daily cases in each city |
-| cum_heal | Total heal number of COVID-19 daily cases in each city |
-| cum_dead | Total deaths number of COVID-19 daily cases in each city |
-
+| province | Province name |
+| city | City name |
+| cum_confirm | Cumulative number of COVID-19 confirmed cases  |
+| cum_heal | Cumulative number of COVID-19 heal cases |
+| cum_dead | Cumulative number of COVID-19 death cases |
 
 historical_Global
 | Column name | Description |
 | --- | --- |
-| time | Recorded date for COVID-19 cases |
+| time | Date |
 | country | Country name |
-| cum_confirm | Cumulative total number of COVID-19 daily cases in each country |
-| cum_heal | Total heal number of COVID-19 daily cases in each country |
-| cum_dead | Total deaths number of COVID-19 daily cases in each country |
+| cum_confirm | Cumulative number of COVID-19 confirmed cases  |
+| cum_heal | Cumulative number of COVID-19 heal cases |
+| cum_dead | Cumulative number of COVID-19 death cases |
+
 
 ## Scripts and code
 
