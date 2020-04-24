@@ -2,13 +2,11 @@
 
 ## Summary
 
-<describe the purpose of this repository, the information it contains, and any relevant analysis goals. What, why, where, when, how?>
-
 This repository was prepared for the final project of Env 872L course, Environmental Data Analytics at Duke Univeristy, Spring 2020.
 
 * I will use covid-19 data to do analysis on global level, especailly China and the United States. 
-* I will do the trend anlysis and mapping covid-19 data. 
-* I will do the anlysis on high-risk susceptible population and race based on the U.S. data.
+* I will do the trend anlysis and mapp covid-19 data. 
+
 
 ## Investigators
 
@@ -25,12 +23,6 @@ I access all Novel Coronavirus data from the R package, nCov2019, which includes
 *Tianzhi Wu, Erqiang Hu, Xijin Ge*, Guangchuang Yu*. Open-source analytics tools for studying the COVID-19 coronavirus outbreak. medRxiv, 2020.02.25.20027433. doi: https://doi.org/10.1101/2020.02.25.20027433*
 
 ## Folder structure, file formats, and naming conventions 
-
-<describe the folders contained in the repository, including what type of files they contain>
-
-<describe the formats of files for the various purposes contained in the repository>
-
-<describe your file naming conventions>
 
 Folders contained in the repository:
 * Code (RMD file)
@@ -104,12 +96,3 @@ In code folder:
 * Data wrangling - Script for importing raw dataset and making data neat for analysis and save as processed data.
 * Data exploration - Script for exploring data, such time series, mapping of global data, ect.
 * Data analysis -  Script for all analysis.
-
-## Quality assurance/quality control
-
-<describe any relevant QA/QC procedures taken with your data. Some ideas can be found here:>
-<https://www.dataone.org/best-practices/develop-quality-assurance-and-quality-control-plan>
-<https://www.dataone.org/best-practices/ensure-basic-quality-control>
-<https://www.dataone.org/best-practices/communicate-data-quality>
-<https://www.dataone.org/best-practices/identify-outliers>
-<https://www.dataone.org/best-practices/identify-values-are-estimated>
