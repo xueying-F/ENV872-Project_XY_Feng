@@ -149,11 +149,6 @@ print(TenStates_trend)
 
 ## Trend analysis of comfirmed cases, dead cases, and heal cases
 ```{r")}
-#install.packages("trend") 
-library(trend) 
-#install.packages("zoo") 
-library(zoo)
-
 Historical_USTrend = Historical_Global_processed[Historical_Global_processed$country == 'United States',] %>%
   na.omit(Historical_USTrend)
 
