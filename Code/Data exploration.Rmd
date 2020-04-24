@@ -9,60 +9,47 @@ editor_options:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
 
-```{r}
-library(lubridate)
-require(dplyr)
+# Set your working directory
+getwd()
+setwd("~/Desktop/Environ 872/ENV872 Project_XY_Feng")
 
-```
+# Load your packages
+library(plyr) #Tools for Splitting, Applying and Combining Data
+library(tidyverse) #Getting data frames to tidy
+library(lubridate) #For dates and date-times
 
-## Set theme
-
-```{r}
 require(ggplot2)
 #install.packages("ggrepel") 
 require(ggrepel)
 
+#install.packages("usmap")
+library(usmap)
+
+# Set your ggplot theme
 mytheme <- theme_minimal(base_size = 12, base_family = "Times") + 
   theme(axis.text.x = element_text(color = "DarkGrey"),
         legend.position = "top") 
 theme_set(mytheme)
 
-```
-
-## Increasing case trend in China
-
-```{r, fig.cap=paste("Trend of confirmed case in China from Dec-2019 to Apri-2020")}
-#Import datasets
+# Load your datasets
 Historical_Global_processed <- read.csv("./Data/Processed/Historical_Global_processed.csv")
-
-#Selsct data from China
-Historical_China = Historical_Global_processed[Historical_Global_processed$country == 'China',]
-head(Historical_China)
-
-# Change date column to date
-Historical_China$time <- as.Date(Historical_China$time, format = "%Y-%m-%d") 
-class(Historical_China$time)
-
-# Create a ggplot depicting cases incereasing over time
-China_Trend <- 
-  ggplot(Historical_China, aes(x=time, y=cum_confirm)) +
-  geom_point(colour = "#e6550d") +
-  geom_line(colour = "#d95f0e") +
-  labs(x = "Time", 
-       y = "Confirmed Cases") + 
-  scale_x_date(date_labels = "%Y-%m-%d")
-
-print(China_Trend)
+Historical_China_processed <- read.csv("./Data/Processed/Historical_China_processed.csv")
+Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
+Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.csv")
+Covid19_US_processed <- read.csv("./Data/Processed/Covid19_US_processed.csv")
 
 ```
 
-## Compare total number in each province 
-
-```{r, fig.cap=paste("Compare total number in each province, China")}
+```{r Explore Covid19_China_processed dataset, results='hide', message=FALSE, warning=FALSE}
 Covid19_China_processed <- read.csv("./Data/Processed/Covid19_China_processed.csv")
 
+# Check data frame
+colnames(Covid19_China_processed)
+head(Covid19_China_processed)
+```
+
+```{r China.plot, fig.cap="Compare total confimed number in each province in China"}
 # scale_y_log10: transform the y-axis to make it easier to read
 China.plot <-ggplot(Covid19_China_processed,aes(x = name,y = confirm)) + 
   geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
@@ -75,162 +62,22 @@ China.plot <-ggplot(Covid19_China_processed,aes(x = name,y = confirm)) +
 print(China.plot)
 ```
 
-## Analysis of trend of each province in China 
 
-```{r}
-#Import datasets
-Historical_China_processed <- read.csv("./Data/Processed/Historical_China_processed.csv",header = TRUE)
+## Explore Global Dataset 
 
-head(Historical_China_processed)
-str(Historical_China_processed)
+**Top 15 countries**
+```{r Explore Covid19_Global_processed Dataset, results='hide', message=FALSE, warning=FALSE}
+Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
+
+# Check data frame
+head(Historical_Global_processed)
+str(Historical_Global_processed)
 
 # Change date column to date
-Historical_China_processed$time <- as.Date(Historical_China_processed$time, format = "%m/%d/%y") 
-head(Historical_China_processed)
-class(Historical_China_processed$time)
+Historical_Global_processed$time <- as.Date(Historical_Global_processed$time, 
+                                            format = "%Y-%m-%d") 
+class(Historical_Global_processed$time)
 
-```
-
-## Only select Hubei data
-
-```{r}
-# Select Hubei province data
-Historical_Hubei = Historical_China_processed[Historical_China_processed$province == 'Hubei',]
-head(Historical_Hubei)
-
-# Group by Hubei cities
-Historical_HubeiCityV2 <- Historical_Hubei %>%
-  select(time, city:cum_dead) 
-# Save as csv
-write.csv(Historical_HubeiCityV2,
-          file = "./Data/Processed/Historical_HubeiCity.csv",row.names=FALSE)
-```
-
-## Draw trend line of each city in Hubei province
-```{r, fig.cap=paste("Trend of each city in Hubei province, China")}
-# Create a ggplot depicting cases incereasing over time
-HubeiCity_Trend <- ggplot(Historical_HubeiCityV2, aes(x=time, y=cum_confirm, color=city)) +
-    geom_line(alpha = 0.95, size = 0.5) +
-    geom_text_repel(aes(label=city),
-                    function(Historical_HubeiCityV2) 
-                      Historical_HubeiCityV2[Historical_HubeiCityV2$time == as.Date("2020-04-16"),])+
-    mytheme +
-    theme(legend.position = "none") +
-    labs(x=expression(paste("Time"))) + 
-    labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="city") +
-    scale_x_date(date_labels = "%Y-%m-%d")
-
-print(HubeiCity_Trend)
-```
-
-## Draw trend line of each city in Hubei province (except Wuhan)
-```{r}
-# Group by Hubei cities
-Historical_HubeiCityV3 <- Historical_HubeiCityV2 %>%
-  filter(city!= "Location TBD" & city!= "Wuhan") 
-
-# Save as csv
-write.csv(Historical_HubeiCityV3,
-          file = "./Data/Processed/Historical_HubeiCity (except Wuhan).csv", row.names=FALSE)
-```
-
-```{r, fig.cap=paste("Trend of each city in Hubei province (except Wuhan)")}
-# Create a ggplot depicting cases incereasing over time
-HubeiCity_Trend <- ggplot(Historical_HubeiCityV3, aes(x=time, y=cum_confirm, color=city)) +
-    geom_line(alpha = 0.95, size = 0.5) +
-    geom_text_repel(aes(label=city),
-                    function(Historical_HubeiCityV3) 
-                      Historical_HubeiCityV3[Historical_HubeiCityV3$time == as.Date("2020-04-16"),])+
-    mytheme +
-    theme(legend.position = "none") +
-    labs(x=expression(paste("Time"))) + 
-    labs(y=expression(paste("Comfimed Cases")))+
-    labs(color="city") +
-    scale_x_date(date_labels = "%Y-%m-%d")
-
-print(HubeiCity_Trend)
-```
-
-## Remove Hubei Data
-
-```{r}
-# Remove Hubei province data
-Historical_ChinaProvince = Historical_China_processed[Historical_China_processed$province != 'Hubei',]
-head(Historical_ChinaProvince)
-
-Historical_ChinaProvinceV2 <- Historical_ChinaProvince %>%
-  group_by(time,province) %>%
-  summarise(total_confirm = sum(cum_confirm),
-            total_heal = sum(cum_heal),
-            total_dead = sum(cum_dead)) 
-
-# Save as csv
-write.csv(Historical_ChinaProvinceV2,
-          file = "./Data/Processed/Historical_ChinaProvince (except Hubei).csv", row.names=FALSE)
-```
-
-## Draw trend line of each province (except Hubei)
-```{r, fig.cap=paste("Trend of each province, China (except Hubei)")}
-# Create a ggplot depicting cases incereasing over time
-ChinaProvince_Trend <- ggplot(Historical_ChinaProvinceV2, aes(x=time, y=total_confirm, color=province)) +
-    geom_line(alpha = 0.95, size = 1) +
-    geom_text_repel(aes(label=province),
-                    function(Historical_ChinaProvinceV2) 
-                      Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
-    mytheme +
-    theme(legend.position = "none") +
-    labs(x=expression(paste("Time"))) + 
-    labs(y=expression(paste("Comfimed Cases"))) +
-    labs(color="province") +
-    scale_x_date(date_labels = "%Y-%m-%d")
-
-print(ChinaProvince_Trend)
-```
-
-## Top ten province in China (except Hubei)
-```{r}
-# Filter out the top ten provinces with the highest number of diagnoses (except Hubei)
-TopTen_provinces <- Historical_ChinaProvinceV2 %>% 
-  filter(time >= as.Date("2020-04-16")) %>%
-  top_n(10, total_confirm) %>%
-  arrange(desc(total_confirm)) 
-
-TopTen_provinces <- pull(TopTen_provinces, province)
-
-TenProvinces_China <- filter(Historical_ChinaProvinceV2, province %in% TopTen_provinces) %>%
-  arrange(desc(total_confirm))
-
-head(TenProvinces_China)
-
-# Save as csv
-write.csv(TenProvinces_China,
-          file = "./Data/Processed/TenProvinces_China (except Hubei).csv", row.names=FALSE)
-```
-
-## Draw trend line of top ten province (except Hubei)
-```{r, fig.cap=paste("Trend of top ten provinces, China (except Hubei)")}
-# Draw plot
-TenProvince_trend <- ggplot(TenProvinces_China, aes(x = time, y =total_confirm, color=province)) +
-    geom_line(alpha = 0.95, size = 1) +
-    geom_text_repel(aes(label=province),
-                    function(Historical_ChinaProvinceV2) 
-                      Historical_ChinaProvinceV2[Historical_ChinaProvinceV2$time == as.Date("2020-04-16"),])+
-    mytheme +
-    theme(legend.position = "none") +
-    labs(x=expression(paste("Time"))) + 
-    labs(y=expression(paste("Comfimed Cases"))) +
-    labs(color="province") +
-    scale_x_date(date_labels = "%Y-%m-%d")
-
-print(TenProvince_trend)
-```
-
-
-## Compare total number in each country 
-
-```{r}
-Covid19_Global_processed <- read.csv("./Data/Processed/Covid19_Global_processed.csv")
 
 # Filter out top 15 countries with the highest number of diagnoses
 Fifty_countries <- Covid19_Global_processed %>% 
@@ -242,7 +89,8 @@ write.csv(Fifty_countries,
           file = "./Data/Processed/Top_Fifty_countries (cum).csv", row.names=FALSE)
 ```
 
-```{r, fig.cap=paste("Compare total number in each country")}
+
+```{r Global.plot, fig.cap=paste("Compare total confimed number of each country")}
 # Draw histogram plot
 Global.plot <-ggplot(Fifty_countries,aes(x = name,y = confirm)) + 
   geom_bar(size = 2, stat = "identity",position = "dodge", fill ="#fdae6b") + 
@@ -254,57 +102,64 @@ Global.plot <-ggplot(Fifty_countries,aes(x = name,y = confirm)) +
 print(Global.plot)
 ```
 
-## TopTen_countries (global level except China)
+Figure 2 shows the total confimed number of each country (update on April 16th, 2020). Due to this graph, I will focus on the United States dataset and see its trend pattern.
 
-```{r cars}
-# Check on data frame
-head(Historical_Global_processed)
-str(Historical_Global_processed)
+
+## Explore United States Dataset
+
+**Map of comfimed cases didtribution in United State**
+
+```{r Explore Covid19_US_processed Dataset, results='hide', message=FALSE, warning=FALSE}
+# Check data
+head(Covid19_US_processed)
+str(Covid19_US_processed)
 
 # Change date column to date
-Historical_Global_processed$time <- as.Date(Historical_Global_processed$time, format = "%Y-%m-%d") 
-class(Historical_Global_processed$time)
+Covid19_US_processed$time <- as.Date(Covid19_US_processed$time, format = "%m/%d/%y") 
+class(Covid19_US_processed$time)
 
-# Remove China data
-Historical_Global = Historical_Global_processed[Historical_Global_processed$country != 'China',]
-str(Historical_Global)
+# Check column names
+colnames(Covid19_US_processed)
 
-# Filter out the top ten countries with the highest number of diagnoses (except China)
-TopTen_countries <- Historical_Global %>% 
-  filter(time >= as.Date("2020-04-16")) %>%
-  top_n(10, cum_confirm) %>%
-  arrange(desc(cum_confirm)) 
+# Rename column where names is "province"
+names(Covid19_US_processed)[names(Covid19_US_processed) == "province"] <- "state"
+str(Covid19_US_processed)
 
-# Selects a column in a data frame and transforms it into a vector
-TopTen_countries <- pull(TopTen_countries, country)
 
-Historical_TopTen <- filter(Historical_Global, country %in% TopTen_countries) %>%
-  arrange(desc(cum_confirm))
-head(Historical_TopTen)
+# Select total confirmed cases in 51 States
+US_States <- Covid19_US_processed %>%
+  filter(time == as.Date("2020-04-16")) %>%
+  filter(state!= "Unpublished sources") %>%
+  top_n(51, cum_confirm)
 
-# Save as csv
-write.csv(Historical_TopTen,
-          file = "./Data/Processed/TopTen_countries_trend(except China).csv", row.names=FALSE)
+# Convert state column to characters 
+US_States$state <- as.character(US_States$state)
+
+# Rename specific cell name
+US_States$state[US_States$state == 'New York state'] <- 'New York'
+US_States$state[US_States$state == "Washington State"] <- "Washington"
+US_States$state[US_States$state == 'the state of Wisconsin'] <- 'Wisconsin'
+
+
 ```
 
-## Plots trends of comfirmed cases in top ten coutries (except China)
+```{r US.map, fig.cap=paste("Map of comfimed cases didtribution in United State"),warning=FALSE}
+#install.packages("usmap")
+library(usmap)
 
-```{r, fig.cap=paste("Trend of Top Ten Countries (except China)")}
+USMap_Base <- plot_usmap(regions = "counties") + 
+  labs(title = "US Counties",
+       subtitle = "This is a blank map of the counties of the United States.") + 
+  theme(panel.background = element_rect(color = "black", fill = "lightblue"))
 
-# Draw plot
-TenCountries <- ggplot(Historical_TopTen, aes(x = time, y =cum_confirm, color=country)) +
-    geom_line(alpha = 0.95, size = 1) +
-    geom_text_repel(aes(label=country),
-                    function(Historical_TopTen) 
-                      Historical_TopTen[Historical_TopTen$time == as.Date("2020-04-16"),])+
-    mytheme +
-    theme(legend.position = "none") +
-    labs(x=expression(paste("Time"))) + 
-    labs(y=expression(paste("Comfimed Cases"))) +
-    labs(color="Country") +
-    scale_x_date(date_labels = "%Y-%m-%d")
 
-print(TenCountries)
+### Draw US Case distribution on map
+US.map <- plot_usmap(regions="state", data = US_States, 
+                                values = "cum_confirm", color = "black") +
+  scale_fill_continuous(low = "#fee6ce", high = "#d95f0e", 
+                        name = "Total confirmed cases", label = scales::comma) + 
+  labs(title = "State Reporting Cases of Covid 19") +
+  theme(legend.position = "right")
+
+print(US.map)
 ```
-
-
